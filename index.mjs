@@ -1,0 +1,4 @@
+// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import s from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-only-property@v0.2.2-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-dsum@esm/index.mjs";export{default as dsum}from"https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-dsum@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-gsum@esm/index.mjs";export{default as gsum}from"https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-gsum@esm/index.mjs";import d from"https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-ssum@esm/index.mjs";export{default as ssum}from"https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray-ssum@esm/index.mjs";var r={};s(r,"dsum",e),s(r,"gsum",t),s(r,"ssum",d);export{r as default};
+//# sourceMappingURL=index.mjs.map
