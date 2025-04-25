@@ -39,7 +39,8 @@
     "@stdlib/blas-ext-base-ndarray-dsum": "github:stdlib-js/blas-ext-base-ndarray-dsum#main",
     "@stdlib/blas-ext-base-ndarray-gsum": "github:stdlib-js/blas-ext-base-ndarray-gsum#main",
     "@stdlib/blas-ext-base-ndarray-ssum": "github:stdlib-js/blas-ext-base-ndarray-ssum#main",
-    "@stdlib/utils-define-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-read-only-property": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-float32": "^0.2.2",
