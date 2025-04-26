@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-25)
+## Unreleased (2025-04-26)
 
 <section class="features">
 
@@ -31,6 +31,7 @@
 
 <details>
 
+-   [`b9d5fc2`](https://github.com/stdlib-js/stdlib/commit/b9d5fc27dcdc1d57f94f63be1d05276c63025c14) - **docs:** update namespace table of contents [(#6819)](https://github.com/stdlib-js/stdlib/pull/6819) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`0dd7923`](https://github.com/stdlib-js/stdlib/commit/0dd7923fb188e73cb3d60f54fb97195e4cf15ea9) - **feat:** add `gcusum` to namespace _(by Athan Reines)_
 -   [`fb346ab`](https://github.com/stdlib-js/stdlib/commit/fb346abc3e0cced9b159bcf2d518d43cac185884) - **feat:** add `blas/ext/base/ndarray/gcusum` _(by Athan Reines)_
 -   [`1741923`](https://github.com/stdlib-js/stdlib/commit/174192300a3db8664030bb40aeffa3670b3ae882) - **feat:** add `scusum` to namespace _(by Athan Reines)_
@@ -53,9 +54,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
