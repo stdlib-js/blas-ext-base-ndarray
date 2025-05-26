@@ -78,12 +78,14 @@ The namespace exposes the following APIs:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`csum( arrays )`][@stdlib/blas/ext/base/ndarray/csum]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional single-precision complex floating-point ndarray.</span>
 -   <span class="signature">[`dcusum( arrays )`][@stdlib/blas/ext/base/ndarray/dcusum]</span><span class="delimiter">: </span><span class="description">compute the cumulative sum of a one-dimensional double-precision floating-point ndarray.</span>
 -   <span class="signature">[`dsum( arrays )`][@stdlib/blas/ext/base/ndarray/dsum]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional double-precision floating-point ndarray.</span>
 -   <span class="signature">[`gcusum( arrays )`][@stdlib/blas/ext/base/ndarray/gcusum]</span><span class="delimiter">: </span><span class="description">compute the cumulative sum of a one-dimensional ndarray.</span>
 -   <span class="signature">[`gsum( arrays )`][@stdlib/blas/ext/base/ndarray/gsum]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional ndarray.</span>
 -   <span class="signature">[`scusum( arrays )`][@stdlib/blas/ext/base/ndarray/scusum]</span><span class="delimiter">: </span><span class="description">compute the cumulative sum of a one-dimensional single-precision floating-point ndarray.</span>
 -   <span class="signature">[`ssum( arrays )`][@stdlib/blas/ext/base/ndarray/ssum]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional single-precision floating-point ndarray.</span>
+-   <span class="signature">[`zsum( arrays )`][@stdlib/blas/ext/base/ndarray/zsum]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional double-precision complex floating-point ndarray.</span>
 
 </div>
 
@@ -194,6 +196,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
+[@stdlib/blas/ext/base/ndarray/csum]: https://github.com/stdlib-js/blas-ext-base-ndarray-csum
+
 [@stdlib/blas/ext/base/ndarray/dcusum]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusum
 
 [@stdlib/blas/ext/base/ndarray/dsum]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsum
@@ -205,6 +209,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/ndarray/scusum]: https://github.com/stdlib-js/blas-ext-base-ndarray-scusum
 
 [@stdlib/blas/ext/base/ndarray/ssum]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssum
+
+[@stdlib/blas/ext/base/ndarray/zsum]: https://github.com/stdlib-js/blas-ext-base-ndarray-zsum
 
 <!-- </toc-links> -->
 

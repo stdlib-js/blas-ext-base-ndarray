@@ -46,6 +46,7 @@
 
 <details>
 
+-   [`f20c234`](https://github.com/stdlib-js/stdlib/commit/f20c234a4112d25281d202e8a0cf9ba223becb4c) - **docs:** update namespace table of contents [(#7092)](https://github.com/stdlib-js/stdlib/pull/7092) _(by stdlib-bot)_
 -   [`3014ce9`](https://github.com/stdlib-js/stdlib/commit/3014ce93b3fd6a8d7d26b7951d762f5100faffdf) - **fix:** update return type _(by Athan Reines)_
 -   [`2acc7f0`](https://github.com/stdlib-js/stdlib/commit/2acc7f03aa6e89410deb74d99f466cc1cd400384) - **fix:** update return type _(by Athan Reines)_
 -   [`a11b832`](https://github.com/stdlib-js/stdlib/commit/a11b832b9c10879eedf7b86dc83772d6abef7931) - **feat:** add `csum` to namespace _(by Athan Reines)_
