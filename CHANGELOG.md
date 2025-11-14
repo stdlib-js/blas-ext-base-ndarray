@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-11-14)
 
 <section class="features">
 
 ### Features
 
+-   [`466d960`](https://github.com/stdlib-js/stdlib/commit/466d9605a5025efeb6b51c401828a4a08ac7a3ae) - add `dlinspace` to namespace
+-   [`1719cd8`](https://github.com/stdlib-js/stdlib/commit/1719cd89e8f6e6ac9f333675aebe0cc300adb8cc) - add `blas/ext/base/ndarray/dlinspace`
 -   [`12636b6`](https://github.com/stdlib-js/stdlib/commit/12636b62433a9a59fefdb4a0b548ff26f94f6d3c) - update `blas/ext/base/ndarray` TypeScript declarations
 -   [`fbf2b82`](https://github.com/stdlib-js/stdlib/commit/fbf2b825782a1a55ef98bfbddd031b53707bc522) - add missing functions to namespace
 -   [`f928b2f`](https://github.com/stdlib-js/stdlib/commit/f928b2fc629b187e21d707e7e7b68e3b4bcd3f79) - add `blas/ext/base/ndarray/gfind-last-index` [(#7786)](https://github.com/stdlib-js/stdlib/pull/7786)
@@ -65,6 +67,11 @@
 
 <details>
 
+-   [`466d960`](https://github.com/stdlib-js/stdlib/commit/466d9605a5025efeb6b51c401828a4a08ac7a3ae) - **feat:** add `dlinspace` to namespace _(by Athan Reines)_
+-   [`1719cd8`](https://github.com/stdlib-js/stdlib/commit/1719cd89e8f6e6ac9f333675aebe0cc300adb8cc) - **feat:** add `blas/ext/base/ndarray/dlinspace` _(by Athan Reines)_
+-   [`2bf161a`](https://github.com/stdlib-js/stdlib/commit/2bf161a46f190ef9cef087f5d701c1913d70b819) - **bench:** fix test conditions _(by Athan Reines)_
+-   [`065f726`](https://github.com/stdlib-js/stdlib/commit/065f72668f664257ca11f15fa4939845e1f3eee4) - **bench:** fix test conditions _(by Athan Reines)_
+-   [`a5f1ef8`](https://github.com/stdlib-js/stdlib/commit/a5f1ef80fa394aba09a0141e2adb274033d2310c) - **bench:** fix test conditions _(by Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`12636b6`](https://github.com/stdlib-js/stdlib/commit/12636b62433a9a59fefdb4a0b548ff26f94f6d3c) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`c92ba2d`](https://github.com/stdlib-js/stdlib/commit/c92ba2d92c3ae4ea40f9b86fc5d620d7f9579f55) - **docs:** clean-up code in TSDoc examples and remove self-requires _(by Philipp Burckhardt)_
