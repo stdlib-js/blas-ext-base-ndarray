@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-14)
+## Unreleased (2025-11-16)
 
 <section class="features">
 
@@ -71,6 +71,7 @@
 
 <details>
 
+-   [`a0a76ca`](https://github.com/stdlib-js/stdlib/commit/a0a76caf35c0df0a8de6406f56b32e59c89daf07) - **docs:** update namespace table of contents [(#8536)](https://github.com/stdlib-js/stdlib/pull/8536) _(by stdlib-bot)_
 -   [`6fdf24d`](https://github.com/stdlib-js/stdlib/commit/6fdf24d200357c698de76ae216b49ab08cceda79) - **feat:** add `glinspace` to namespace _(by Athan Reines)_
 -   [`bd86c8c`](https://github.com/stdlib-js/stdlib/commit/bd86c8cd632c31006ffde434efdecf1d0ba33ae1) - **feat:** add `blas/ext/base/ndarray/glinspace` _(by Athan Reines)_
 -   [`899b839`](https://github.com/stdlib-js/stdlib/commit/899b839b7929d45713c86fa13823d0a2291d8992) - **feat:** add `slinspace` to namespace _(by Athan Reines)_
