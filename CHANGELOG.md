@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-16)
+## Unreleased (2025-12-04)
 
 <section class="features">
 
 ### Features
 
+-   [`e17d59e`](https://github.com/stdlib-js/stdlib/commit/e17d59e1309c01a67a34da99428a6e26a9e79854) - update `blas/ext/base/ndarray` TypeScript declarations
+-   [`0efd288`](https://github.com/stdlib-js/stdlib/commit/0efd2889280e00281c200d16528a636922fb8188) - remove unsupported signature for complex numbers
 -   [`6fdf24d`](https://github.com/stdlib-js/stdlib/commit/6fdf24d200357c698de76ae216b49ab08cceda79) - add `glinspace` to namespace
 -   [`bd86c8c`](https://github.com/stdlib-js/stdlib/commit/bd86c8cd632c31006ffde434efdecf1d0ba33ae1) - add `blas/ext/base/ndarray/glinspace`
 -   [`899b839`](https://github.com/stdlib-js/stdlib/commit/899b839b7929d45713c86fa13823d0a2291d8992) - add `slinspace` to namespace
@@ -65,12 +67,25 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`0efd288`](https://github.com/stdlib-js/stdlib/commit/0efd2889280e00281c200d16528a636922fb8188): remove unsupported signature for complex numbers
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`e17d59e`](https://github.com/stdlib-js/stdlib/commit/e17d59e1309c01a67a34da99428a6e26a9e79854) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`0efd288`](https://github.com/stdlib-js/stdlib/commit/0efd2889280e00281c200d16528a636922fb8188) - **feat:** remove unsupported signature for complex numbers _(by Philipp Burckhardt)_
+-   [`7e39b69`](https://github.com/stdlib-js/stdlib/commit/7e39b69431dfad9f542cd3b8028d4bd50718fc24) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
 -   [`a0a76ca`](https://github.com/stdlib-js/stdlib/commit/a0a76caf35c0df0a8de6406f56b32e59c89daf07) - **docs:** update namespace table of contents [(#8536)](https://github.com/stdlib-js/stdlib/pull/8536) _(by stdlib-bot)_
 -   [`6fdf24d`](https://github.com/stdlib-js/stdlib/commit/6fdf24d200357c698de76ae216b49ab08cceda79) - **feat:** add `glinspace` to namespace _(by Athan Reines)_
 -   [`bd86c8c`](https://github.com/stdlib-js/stdlib/commit/bd86c8cd632c31006ffde434efdecf1d0ba33ae1) - **feat:** add `blas/ext/base/ndarray/glinspace` _(by Athan Reines)_
