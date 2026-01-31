@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.1.0">
 
-## Unreleased (2026-01-17)
+## 0.1.0 (2026-01-31)
 
 <section class="features">
 
@@ -126,6 +126,7 @@
 
 <details>
 
+-   [`2503829`](https://github.com/stdlib-js/stdlib/commit/25038294c6793e8d14d5776bd364c99ab1a98ddc) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dcusumors` [(#9974)](https://github.com/stdlib-js/stdlib/pull/9974) _(by AyushiJain18270)_
 -   [`d45387d`](https://github.com/stdlib-js/stdlib/commit/d45387d1f3fdfa5d217c1e6a6ee2f75fba4f4bd7) - **docs:** update `blas/ext/base/ndarray` TypeScript declaration example code [(#9793)](https://github.com/stdlib-js/stdlib/pull/9793) _(by stdlib-bot)_
 -   [`267b6c4`](https://github.com/stdlib-js/stdlib/commit/267b6c4821ff03378a33888a3fc83330de7a660d) - **docs:** improve doctests for ndarray instances in `ndarray/dcusum` [(#9772)](https://github.com/stdlib-js/stdlib/pull/9772) _(by Diyan)_
 -   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
@@ -260,9 +261,10 @@
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   AyushiJain18270
 -   Diyan
 -   Kaustubh Patange
 -   Krishna Awasthi
