@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-ndarray/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { csum, dcusum, dindexOf, dlastIndexOf, dlinspace, dsorthp, dsum, gcusum, gfindIndex, gfindLastIndex, gindexOf, glastIndexOf, glinspace, gsorthp, gsum, scusum, sindexOf, slastIndexOf, slinspace, ssorthp, ssum, zsum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray@v0.1.1-esm/index.mjs';
+import { csum, dcusum, dindexOf, dlastIndexOf, dlinspace, dsorthp, dsum, gcusum, gfindIndex, gfindLastIndex, gindexOf, glastIndexOf, glinspace, gsorthp, gsum, scusum, sindexOf, slastIndexOf, slinspace, ssorthp, ssum, zsum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray@esm/index.mjs';
 ```
 
 #### ns
@@ -112,7 +117,7 @@ The namespace exposes the following APIs:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray@v0.1.1-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
