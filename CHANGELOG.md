@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`17fd10b`](https://github.com/stdlib-js/stdlib/commit/17fd10bc90d3cb7469ad3c2e4713363b7097eb42) - **docs:** update `blas/ext/base/ndarray` TypeScript declarations [(#10310)](https://github.com/stdlib-js/stdlib/pull/10310) _(by stdlib-bot)_
 -   [`9df57d4`](https://github.com/stdlib-js/stdlib/commit/9df57d4d7a7383c849ad00e3cc4335888b6f2197) - **docs:** improve doctests for ndarray instances in `ndarray/gcusum` [(#10250)](https://github.com/stdlib-js/stdlib/pull/10250) _(by AyushiJain18270)_
 
 </details>
