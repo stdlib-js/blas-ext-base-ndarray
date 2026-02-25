@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-16)
+## Unreleased (2026-02-25)
 
 <section class="commits">
 
@@ -12,6 +12,11 @@
 
 <details>
 
+-   [`a448775`](https://github.com/stdlib-js/stdlib/commit/a44877524a5d66af917bdac7d3e2ea7e74ff6329) - **docs:** update `blas/ext/base/ndarray` TypeScript declarations [(#10477)](https://github.com/stdlib-js/stdlib/pull/10477) _(by stdlib-bot)_
+-   [`9f7e9c8`](https://github.com/stdlib-js/stdlib/commit/9f7e9c8319f1557ae399ddde2f912ef86361a9f9) - **docs:** improve doctests for ndarray instances in `ndarray/scusum` [(#10403)](https://github.com/stdlib-js/stdlib/pull/10403) _(by AyushiJain18270)_
+-   [`0e5ccc5`](https://github.com/stdlib-js/stdlib/commit/0e5ccc5a2d4faa9df26004b4931020c4c38eff5e) - **bench:** use string interpolation in `blas/ext/base/ndarray/gsumkbn` [(#10353)](https://github.com/stdlib-js/stdlib/pull/10353) _(by AyushiJain18270)_
+-   [`f834c92`](https://github.com/stdlib-js/stdlib/commit/f834c92ade215691ff1d2d5cf36894e8ed697ffe) - **bench:** refactor to use string interpolation in `blas/ext/base/ndarray/dcusumpw` [(#10329)](https://github.com/stdlib-js/stdlib/pull/10329) _(by AyushiJain18270)_
+-   [`70190d9`](https://github.com/stdlib-js/stdlib/commit/70190d95cd081cf661a70f834828a0b93bef5288) - **bench:** refactor to use string interpolation in `blas/ext/base/ndarray/dcusumkbn` [(#10296)](https://github.com/stdlib-js/stdlib/pull/10296) _(by AyushiJain18270)_
 -   [`17fd10b`](https://github.com/stdlib-js/stdlib/commit/17fd10bc90d3cb7469ad3c2e4713363b7097eb42) - **docs:** update `blas/ext/base/ndarray` TypeScript declarations [(#10310)](https://github.com/stdlib-js/stdlib/pull/10310) _(by stdlib-bot)_
 -   [`9df57d4`](https://github.com/stdlib-js/stdlib/commit/9df57d4d7a7383c849ad00e3cc4335888b6f2197) - **docs:** improve doctests for ndarray instances in `ndarray/gcusum` [(#10250)](https://github.com/stdlib-js/stdlib/pull/10250) _(by AyushiJain18270)_
 
