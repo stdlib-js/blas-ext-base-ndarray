@@ -4,7 +4,30 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-25)
+## Unreleased (2026-03-09)
+
+<section class="features">
+
+### Features
+
+-   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078)
+-   [`d7c9033`](https://github.com/stdlib-js/stdlib/commit/d7c9033dec5f569d53dd71706ce6f1124e886259) - add C implementation for `blas/ext/base/ndarray/dsum` [(#10065)](https://github.com/stdlib-js/stdlib/pull/10065)
+-   [`de74169`](https://github.com/stdlib-js/stdlib/commit/de7416999fa2bd9a2e912d70b97540b0575d0599) - add `blas/ext/base/ndarray/gsort` [(#9734)](https://github.com/stdlib-js/stdlib/pull/9734)
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum`
+-   [`60fcd9d`](https://github.com/stdlib-js/stdlib/commit/60fcd9dc51b43ad76b1b14e6d7b4c30a5670114a) - improve type specificity
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +35,16 @@
 
 <details>
 
+-   [`5ee2387`](https://github.com/stdlib-js/stdlib/commit/5ee238783bec8d29308ff494cf1712f267e89acc) - **docs:** update `blas/ext/base/ndarray` TypeScript declarations [(#10803)](https://github.com/stdlib-js/stdlib/pull/10803) _(by stdlib-bot)_
+-   [`a8f58e8`](https://github.com/stdlib-js/stdlib/commit/a8f58e85d51447565496639ff55fec3fbbfe0212) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dlinspace` [(#10741)](https://github.com/stdlib-js/stdlib/pull/10741) _(by Aniket Sonawane)_
+-   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - **fix:** rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum` _(by Philipp Burckhardt)_
+-   [`95e3a15`](https://github.com/stdlib-js/stdlib/commit/95e3a153b0483dbee7c0d55cb80eee826f0933fb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - **feat:** add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078) _(by Kaustubh Patange, Athan Reines)_
+-   [`d7c9033`](https://github.com/stdlib-js/stdlib/commit/d7c9033dec5f569d53dd71706ce6f1124e886259) - **feat:** add C implementation for `blas/ext/base/ndarray/dsum` [(#10065)](https://github.com/stdlib-js/stdlib/pull/10065) _(by Kaustubh Patange, Athan Reines)_
+-   [`de74169`](https://github.com/stdlib-js/stdlib/commit/de7416999fa2bd9a2e912d70b97540b0575d0599) - **feat:** add `blas/ext/base/ndarray/gsort` [(#9734)](https://github.com/stdlib-js/stdlib/pull/9734) _(by Muhammad Haris, Athan Reines)_
+-   [`839986d`](https://github.com/stdlib-js/stdlib/commit/839986d9f41ebee28ff3139ec094ab9c8b98d8df) - **test:** ensure dtype equality _(by Athan Reines)_
+-   [`7620700`](https://github.com/stdlib-js/stdlib/commit/76207003b2d5be09c0bc2b5bf156c691ba224640) - **docs:** fix type _(by Athan Reines)_
+-   [`60fcd9d`](https://github.com/stdlib-js/stdlib/commit/60fcd9dc51b43ad76b1b14e6d7b4c30a5670114a) - **fix:** improve type specificity _(by Athan Reines)_
 -   [`a448775`](https://github.com/stdlib-js/stdlib/commit/a44877524a5d66af917bdac7d3e2ea7e74ff6329) - **docs:** update `blas/ext/base/ndarray` TypeScript declarations [(#10477)](https://github.com/stdlib-js/stdlib/pull/10477) _(by stdlib-bot)_
 -   [`9f7e9c8`](https://github.com/stdlib-js/stdlib/commit/9f7e9c8319f1557ae399ddde2f912ef86361a9f9) - **docs:** improve doctests for ndarray instances in `ndarray/scusum` [(#10403)](https://github.com/stdlib-js/stdlib/pull/10403) _(by AyushiJain18270)_
 -   [`0e5ccc5`](https://github.com/stdlib-js/stdlib/commit/0e5ccc5a2d4faa9df26004b4931020c4c38eff5e) - **bench:** use string interpolation in `blas/ext/base/ndarray/gsumkbn` [(#10353)](https://github.com/stdlib-js/stdlib/pull/10353) _(by AyushiJain18270)_
@@ -30,9 +63,14 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Aniket Sonawane
+-   Athan Reines
 -   AyushiJain18270
+-   Kaustubh Patange
+-   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
