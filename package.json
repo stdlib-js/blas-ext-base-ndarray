@@ -47,6 +47,8 @@
     "@stdlib/blas-ext-base-ndarray-gfind-index": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-gfind-last-index": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-gindex-of": "^0.1.1",
+    "@stdlib/blas-ext-base-ndarray-gjoin": "^0.1.1",
+    "@stdlib/blas-ext-base-ndarray-gjoin-between": "github:stdlib-js/blas-ext-base-ndarray-gjoin-between#main",
     "@stdlib/blas-ext-base-ndarray-glast-index-of": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-glinspace": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-gsorthp": "^0.1.1",
@@ -61,6 +63,7 @@
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
   "devDependencies": {
+    "@stdlib/array-base-filled": "^0.2.3",
     "@stdlib/array-complex128": "^0.3.2",
     "@stdlib/array-complex64": "^0.3.2",
     "@stdlib/array-filled-by": "^0.3.1",
@@ -108,6 +111,7 @@
     "@stdlib/blas-ext-base-gfind-last-index": "^0.1.1",
     "@stdlib/blas-ext-base-gindex-of": "^0.1.1",
     "@stdlib/blas-ext-base-gjoin": "^0.1.1",
+    "@stdlib/blas-ext-base-gjoin-between": "github:stdlib-js/blas-ext-base-gjoin-between#main",
     "@stdlib/blas-ext-base-glast-index-of": "^0.1.1",
     "@stdlib/blas-ext-base-glinspace": "^0.1.1",
     "@stdlib/blas-ext-base-gnansum": "^0.3.1",

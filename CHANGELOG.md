@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-16)
+## Unreleased (2026-03-27)
 
 <section class="features">
 
 ### Features
 
+-   [`85155cb`](https://github.com/stdlib-js/stdlib/commit/85155cb6ae402aec36efd20d55c56b2c77436c0c) - add `gjoinBetween` to namespace
+-   [`0c0ad66`](https://github.com/stdlib-js/stdlib/commit/0c0ad66098389167a139e820fbb7ccf1743affb5) - add `gjoin` to namespace
+-   [`a13b269`](https://github.com/stdlib-js/stdlib/commit/a13b26917f85ed3410e65d3920f2855225a58818) - add `blas/ext/base/ndarray/gjoin-between` [(#11163)](https://github.com/stdlib-js/stdlib/pull/11163)
 -   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078)
 -   [`d7c9033`](https://github.com/stdlib-js/stdlib/commit/d7c9033dec5f569d53dd71706ce6f1124e886259) - add C implementation for `blas/ext/base/ndarray/dsum` [(#10065)](https://github.com/stdlib-js/stdlib/pull/10065)
 -   [`de74169`](https://github.com/stdlib-js/stdlib/commit/de7416999fa2bd9a2e912d70b97540b0575d0599) - add `blas/ext/base/ndarray/gsort` [(#9734)](https://github.com/stdlib-js/stdlib/pull/9734)
@@ -35,6 +38,9 @@
 
 <details>
 
+-   [`85155cb`](https://github.com/stdlib-js/stdlib/commit/85155cb6ae402aec36efd20d55c56b2c77436c0c) - **feat:** add `gjoinBetween` to namespace _(by Athan Reines)_
+-   [`0c0ad66`](https://github.com/stdlib-js/stdlib/commit/0c0ad66098389167a139e820fbb7ccf1743affb5) - **feat:** add `gjoin` to namespace _(by Athan Reines)_
+-   [`a13b269`](https://github.com/stdlib-js/stdlib/commit/a13b26917f85ed3410e65d3920f2855225a58818) - **feat:** add `blas/ext/base/ndarray/gjoin-between` [(#11163)](https://github.com/stdlib-js/stdlib/pull/11163) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`5ee2387`](https://github.com/stdlib-js/stdlib/commit/5ee238783bec8d29308ff494cf1712f267e89acc) - **docs:** update `blas/ext/base/ndarray` TypeScript declarations [(#10803)](https://github.com/stdlib-js/stdlib/pull/10803) _(by stdlib-bot)_
 -   [`a8f58e8`](https://github.com/stdlib-js/stdlib/commit/a8f58e85d51447565496639ff55fec3fbbfe0212) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dlinspace` [(#10741)](https://github.com/stdlib-js/stdlib/pull/10741) _(by Aniket Sonawane)_
 -   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - **fix:** rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum` _(by Philipp Burckhardt)_
