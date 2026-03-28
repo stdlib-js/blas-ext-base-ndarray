@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-27)
+## Unreleased (2026-03-28)
 
 <section class="features">
 
 ### Features
 
+-   [`ed59264`](https://github.com/stdlib-js/stdlib/commit/ed592647ff3cf67201974cef05dddebdd392ba7c) - add `gcircshift` to namespace
+-   [`fdf402d`](https://github.com/stdlib-js/stdlib/commit/fdf402da400ed2f7423f8aeffddddc765b719648) - add `blas/ext/base/ndarray/gcircshift` [(#11178)](https://github.com/stdlib-js/stdlib/pull/11178)
 -   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - add `zsumkbn` to namespace
 -   [`f05fd5e`](https://github.com/stdlib-js/stdlib/commit/f05fd5ec7c534ff7bfcdf0b003844668be74cd37) - add `ssum*` packages to namespace
 -   [`00a150a`](https://github.com/stdlib-js/stdlib/commit/00a150a8f248211a585ff64f6d06377d1c07da1b) - add `snansum*` packages to namespace
@@ -51,6 +53,9 @@
 
 <details>
 
+-   [`ed59264`](https://github.com/stdlib-js/stdlib/commit/ed592647ff3cf67201974cef05dddebdd392ba7c) - **feat:** add `gcircshift` to namespace _(by Athan Reines)_
+-   [`fdf402d`](https://github.com/stdlib-js/stdlib/commit/fdf402da400ed2f7423f8aeffddddc765b719648) - **feat:** add `blas/ext/base/ndarray/gcircshift` [(#11178)](https://github.com/stdlib-js/stdlib/pull/11178) _(by Muhammad Haris, Athan Reines)_
+-   [`8892296`](https://github.com/stdlib-js/stdlib/commit/889229649e046242045e484d4c35097b2fb9ca68) - **docs:** add missing private annotation in `blas/ext/base/ndarray/ssum` [(#11175)](https://github.com/stdlib-js/stdlib/pull/11175) _(by Kaustubh Patange)_
 -   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - **feat:** add `zsumkbn` to namespace _(by Athan Reines)_
 -   [`f05fd5e`](https://github.com/stdlib-js/stdlib/commit/f05fd5ec7c534ff7bfcdf0b003844668be74cd37) - **feat:** add `ssum*` packages to namespace _(by Athan Reines)_
 -   [`00a150a`](https://github.com/stdlib-js/stdlib/commit/00a150a8f248211a585ff64f6d06377d1c07da1b) - **feat:** add `snansum*` packages to namespace _(by Athan Reines)_
