@@ -4,12 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-29)
+## Unreleased (2026-04-02)
 
 <section class="features">
 
 ### Features
 
+-   [`34f7f92`](https://github.com/stdlib-js/stdlib/commit/34f7f921c1d3138dd155f790d7d036e3e1ed8a0e) - add `szeroTo` to namespace
+-   [`2e70241`](https://github.com/stdlib-js/stdlib/commit/2e70241ab99ecf58e4aed0ebade4983398804782) - add `gzeroTo` to namespace
+-   [`c706e69`](https://github.com/stdlib-js/stdlib/commit/c706e698793d4d06642ba3c09eb81976ba451117) - add `dzeroTo` to namespace
+-   [`f47983a`](https://github.com/stdlib-js/stdlib/commit/f47983ae61191f72eec30550607540f555724ad9) - add `blas/ext/base/ndarray/dzero-to` [(#11260)](https://github.com/stdlib-js/stdlib/pull/11260)
+-   [`d6db92c`](https://github.com/stdlib-js/stdlib/commit/d6db92cf63e0550c2f16386dbc07db987667f273) - add `blas/ext/base/ndarray/szero-to` [(#11259)](https://github.com/stdlib-js/stdlib/pull/11259)
+-   [`ed8d4b1`](https://github.com/stdlib-js/stdlib/commit/ed8d4b1af281aac638132dd10f4d936af14e2f21) - add `blas/ext/base/ndarray/gzero-to` [(#11258)](https://github.com/stdlib-js/stdlib/pull/11258)
 -   [`36db74c`](https://github.com/stdlib-js/stdlib/commit/36db74cb5fea70abbc7f05332af94197e520ab2a) - update `blas/ext/base/ndarray` TypeScript declarations [(#11197)](https://github.com/stdlib-js/stdlib/pull/11197)
 -   [`80a1fc1`](https://github.com/stdlib-js/stdlib/commit/80a1fc1f478db29c13e4bbbe3a00ad330542ff00) - add `dcircshift` and `scircshift` to namespace
 -   [`1b0b669`](https://github.com/stdlib-js/stdlib/commit/1b0b669c1ce63a75ce46c6a06f0f07a7544d5bfa) - add `blas/ext/base/ndarray/scircshift` [(#11177)](https://github.com/stdlib-js/stdlib/pull/11177)
@@ -57,6 +63,12 @@
 
 <details>
 
+-   [`34f7f92`](https://github.com/stdlib-js/stdlib/commit/34f7f921c1d3138dd155f790d7d036e3e1ed8a0e) - **feat:** add `szeroTo` to namespace _(by Athan Reines)_
+-   [`2e70241`](https://github.com/stdlib-js/stdlib/commit/2e70241ab99ecf58e4aed0ebade4983398804782) - **feat:** add `gzeroTo` to namespace _(by Athan Reines)_
+-   [`c706e69`](https://github.com/stdlib-js/stdlib/commit/c706e698793d4d06642ba3c09eb81976ba451117) - **feat:** add `dzeroTo` to namespace _(by Athan Reines)_
+-   [`f47983a`](https://github.com/stdlib-js/stdlib/commit/f47983ae61191f72eec30550607540f555724ad9) - **feat:** add `blas/ext/base/ndarray/dzero-to` [(#11260)](https://github.com/stdlib-js/stdlib/pull/11260) _(by Muhammad Haris)_
+-   [`d6db92c`](https://github.com/stdlib-js/stdlib/commit/d6db92cf63e0550c2f16386dbc07db987667f273) - **feat:** add `blas/ext/base/ndarray/szero-to` [(#11259)](https://github.com/stdlib-js/stdlib/pull/11259) _(by Muhammad Haris)_
+-   [`ed8d4b1`](https://github.com/stdlib-js/stdlib/commit/ed8d4b1af281aac638132dd10f4d936af14e2f21) - **feat:** add `blas/ext/base/ndarray/gzero-to` [(#11258)](https://github.com/stdlib-js/stdlib/pull/11258) _(by Muhammad Haris)_
 -   [`ba129b3`](https://github.com/stdlib-js/stdlib/commit/ba129b35eed5099aece6caa686c3794e9a6b08b5) - **docs:** update namespace table of contents [(#11198)](https://github.com/stdlib-js/stdlib/pull/11198) _(by stdlib-bot)_
 -   [`36db74c`](https://github.com/stdlib-js/stdlib/commit/36db74cb5fea70abbc7f05332af94197e520ab2a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11197)](https://github.com/stdlib-js/stdlib/pull/11197) _(by stdlib-bot)_
 -   [`a0169bc`](https://github.com/stdlib-js/stdlib/commit/a0169bcfc0d05ac94c206ac5d6d0a898ec304463) - **docs:** remove unused `ndarray2array` requires from README usage examples [(#11194)](https://github.com/stdlib-js/stdlib/pull/11194) _(by Philipp Burckhardt)_
