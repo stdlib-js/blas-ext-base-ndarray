@@ -35,32 +35,20 @@ limitations under the License.
 
 > Base ndarray extended BLAS functions.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/blas-ext-base-ndarray
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/blas-ext-base-ndarray' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { csum, csumkbn, dcircshift, dcusum, dcusumkbn, dcusumkbn2, dcusumors, dcusumpw, dindexOf, dlastIndexOf, dlinspace, dnansum, dnansumkbn, dnansumkbn2, dnansumors, dnansumpw, dsorthp, dsortins, dsortsh, dsum, dsumkbn, dsumkbn2, dsumors, dsumpw, dzeroTo, gcircshift, gcusum, gcusumkbn, gcusumkbn2, gcusumors, gcusumpw, gfindIndex, gfindLastIndex, gindexOf, gjoin, gjoinBetween, glastIndexOf, glinspace, gnansum, gnansumkbn, gnansumkbn2, gnansumors, gnansumpw, gsort, gsorthp, gsum, gsumkbn, gsumkbn2, gsumors, gsumpw, gzeroTo, scircshift, scusum, scusumkbn, scusumkbn2, scusumors, sindexOf, slastIndexOf, slinspace, snansum, snansumkbn, snansumkbn2, snansumors, snansumpw, ssorthp, ssum, ssumkbn, ssumkbn2, ssumors, ssumpw, szeroTo, zsum, zsumkbn } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray@esm/index.mjs';
 ```
 
 #### ns
@@ -168,11 +156,20 @@ The namespace exposes the following APIs:
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/blas-ext-base-ndarray' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-ndarray@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -196,7 +193,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -261,151 +258,151 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/blas/ext/base/ndarray/csum]: https://github.com/stdlib-js/blas-ext-base-ndarray-csum
+[@stdlib/blas/ext/base/ndarray/csum]: https://github.com/stdlib-js/blas-ext-base-ndarray-csum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/csumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-csumkbn
+[@stdlib/blas/ext/base/ndarray/csumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-csumkbn/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dcircshift]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcircshift
+[@stdlib/blas/ext/base/ndarray/dcircshift]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcircshift/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dcusum]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusum
+[@stdlib/blas/ext/base/ndarray/dcusum]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dcusumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusumkbn
+[@stdlib/blas/ext/base/ndarray/dcusumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusumkbn/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dcusumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusumkbn2
+[@stdlib/blas/ext/base/ndarray/dcusumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusumkbn2/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dcusumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusumors
+[@stdlib/blas/ext/base/ndarray/dcusumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusumors/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dcusumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusumpw
+[@stdlib/blas/ext/base/ndarray/dcusumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-dcusumpw/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dindex-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-dindex-of
+[@stdlib/blas/ext/base/ndarray/dindex-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-dindex-of/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dlast-index-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-dlast-index-of
+[@stdlib/blas/ext/base/ndarray/dlast-index-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-dlast-index-of/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dlinspace]: https://github.com/stdlib-js/blas-ext-base-ndarray-dlinspace
+[@stdlib/blas/ext/base/ndarray/dlinspace]: https://github.com/stdlib-js/blas-ext-base-ndarray-dlinspace/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dnansum]: https://github.com/stdlib-js/blas-ext-base-ndarray-dnansum
+[@stdlib/blas/ext/base/ndarray/dnansum]: https://github.com/stdlib-js/blas-ext-base-ndarray-dnansum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dnansumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-dnansumkbn
+[@stdlib/blas/ext/base/ndarray/dnansumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-dnansumkbn/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-dnansumkbn2
+[@stdlib/blas/ext/base/ndarray/dnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-dnansumkbn2/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dnansumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-dnansumors
+[@stdlib/blas/ext/base/ndarray/dnansumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-dnansumors/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dnansumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-dnansumpw
+[@stdlib/blas/ext/base/ndarray/dnansumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-dnansumpw/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dsorthp]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsorthp
+[@stdlib/blas/ext/base/ndarray/dsorthp]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsorthp/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dsortins]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsortins
+[@stdlib/blas/ext/base/ndarray/dsortins]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsortins/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dsortsh]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsortsh
+[@stdlib/blas/ext/base/ndarray/dsortsh]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsortsh/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dsum]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsum
+[@stdlib/blas/ext/base/ndarray/dsum]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dsumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsumkbn
+[@stdlib/blas/ext/base/ndarray/dsumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsumkbn/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dsumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsumkbn2
+[@stdlib/blas/ext/base/ndarray/dsumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsumkbn2/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dsumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsumors
+[@stdlib/blas/ext/base/ndarray/dsumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsumors/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dsumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsumpw
+[@stdlib/blas/ext/base/ndarray/dsumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-dsumpw/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/dzero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-dzero-to
+[@stdlib/blas/ext/base/ndarray/dzero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-dzero-to/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gcircshift]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcircshift
+[@stdlib/blas/ext/base/ndarray/gcircshift]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcircshift/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gcusum]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusum
+[@stdlib/blas/ext/base/ndarray/gcusum]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gcusumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusumkbn
+[@stdlib/blas/ext/base/ndarray/gcusumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusumkbn/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gcusumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusumkbn2
+[@stdlib/blas/ext/base/ndarray/gcusumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusumkbn2/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gcusumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusumors
+[@stdlib/blas/ext/base/ndarray/gcusumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusumors/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gcusumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusumpw
+[@stdlib/blas/ext/base/ndarray/gcusumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusumpw/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gfind-index]: https://github.com/stdlib-js/blas-ext-base-ndarray-gfind-index
+[@stdlib/blas/ext/base/ndarray/gfind-index]: https://github.com/stdlib-js/blas-ext-base-ndarray-gfind-index/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gfind-last-index]: https://github.com/stdlib-js/blas-ext-base-ndarray-gfind-last-index
+[@stdlib/blas/ext/base/ndarray/gfind-last-index]: https://github.com/stdlib-js/blas-ext-base-ndarray-gfind-last-index/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gindex-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-gindex-of
+[@stdlib/blas/ext/base/ndarray/gindex-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-gindex-of/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gjoin-between]: https://github.com/stdlib-js/blas-ext-base-ndarray-gjoin-between
+[@stdlib/blas/ext/base/ndarray/gjoin-between]: https://github.com/stdlib-js/blas-ext-base-ndarray-gjoin-between/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gjoin]: https://github.com/stdlib-js/blas-ext-base-ndarray-gjoin
+[@stdlib/blas/ext/base/ndarray/gjoin]: https://github.com/stdlib-js/blas-ext-base-ndarray-gjoin/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/glast-index-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-glast-index-of
+[@stdlib/blas/ext/base/ndarray/glast-index-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-glast-index-of/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/glinspace]: https://github.com/stdlib-js/blas-ext-base-ndarray-glinspace
+[@stdlib/blas/ext/base/ndarray/glinspace]: https://github.com/stdlib-js/blas-ext-base-ndarray-glinspace/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gnansum]: https://github.com/stdlib-js/blas-ext-base-ndarray-gnansum
+[@stdlib/blas/ext/base/ndarray/gnansum]: https://github.com/stdlib-js/blas-ext-base-ndarray-gnansum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gnansumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-gnansumkbn
+[@stdlib/blas/ext/base/ndarray/gnansumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-gnansumkbn/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-gnansumkbn2
+[@stdlib/blas/ext/base/ndarray/gnansumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-gnansumkbn2/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gnansumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-gnansumors
+[@stdlib/blas/ext/base/ndarray/gnansumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-gnansumors/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gnansumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-gnansumpw
+[@stdlib/blas/ext/base/ndarray/gnansumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-gnansumpw/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gsort]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsort
+[@stdlib/blas/ext/base/ndarray/gsort]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsort/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gsorthp]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsorthp
+[@stdlib/blas/ext/base/ndarray/gsorthp]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsorthp/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gsum]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsum
+[@stdlib/blas/ext/base/ndarray/gsum]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gsumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumkbn
+[@stdlib/blas/ext/base/ndarray/gsumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumkbn/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gsumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumkbn2
+[@stdlib/blas/ext/base/ndarray/gsumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumkbn2/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gsumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors
+[@stdlib/blas/ext/base/ndarray/gsumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumors/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gsumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumpw
+[@stdlib/blas/ext/base/ndarray/gsumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-gsumpw/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/gzero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-gzero-to
+[@stdlib/blas/ext/base/ndarray/gzero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-gzero-to/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/scircshift]: https://github.com/stdlib-js/blas-ext-base-ndarray-scircshift
+[@stdlib/blas/ext/base/ndarray/scircshift]: https://github.com/stdlib-js/blas-ext-base-ndarray-scircshift/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/scusum]: https://github.com/stdlib-js/blas-ext-base-ndarray-scusum
+[@stdlib/blas/ext/base/ndarray/scusum]: https://github.com/stdlib-js/blas-ext-base-ndarray-scusum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/scusumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-scusumkbn
+[@stdlib/blas/ext/base/ndarray/scusumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-scusumkbn/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/scusumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-scusumkbn2
+[@stdlib/blas/ext/base/ndarray/scusumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-scusumkbn2/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/scusumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-scusumors
+[@stdlib/blas/ext/base/ndarray/scusumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-scusumors/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/sindex-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-sindex-of
+[@stdlib/blas/ext/base/ndarray/sindex-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-sindex-of/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/slast-index-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-slast-index-of
+[@stdlib/blas/ext/base/ndarray/slast-index-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-slast-index-of/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/slinspace]: https://github.com/stdlib-js/blas-ext-base-ndarray-slinspace
+[@stdlib/blas/ext/base/ndarray/slinspace]: https://github.com/stdlib-js/blas-ext-base-ndarray-slinspace/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/snansum]: https://github.com/stdlib-js/blas-ext-base-ndarray-snansum
+[@stdlib/blas/ext/base/ndarray/snansum]: https://github.com/stdlib-js/blas-ext-base-ndarray-snansum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/snansumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-snansumkbn
+[@stdlib/blas/ext/base/ndarray/snansumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-snansumkbn/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/snansumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-snansumkbn2
+[@stdlib/blas/ext/base/ndarray/snansumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-snansumkbn2/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/snansumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-snansumors
+[@stdlib/blas/ext/base/ndarray/snansumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-snansumors/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/snansumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-snansumpw
+[@stdlib/blas/ext/base/ndarray/snansumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-snansumpw/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/ssorthp]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssorthp
+[@stdlib/blas/ext/base/ndarray/ssorthp]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssorthp/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/ssum]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssum
+[@stdlib/blas/ext/base/ndarray/ssum]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/ssumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssumkbn
+[@stdlib/blas/ext/base/ndarray/ssumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssumkbn/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/ssumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssumkbn2
+[@stdlib/blas/ext/base/ndarray/ssumkbn2]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssumkbn2/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/ssumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssumors
+[@stdlib/blas/ext/base/ndarray/ssumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssumors/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/ssumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssumpw
+[@stdlib/blas/ext/base/ndarray/ssumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssumpw/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/szero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-szero-to
+[@stdlib/blas/ext/base/ndarray/szero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-szero-to/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/zsum]: https://github.com/stdlib-js/blas-ext-base-ndarray-zsum
+[@stdlib/blas/ext/base/ndarray/zsum]: https://github.com/stdlib-js/blas-ext-base-ndarray-zsum/tree/esm
 
-[@stdlib/blas/ext/base/ndarray/zsumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-zsumkbn
+[@stdlib/blas/ext/base/ndarray/zsumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-zsumkbn/tree/esm
 
 <!-- </toc-links> -->
 
