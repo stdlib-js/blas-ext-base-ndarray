@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-02)
+## Unreleased (2026-04-03)
 
 <section class="features">
 
@@ -63,6 +63,7 @@
 
 <details>
 
+-   [`faaf3b3`](https://github.com/stdlib-js/stdlib/commit/faaf3b363bc48813c2c82b4b930727ae257cde54) - **docs:** update namespace table of contents [(#11276)](https://github.com/stdlib-js/stdlib/pull/11276) _(by stdlib-bot)_
 -   [`34f7f92`](https://github.com/stdlib-js/stdlib/commit/34f7f921c1d3138dd155f790d7d036e3e1ed8a0e) - **feat:** add `szeroTo` to namespace _(by Athan Reines)_
 -   [`2e70241`](https://github.com/stdlib-js/stdlib/commit/2e70241ab99ecf58e4aed0ebade4983398804782) - **feat:** add `gzeroTo` to namespace _(by Athan Reines)_
 -   [`c706e69`](https://github.com/stdlib-js/stdlib/commit/c706e698793d4d06642ba3c09eb81976ba451117) - **feat:** add `dzeroTo` to namespace _(by Athan Reines)_
