@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`c16f303`](https://github.com/stdlib-js/stdlib/commit/c16f3039df4d59b17e1baea799a176f905a7ba39) - add `czeroTo` to namespace
+-   [`f768772`](https://github.com/stdlib-js/stdlib/commit/f7687726c11a71226031614921f20b21c91ae09c) - add `zzeroTo` to namespace
 -   [`e2a1555`](https://github.com/stdlib-js/stdlib/commit/e2a1555ba78bb49af32f469b9ded95943ef50b52) - update `blas/ext/base/ndarray` TypeScript declarations [(#11291)](https://github.com/stdlib-js/stdlib/pull/11291)
 -   [`8b19d00`](https://github.com/stdlib-js/stdlib/commit/8b19d00b71edcd61143c31573eab59cfc6936ab4) - add `blas/ext/base/ndarray/zzero-to` [(#11263)](https://github.com/stdlib-js/stdlib/pull/11263)
 -   [`b9e4786`](https://github.com/stdlib-js/stdlib/commit/b9e4786e846b86bc14ce82a411c07ca8ebbfef32) - add `blas/ext/base/ndarray/czero-to` [(#11261)](https://github.com/stdlib-js/stdlib/pull/11261)
@@ -66,6 +68,8 @@
 
 <details>
 
+-   [`c16f303`](https://github.com/stdlib-js/stdlib/commit/c16f3039df4d59b17e1baea799a176f905a7ba39) - **feat:** add `czeroTo` to namespace _(by Athan Reines)_
+-   [`f768772`](https://github.com/stdlib-js/stdlib/commit/f7687726c11a71226031614921f20b21c91ae09c) - **feat:** add `zzeroTo` to namespace _(by Athan Reines)_
 -   [`e2a1555`](https://github.com/stdlib-js/stdlib/commit/e2a1555ba78bb49af32f469b9ded95943ef50b52) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11291)](https://github.com/stdlib-js/stdlib/pull/11291) _(by stdlib-bot)_
 -   [`8b19d00`](https://github.com/stdlib-js/stdlib/commit/8b19d00b71edcd61143c31573eab59cfc6936ab4) - **feat:** add `blas/ext/base/ndarray/zzero-to` [(#11263)](https://github.com/stdlib-js/stdlib/pull/11263) _(by Muhammad Haris)_
 -   [`b9e4786`](https://github.com/stdlib-js/stdlib/commit/b9e4786e846b86bc14ce82a411c07ca8ebbfef32) - **feat:** add `blas/ext/base/ndarray/czero-to` [(#11261)](https://github.com/stdlib-js/stdlib/pull/11261) _(by Muhammad Haris)_

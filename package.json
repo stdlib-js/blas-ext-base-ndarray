@@ -38,6 +38,7 @@
   "dependencies": {
     "@stdlib/blas-ext-base-ndarray-csum": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-csumkbn": "^0.1.1",
+    "@stdlib/blas-ext-base-ndarray-czero-to": "github:stdlib-js/blas-ext-base-ndarray-czero-to#main",
     "@stdlib/blas-ext-base-ndarray-dcircshift": "github:stdlib-js/blas-ext-base-ndarray-dcircshift#main",
     "@stdlib/blas-ext-base-ndarray-dcusum": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-dcusumkbn": "^0.1.1",
@@ -109,6 +110,7 @@
     "@stdlib/blas-ext-base-ndarray-szero-to": "github:stdlib-js/blas-ext-base-ndarray-szero-to#main",
     "@stdlib/blas-ext-base-ndarray-zsum": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-zsumkbn": "^0.1.1",
+    "@stdlib/blas-ext-base-ndarray-zzero-to": "github:stdlib-js/blas-ext-base-ndarray-zzero-to#main",
     "@stdlib/utils-define-read-only-property": "^0.2.3"
   },
   "devDependencies": {
