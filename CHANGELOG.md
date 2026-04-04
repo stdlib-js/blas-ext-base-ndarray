@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-03)
+## Unreleased (2026-04-04)
 
 <section class="features">
 
 ### Features
 
+-   [`e2a1555`](https://github.com/stdlib-js/stdlib/commit/e2a1555ba78bb49af32f469b9ded95943ef50b52) - update `blas/ext/base/ndarray` TypeScript declarations [(#11291)](https://github.com/stdlib-js/stdlib/pull/11291)
+-   [`8b19d00`](https://github.com/stdlib-js/stdlib/commit/8b19d00b71edcd61143c31573eab59cfc6936ab4) - add `blas/ext/base/ndarray/zzero-to` [(#11263)](https://github.com/stdlib-js/stdlib/pull/11263)
+-   [`b9e4786`](https://github.com/stdlib-js/stdlib/commit/b9e4786e846b86bc14ce82a411c07ca8ebbfef32) - add `blas/ext/base/ndarray/czero-to` [(#11261)](https://github.com/stdlib-js/stdlib/pull/11261)
 -   [`34f7f92`](https://github.com/stdlib-js/stdlib/commit/34f7f921c1d3138dd155f790d7d036e3e1ed8a0e) - add `szeroTo` to namespace
 -   [`2e70241`](https://github.com/stdlib-js/stdlib/commit/2e70241ab99ecf58e4aed0ebade4983398804782) - add `gzeroTo` to namespace
 -   [`c706e69`](https://github.com/stdlib-js/stdlib/commit/c706e698793d4d06642ba3c09eb81976ba451117) - add `dzeroTo` to namespace
@@ -63,6 +66,9 @@
 
 <details>
 
+-   [`e2a1555`](https://github.com/stdlib-js/stdlib/commit/e2a1555ba78bb49af32f469b9ded95943ef50b52) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11291)](https://github.com/stdlib-js/stdlib/pull/11291) _(by stdlib-bot)_
+-   [`8b19d00`](https://github.com/stdlib-js/stdlib/commit/8b19d00b71edcd61143c31573eab59cfc6936ab4) - **feat:** add `blas/ext/base/ndarray/zzero-to` [(#11263)](https://github.com/stdlib-js/stdlib/pull/11263) _(by Muhammad Haris)_
+-   [`b9e4786`](https://github.com/stdlib-js/stdlib/commit/b9e4786e846b86bc14ce82a411c07ca8ebbfef32) - **feat:** add `blas/ext/base/ndarray/czero-to` [(#11261)](https://github.com/stdlib-js/stdlib/pull/11261) _(by Muhammad Haris)_
 -   [`faaf3b3`](https://github.com/stdlib-js/stdlib/commit/faaf3b363bc48813c2c82b4b930727ae257cde54) - **docs:** update namespace table of contents [(#11276)](https://github.com/stdlib-js/stdlib/pull/11276) _(by stdlib-bot)_
 -   [`34f7f92`](https://github.com/stdlib-js/stdlib/commit/34f7f921c1d3138dd155f790d7d036e3e1ed8a0e) - **feat:** add `szeroTo` to namespace _(by Athan Reines)_
 -   [`2e70241`](https://github.com/stdlib-js/stdlib/commit/2e70241ab99ecf58e4aed0ebade4983398804782) - **feat:** add `gzeroTo` to namespace _(by Athan Reines)_
