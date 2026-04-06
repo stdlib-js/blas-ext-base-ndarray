@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`31214ce`](https://github.com/stdlib-js/stdlib/commit/31214cef89dc16436602f8290be8717d30381fd5) - add `soneTo` to namespace
+-   [`91bc1cb`](https://github.com/stdlib-js/stdlib/commit/91bc1cb9a564dc0827136738e39b5b1c7c7b5dc7) - add `doneTo` to namespace
 -   [`87e85c4`](https://github.com/stdlib-js/stdlib/commit/87e85c45c5078b68a361f60456f249a88ff57f7d) - add `blas/ext/base/ndarray/sone-to` [(#11302)](https://github.com/stdlib-js/stdlib/pull/11302)
 -   [`702dc4c`](https://github.com/stdlib-js/stdlib/commit/702dc4c4ca83a386b8bdacba727870e7efc32b7d) - add `blas/ext/base/ndarray/done-to` [(#11301)](https://github.com/stdlib-js/stdlib/pull/11301)
 -   [`8df0bb4`](https://github.com/stdlib-js/stdlib/commit/8df0bb4179b9e0b3c534b06ea7240aeef72a7b4a) - update `blas/ext/base/ndarray` TypeScript declarations [(#11305)](https://github.com/stdlib-js/stdlib/pull/11305)
@@ -71,6 +73,8 @@
 
 <details>
 
+-   [`31214ce`](https://github.com/stdlib-js/stdlib/commit/31214cef89dc16436602f8290be8717d30381fd5) - **feat:** add `soneTo` to namespace _(by Athan Reines)_
+-   [`91bc1cb`](https://github.com/stdlib-js/stdlib/commit/91bc1cb9a564dc0827136738e39b5b1c7c7b5dc7) - **feat:** add `doneTo` to namespace _(by Athan Reines)_
 -   [`87e85c4`](https://github.com/stdlib-js/stdlib/commit/87e85c45c5078b68a361f60456f249a88ff57f7d) - **feat:** add `blas/ext/base/ndarray/sone-to` [(#11302)](https://github.com/stdlib-js/stdlib/pull/11302) _(by Muhammad Haris)_
 -   [`702dc4c`](https://github.com/stdlib-js/stdlib/commit/702dc4c4ca83a386b8bdacba727870e7efc32b7d) - **feat:** add `blas/ext/base/ndarray/done-to` [(#11301)](https://github.com/stdlib-js/stdlib/pull/11301) _(by Muhammad Haris)_
 -   [`8df0bb4`](https://github.com/stdlib-js/stdlib/commit/8df0bb4179b9e0b3c534b06ea7240aeef72a7b4a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11305)](https://github.com/stdlib-js/stdlib/pull/11305) _(by stdlib-bot)_
