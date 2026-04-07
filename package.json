@@ -81,6 +81,7 @@
     "@stdlib/blas-ext-base-ndarray-gnansumkbn2": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-gnansumors": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-gnansumpw": "^0.1.1",
+    "@stdlib/blas-ext-base-ndarray-gone-to": "github:stdlib-js/blas-ext-base-ndarray-gone-to#main",
     "@stdlib/blas-ext-base-ndarray-gsort": "github:stdlib-js/blas-ext-base-ndarray-gsort#main",
     "@stdlib/blas-ext-base-ndarray-gsorthp": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-gsum": "^0.1.1",
