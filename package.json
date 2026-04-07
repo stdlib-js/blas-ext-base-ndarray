@@ -179,6 +179,7 @@
     "@stdlib/blas-ext-base-gnansumkbn2": "^0.3.1",
     "@stdlib/blas-ext-base-gnansumors": "^0.3.1",
     "@stdlib/blas-ext-base-gnansumpw": "^0.3.1",
+    "@stdlib/blas-ext-base-gone-to": "github:stdlib-js/blas-ext-base-gone-to#main",
     "@stdlib/blas-ext-base-gsort": "^0.1.1",
     "@stdlib/blas-ext-base-gsorthp": "^0.3.1",
     "@stdlib/blas-ext-base-gsum": "^0.3.1",

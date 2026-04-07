@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-06)
+## Unreleased (2026-04-07)
 
 <section class="features">
 
 ### Features
 
+-   [`cf9c1fd`](https://github.com/stdlib-js/stdlib/commit/cf9c1fd10bbb26b8ffe798bef302240f93389953) - add `blas/ext/base/ndarray/gone-to` [(#11308)](https://github.com/stdlib-js/stdlib/pull/11308)
 -   [`31214ce`](https://github.com/stdlib-js/stdlib/commit/31214cef89dc16436602f8290be8717d30381fd5) - add `soneTo` to namespace
 -   [`91bc1cb`](https://github.com/stdlib-js/stdlib/commit/91bc1cb9a564dc0827136738e39b5b1c7c7b5dc7) - add `doneTo` to namespace
 -   [`87e85c4`](https://github.com/stdlib-js/stdlib/commit/87e85c45c5078b68a361f60456f249a88ff57f7d) - add `blas/ext/base/ndarray/sone-to` [(#11302)](https://github.com/stdlib-js/stdlib/pull/11302)
@@ -73,6 +74,7 @@
 
 <details>
 
+-   [`cf9c1fd`](https://github.com/stdlib-js/stdlib/commit/cf9c1fd10bbb26b8ffe798bef302240f93389953) - **feat:** add `blas/ext/base/ndarray/gone-to` [(#11308)](https://github.com/stdlib-js/stdlib/pull/11308) _(by Muhammad Haris)_
 -   [`31214ce`](https://github.com/stdlib-js/stdlib/commit/31214cef89dc16436602f8290be8717d30381fd5) - **feat:** add `soneTo` to namespace _(by Athan Reines)_
 -   [`91bc1cb`](https://github.com/stdlib-js/stdlib/commit/91bc1cb9a564dc0827136738e39b5b1c7c7b5dc7) - **feat:** add `doneTo` to namespace _(by Athan Reines)_
 -   [`87e85c4`](https://github.com/stdlib-js/stdlib/commit/87e85c45c5078b68a361f60456f249a88ff57f7d) - **feat:** add `blas/ext/base/ndarray/sone-to` [(#11302)](https://github.com/stdlib-js/stdlib/pull/11302) _(by Muhammad Haris)_
