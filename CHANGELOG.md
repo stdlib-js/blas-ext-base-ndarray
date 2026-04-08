@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`143bb4b`](https://github.com/stdlib-js/stdlib/commit/143bb4bccf5b59d9aebdc2428f0081c4d47a4d01) - update `blas/ext/base/ndarray` TypeScript declarations [(#11329)](https://github.com/stdlib-js/stdlib/pull/11329)
 -   [`b117c97`](https://github.com/stdlib-js/stdlib/commit/b117c97db1b322d6d347c1bb0c7f18edf6963dfa) - update `blas/ext/base/ndarray` TypeScript declarations [(#11321)](https://github.com/stdlib-js/stdlib/pull/11321)
 -   [`5b0f76d`](https://github.com/stdlib-js/stdlib/commit/5b0f76d17b0ad323617cb7afbd89a3e81f7a2985) - add `goneTo` to namespace
 -   [`cf9c1fd`](https://github.com/stdlib-js/stdlib/commit/cf9c1fd10bbb26b8ffe798bef302240f93389953) - add `blas/ext/base/ndarray/gone-to` [(#11308)](https://github.com/stdlib-js/stdlib/pull/11308)
@@ -77,7 +76,6 @@
 
 <details>
 
--   [`143bb4b`](https://github.com/stdlib-js/stdlib/commit/143bb4bccf5b59d9aebdc2428f0081c4d47a4d01) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11329)](https://github.com/stdlib-js/stdlib/pull/11329) _(by stdlib-bot)_
 -   [`21f03e5`](https://github.com/stdlib-js/stdlib/commit/21f03e53ac27f2d0930a7add36f49ea1cde5d3a2) - **docs:** update namespace table of contents [(#11330)](https://github.com/stdlib-js/stdlib/pull/11330) _(by stdlib-bot)_
 -   [`b117c97`](https://github.com/stdlib-js/stdlib/commit/b117c97db1b322d6d347c1bb0c7f18edf6963dfa) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11321)](https://github.com/stdlib-js/stdlib/pull/11321) _(by stdlib-bot)_
 -   [`bb0baff`](https://github.com/stdlib-js/stdlib/commit/bb0baff5acc1fbfa5f34b31045dde2ebd123c140) - **docs:** update namespace table of contents [(#11322)](https://github.com/stdlib-js/stdlib/pull/11322) _(by stdlib-bot)_
