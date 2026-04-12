@@ -4,12 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-10)
+## Unreleased (2026-04-12)
 
 <section class="features">
 
 ### Features
 
+-   [`9b3c5a5`](https://github.com/stdlib-js/stdlib/commit/9b3c5a5ffbff621234850a90e660493910d1b976) - update `blas/ext/base/ndarray` TypeScript declarations [(#11400)](https://github.com/stdlib-js/stdlib/pull/11400)
+-   [`e0aa4bb`](https://github.com/stdlib-js/stdlib/commit/e0aa4bbd1d4affd798a1cdde34a436ff3951c2ad) - add `blas/ext/base/ndarray/dsort` [(#9710)](https://github.com/stdlib-js/stdlib/pull/9710)
+-   [`9260f31`](https://github.com/stdlib-js/stdlib/commit/9260f31994955a4c597080f7044d73f1f26ba856) - add C implementation for `blas/ext/base/ndarray/csum` [(#10696)](https://github.com/stdlib-js/stdlib/pull/10696)
+-   [`b05fe40`](https://github.com/stdlib-js/stdlib/commit/b05fe40f8bc3caa85cb8734f9e30a487ae2bed74) - add C implementation for `blas/ext/base/ndarray/zsum` [(#10699)](https://github.com/stdlib-js/stdlib/pull/10699)
+-   [`e2cb754`](https://github.com/stdlib-js/stdlib/commit/e2cb754df4df20314ca85ade73ff9d8f06c44159) - add C implementation for `blas/ext/base/ndarray/dnansum` [(#10715)](https://github.com/stdlib-js/stdlib/pull/10715)
+-   [`b78ba63`](https://github.com/stdlib-js/stdlib/commit/b78ba63761c164190dcd0cc02047155d584c1f88) - add C implementation for `blas/ext/base/ndarray/snansum` [(#10777)](https://github.com/stdlib-js/stdlib/pull/10777)
 -   [`ec9d82b`](https://github.com/stdlib-js/stdlib/commit/ec9d82b92675431d0f878971fb7200748754c205) - add `coneTo` and `zoneTo` to namespace
 -   [`8c9281a`](https://github.com/stdlib-js/stdlib/commit/8c9281a143c4fd5a78eff7d7ef659e584ad524b8) - add `blas/ext/base/ndarray/cone-to` [(#11340)](https://github.com/stdlib-js/stdlib/pull/11340)
 -   [`461fbfd`](https://github.com/stdlib-js/stdlib/commit/461fbfde2d1db83737307cb67e6f4b4493143bb3) - add `blas/ext/base/ndarray/zone-to` [(#11342)](https://github.com/stdlib-js/stdlib/pull/11342)
@@ -80,6 +86,18 @@
 
 <details>
 
+-   [`9b3c5a5`](https://github.com/stdlib-js/stdlib/commit/9b3c5a5ffbff621234850a90e660493910d1b976) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11400)](https://github.com/stdlib-js/stdlib/pull/11400) _(by stdlib-bot)_
+-   [`e0aa4bb`](https://github.com/stdlib-js/stdlib/commit/e0aa4bbd1d4affd798a1cdde34a436ff3951c2ad) - **feat:** add `blas/ext/base/ndarray/dsort` [(#9710)](https://github.com/stdlib-js/stdlib/pull/9710) _(by Sagar Ratna Chaudhary, Athan Reines, stdlib-bot)_
+-   [`a889040`](https://github.com/stdlib-js/stdlib/commit/a889040bbfbd378e5f784bd19f0b24f88c9bb2b9) - **test:** ensure support for dtype instances _(by Athan Reines)_
+-   [`9fceca8`](https://github.com/stdlib-js/stdlib/commit/9fceca87d82dacde8ead8d4a030cad27ed50ae70) - **test:** ensure support for dtype instances _(by Athan Reines)_
+-   [`75ff8fe`](https://github.com/stdlib-js/stdlib/commit/75ff8fe6e7a73c630b4dbdb4543e626d95afa2fb) - **test:** ensure support for dtype instances _(by Athan Reines)_
+-   [`9bfb6b0`](https://github.com/stdlib-js/stdlib/commit/9bfb6b06411afd725918cef27c7dc97ba282eed9) - **test:** ensure support for dtype instances _(by Athan Reines)_
+-   [`9260f31`](https://github.com/stdlib-js/stdlib/commit/9260f31994955a4c597080f7044d73f1f26ba856) - **feat:** add C implementation for `blas/ext/base/ndarray/csum` [(#10696)](https://github.com/stdlib-js/stdlib/pull/10696) _(by Kaustubh Patange, Athan Reines, stdlib-bot)_
+-   [`b05fe40`](https://github.com/stdlib-js/stdlib/commit/b05fe40f8bc3caa85cb8734f9e30a487ae2bed74) - **feat:** add C implementation for `blas/ext/base/ndarray/zsum` [(#10699)](https://github.com/stdlib-js/stdlib/pull/10699) _(by Kaustubh Patange, Athan Reines)_
+-   [`d939241`](https://github.com/stdlib-js/stdlib/commit/d939241ae1b03e3d0a6912f46ef644afc324ce4d) - **bench:** update failure messages _(by Athan Reines)_
+-   [`e2cb754`](https://github.com/stdlib-js/stdlib/commit/e2cb754df4df20314ca85ade73ff9d8f06c44159) - **feat:** add C implementation for `blas/ext/base/ndarray/dnansum` [(#10715)](https://github.com/stdlib-js/stdlib/pull/10715) _(by Kaustubh Patange, Athan Reines, Gururaj Gurram)_
+-   [`b78ba63`](https://github.com/stdlib-js/stdlib/commit/b78ba63761c164190dcd0cc02047155d584c1f88) - **feat:** add C implementation for `blas/ext/base/ndarray/snansum` [(#10777)](https://github.com/stdlib-js/stdlib/pull/10777) _(by Kaustubh Patange)_
+-   [`dcdf5e4`](https://github.com/stdlib-js/stdlib/commit/dcdf5e4a20a5168022acae53a5b10cf0bda0b3d9) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dcusumkbn` [(#10740)](https://github.com/stdlib-js/stdlib/pull/10740) _(by Aniket Sonawane)_
 -   [`6dc0130`](https://github.com/stdlib-js/stdlib/commit/6dc01302b920263a8c8997fc9c30f2962bc2e6c5) - **docs:** update namespace table of contents [(#11350)](https://github.com/stdlib-js/stdlib/pull/11350) _(by stdlib-bot)_
 -   [`ec9d82b`](https://github.com/stdlib-js/stdlib/commit/ec9d82b92675431d0f878971fb7200748754c205) - **feat:** add `coneTo` and `zoneTo` to namespace _(by Athan Reines)_
 -   [`8c9281a`](https://github.com/stdlib-js/stdlib/commit/8c9281a143c4fd5a78eff7d7ef659e584ad524b8) - **feat:** add `blas/ext/base/ndarray/cone-to` [(#11340)](https://github.com/stdlib-js/stdlib/pull/11340) _(by Muhammad Haris)_
@@ -161,14 +179,16 @@
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
 -   AyushiJain18270
+-   Gururaj Gurram
 -   Kaustubh Patange
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   Sagar Ratna Chaudhary
 
 </section>
 
