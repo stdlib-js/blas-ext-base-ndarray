@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-12)
+## Unreleased (2026-04-17)
 
 <section class="features">
 
 ### Features
 
+-   [`aacc13a`](https://github.com/stdlib-js/stdlib/commit/aacc13a91e7131c5829cdb3622990a92805aabc9) - add `dsort` to namespace
+-   [`56329f6`](https://github.com/stdlib-js/stdlib/commit/56329f6843adb81d057638457604f1442db76484) - add `ssort` to namespace
+-   [`fafa2d5`](https://github.com/stdlib-js/stdlib/commit/fafa2d535bd201a047b251afdb6aaa096b998961) - add `blas/ext/base/ndarray/ssort` [(#11484)](https://github.com/stdlib-js/stdlib/pull/11484)
 -   [`9b3c5a5`](https://github.com/stdlib-js/stdlib/commit/9b3c5a5ffbff621234850a90e660493910d1b976) - update `blas/ext/base/ndarray` TypeScript declarations [(#11400)](https://github.com/stdlib-js/stdlib/pull/11400)
 -   [`e0aa4bb`](https://github.com/stdlib-js/stdlib/commit/e0aa4bbd1d4affd798a1cdde34a436ff3951c2ad) - add `blas/ext/base/ndarray/dsort` [(#9710)](https://github.com/stdlib-js/stdlib/pull/9710)
 -   [`9260f31`](https://github.com/stdlib-js/stdlib/commit/9260f31994955a4c597080f7044d73f1f26ba856) - add C implementation for `blas/ext/base/ndarray/csum` [(#10696)](https://github.com/stdlib-js/stdlib/pull/10696)
@@ -86,6 +89,12 @@
 
 <details>
 
+-   [`aacc13a`](https://github.com/stdlib-js/stdlib/commit/aacc13a91e7131c5829cdb3622990a92805aabc9) - **feat:** add `dsort` to namespace _(by Athan Reines)_
+-   [`56329f6`](https://github.com/stdlib-js/stdlib/commit/56329f6843adb81d057638457604f1442db76484) - **feat:** add `ssort` to namespace _(by Athan Reines)_
+-   [`fafa2d5`](https://github.com/stdlib-js/stdlib/commit/fafa2d535bd201a047b251afdb6aaa096b998961) - **feat:** add `blas/ext/base/ndarray/ssort` [(#11484)](https://github.com/stdlib-js/stdlib/pull/11484) _(by Muhammad Haris, Athan Reines)_
+-   [`3b2fa8f`](https://github.com/stdlib-js/stdlib/commit/3b2fa8f05fd9bd37f3a7f71f3d5b4ff0f60557e9) - **docs:** update descriptions _(by Athan Reines)_
+-   [`328ca77`](https://github.com/stdlib-js/stdlib/commit/328ca7797c1446568242d8bbd510129396fe3af0) - **docs:** fix notes _(by Athan Reines)_
+-   [`df6fbe8`](https://github.com/stdlib-js/stdlib/commit/df6fbe8072b04fc62d2cf41a1f54f68c73acc58f) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11379)](https://github.com/stdlib-js/stdlib/pull/11379) _(by Karan Anand)_
 -   [`9b3c5a5`](https://github.com/stdlib-js/stdlib/commit/9b3c5a5ffbff621234850a90e660493910d1b976) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11400)](https://github.com/stdlib-js/stdlib/pull/11400) _(by stdlib-bot)_
 -   [`e0aa4bb`](https://github.com/stdlib-js/stdlib/commit/e0aa4bbd1d4affd798a1cdde34a436ff3951c2ad) - **feat:** add `blas/ext/base/ndarray/dsort` [(#9710)](https://github.com/stdlib-js/stdlib/pull/9710) _(by Sagar Ratna Chaudhary, Athan Reines, stdlib-bot)_
 -   [`a889040`](https://github.com/stdlib-js/stdlib/commit/a889040bbfbd378e5f784bd19f0b24f88c9bb2b9) - **test:** ensure support for dtype instances _(by Athan Reines)_
@@ -179,12 +188,13 @@
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
 -   AyushiJain18270
 -   Gururaj Gurram
+-   Karan Anand
 -   Kaustubh Patange
 -   Muhammad Haris
 -   Philipp Burckhardt
