@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-17)
+## Unreleased (2026-04-18)
 
 <section class="features">
 
@@ -90,6 +90,8 @@
 
 <details>
 
+-   [`849495e`](https://github.com/stdlib-js/stdlib/commit/849495ef3b7239b2bd93d2a8bf8716240e12e56f) - **docs:** update example [(#11519)](https://github.com/stdlib-js/stdlib/pull/11519) _(by stdlib-bot)_
+-   [`97b509e`](https://github.com/stdlib-js/stdlib/commit/97b509e9e82501c0367c22cab0ef6c98b27618ef) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dsorthp` [(#11503)](https://github.com/stdlib-js/stdlib/pull/11503) _(by Prajjwal Bajpai)_
 -   [`10210e4`](https://github.com/stdlib-js/stdlib/commit/10210e49f0b5e71b93243d12b650048dc17abed3) - **docs:** update namespace table of contents [(#11497)](https://github.com/stdlib-js/stdlib/pull/11497) _(by stdlib-bot)_
 -   [`2ab6254`](https://github.com/stdlib-js/stdlib/commit/2ab6254a552c8bb1024eb5fc5baa35cd4812f64b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11496)](https://github.com/stdlib-js/stdlib/pull/11496) _(by stdlib-bot)_
 -   [`aacc13a`](https://github.com/stdlib-js/stdlib/commit/aacc13a91e7131c5829cdb3622990a92805aabc9) - **feat:** add `dsort` to namespace _(by Athan Reines)_
@@ -191,7 +193,7 @@
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
@@ -201,6 +203,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Kaustubh Patange
 -   Muhammad Haris
 -   Philipp Burckhardt
+-   Prajjwal Bajpai
 -   Sagar Ratna Chaudhary
 
 </section>
