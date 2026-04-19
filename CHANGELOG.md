@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-18)
+## Unreleased (2026-04-19)
 
 <section class="features">
 
@@ -90,6 +90,20 @@
 
 <details>
 
+-   [`0873811`](https://github.com/stdlib-js/stdlib/commit/0873811a6cdde040bef142386df8f1fe2c64d4df) - **docs:** inline ndarray output in doctests and add missing article [(#11557)](https://github.com/stdlib-js/stdlib/pull/11557) _(by Philipp Burckhardt)_
+-   [`638fdf0`](https://github.com/stdlib-js/stdlib/commit/638fdf0149590cc7e645ac544cb1d36ccc0d867a) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumkbn2` [(#11576)](https://github.com/stdlib-js/stdlib/pull/11576) _(by Uday Kakade)_
+-   [`3c29f4b`](https://github.com/stdlib-js/stdlib/commit/3c29f4b4fd3bf3bf1f6a132c50bc684444d7674b) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumkbn` [(#11574)](https://github.com/stdlib-js/stdlib/pull/11574) _(by Uday Kakade)_
+-   [`ea0027d`](https://github.com/stdlib-js/stdlib/commit/ea0027d3192bfccf9851eed2a333af3fee8c4a7c) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumors` [(#11573)](https://github.com/stdlib-js/stdlib/pull/11573) _(by Uday Kakade)_
+-   [`85636fc`](https://github.com/stdlib-js/stdlib/commit/85636fc4c88f2b13210775178edb2d477d8f57af) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumpw` [(#11572)](https://github.com/stdlib-js/stdlib/pull/11572) _(by Uday Kakade)_
+-   [`1e24d10`](https://github.com/stdlib-js/stdlib/commit/1e24d102fcb9c24bd27bdb25fc37752f9dd2c2cb) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/scusumkbn2` [(#11570)](https://github.com/stdlib-js/stdlib/pull/11570) _(by Uday Kakade)_
+-   [`0f724a5`](https://github.com/stdlib-js/stdlib/commit/0f724a5ad7074488bad7ccd26090443f7fbbf7b9) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/scusumkbn` [(#11569)](https://github.com/stdlib-js/stdlib/pull/11569) _(by Uday Kakade)_
+-   [`820d48e`](https://github.com/stdlib-js/stdlib/commit/820d48ebe0a35771a7b62c3d571c8ffca43a09c1) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/dsorthsh` [(#11544)](https://github.com/stdlib-js/stdlib/pull/11544) _(by Uday Kakade)_
+-   [`35f443d`](https://github.com/stdlib-js/stdlib/commit/35f443d28ceb141042214386f927176467a85288) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/dsortins` [(#11545)](https://github.com/stdlib-js/stdlib/pull/11545) _(by Uday Kakade)_
+-   [`dd046ff`](https://github.com/stdlib-js/stdlib/commit/dd046ffd9757ec6e1974f4e12d16434d35753596) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/gsorthp` [(#11546)](https://github.com/stdlib-js/stdlib/pull/11546) _(by Uday Kakade)_
+-   [`e0c37cb`](https://github.com/stdlib-js/stdlib/commit/e0c37cb6b44afd455dd85f7b24021c6fe53cd1bf) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/ssorthp` [(#11547)](https://github.com/stdlib-js/stdlib/pull/11547) _(by Uday Kakade)_
+-   [`8f8221b`](https://github.com/stdlib-js/stdlib/commit/8f8221bd4d6927bbe4b44d0f7c6b300c0d806467) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/slinspace` [(#11549)](https://github.com/stdlib-js/stdlib/pull/11549) _(by Uday Kakade)_
+-   [`2367b73`](https://github.com/stdlib-js/stdlib/commit/2367b73618b8d8262820deca4c143b54e9d39f18) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/glinspace` [(#11550)](https://github.com/stdlib-js/stdlib/pull/11550) _(by Uday Kakade)_
+-   [`dcba41a`](https://github.com/stdlib-js/stdlib/commit/dcba41a4e2aba7d6c89489bc24ae7c3eb1202394) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/scusumors` [(#11551)](https://github.com/stdlib-js/stdlib/pull/11551) _(by Uday Kakade)_
 -   [`849495e`](https://github.com/stdlib-js/stdlib/commit/849495ef3b7239b2bd93d2a8bf8716240e12e56f) - **docs:** update example [(#11519)](https://github.com/stdlib-js/stdlib/pull/11519) _(by stdlib-bot)_
 -   [`97b509e`](https://github.com/stdlib-js/stdlib/commit/97b509e9e82501c0367c22cab0ef6c98b27618ef) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dsorthp` [(#11503)](https://github.com/stdlib-js/stdlib/pull/11503) _(by Prajjwal Bajpai)_
 -   [`10210e4`](https://github.com/stdlib-js/stdlib/commit/10210e49f0b5e71b93243d12b650048dc17abed3) - **docs:** update namespace table of contents [(#11497)](https://github.com/stdlib-js/stdlib/pull/11497) _(by stdlib-bot)_
@@ -193,7 +207,7 @@
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
@@ -205,6 +219,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
 -   Sagar Ratna Chaudhary
+-   Uday Kakade
 
 </section>
 
