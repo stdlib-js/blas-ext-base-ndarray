@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-19)
+## Unreleased (2026-04-26)
 
 <section class="features">
 
 ### Features
 
+-   [`efefff5`](https://github.com/stdlib-js/stdlib/commit/efefff580c7e737aca6f7ea81fe52e26b1f97464) - add `gunitspace` to namespace
+-   [`7a4cb65`](https://github.com/stdlib-js/stdlib/commit/7a4cb65f70474b106a71956d45e1ebe0c4093225) - add `blas/ext/base/ndarray/gunitspace` [(#11726)](https://github.com/stdlib-js/stdlib/pull/11726)
 -   [`2ab6254`](https://github.com/stdlib-js/stdlib/commit/2ab6254a552c8bb1024eb5fc5baa35cd4812f64b) - update `blas/ext/base/ndarray` TypeScript declarations [(#11496)](https://github.com/stdlib-js/stdlib/pull/11496)
 -   [`aacc13a`](https://github.com/stdlib-js/stdlib/commit/aacc13a91e7131c5829cdb3622990a92805aabc9) - add `dsort` to namespace
 -   [`56329f6`](https://github.com/stdlib-js/stdlib/commit/56329f6843adb81d057638457604f1442db76484) - add `ssort` to namespace
@@ -90,6 +92,32 @@
 
 <details>
 
+-   [`efefff5`](https://github.com/stdlib-js/stdlib/commit/efefff580c7e737aca6f7ea81fe52e26b1f97464) - **feat:** add `gunitspace` to namespace _(by Athan Reines)_
+-   [`7a4cb65`](https://github.com/stdlib-js/stdlib/commit/7a4cb65f70474b106a71956d45e1ebe0c4093225) - **feat:** add `blas/ext/base/ndarray/gunitspace` [(#11726)](https://github.com/stdlib-js/stdlib/pull/11726) _(by Muhammad Haris, Athan Reines)_
+-   [`392a8dc`](https://github.com/stdlib-js/stdlib/commit/392a8dce20ee0948ed6ad38f98efbee608997450) - **docs:** update example _(by Athan Reines)_
+-   [`ca7dfb4`](https://github.com/stdlib-js/stdlib/commit/ca7dfb4bf50cf032f569da107490f3eec971ec1c) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`0603c79`](https://github.com/stdlib-js/stdlib/commit/0603c797369a3db5d8cc79bca4f42b6379b6c40b) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`4e31b9e`](https://github.com/stdlib-js/stdlib/commit/4e31b9e52d8bbad38424f00c7fbb354f6a7fe177) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`2c222b0`](https://github.com/stdlib-js/stdlib/commit/2c222b0a679eed4af317a613b8d9a62e1d20573f) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`418aa38`](https://github.com/stdlib-js/stdlib/commit/418aa388dce65f953db44a6e89062b902967a624) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`a011000`](https://github.com/stdlib-js/stdlib/commit/a0110009a78bd3a176b30c6e45c44c90a4e8749e) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`4982b32`](https://github.com/stdlib-js/stdlib/commit/4982b3215389e2264fc35e40a548053c25eba4f4) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`9760dc1`](https://github.com/stdlib-js/stdlib/commit/9760dc1bd14a5b869b01405f955b06dc242a034c) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`09c6646`](https://github.com/stdlib-js/stdlib/commit/09c664695231fa2f5a248997e96b20de6a627c3c) - **docs:** fix return type _(by Athan Reines)_
+-   [`0f7212e`](https://github.com/stdlib-js/stdlib/commit/0f7212ee9faeaf5ef04efa7a09336b7aebc9865f) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`979c637`](https://github.com/stdlib-js/stdlib/commit/979c637c51b4269dfa89f7f5040e235ce86c4e79) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`2c70e10`](https://github.com/stdlib-js/stdlib/commit/2c70e1056e28c4eaead3a3a17c7e3a8a69a79857) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`0f66bf3`](https://github.com/stdlib-js/stdlib/commit/0f66bf3b6d2d5c7a23c47a04bbf7878d79a77a34) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`6c34427`](https://github.com/stdlib-js/stdlib/commit/6c34427a131a254d4118982b37bf65e975d3c028) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`8ce7150`](https://github.com/stdlib-js/stdlib/commit/8ce7150dd39846384ec8bfe3dc118ca21f05811a) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`970af72`](https://github.com/stdlib-js/stdlib/commit/970af72edc2758a8fbd20e35828f9e440d630d2e) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`81d0c40`](https://github.com/stdlib-js/stdlib/commit/81d0c40992d501090684ee80a52170885a8ccc0c) - **docs:** add notes _(by Athan Reines)_
+-   [`b490c62`](https://github.com/stdlib-js/stdlib/commit/b490c6253777ca912bb4838b20c2b5d87766dbb7) - **docs:** add notes _(by Athan Reines)_
+-   [`e2c73b1`](https://github.com/stdlib-js/stdlib/commit/e2c73b1646c2ab8cfd0c5fe7794cce3d69578c44) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`3a079cf`](https://github.com/stdlib-js/stdlib/commit/3a079cf104c2078ea8d3e616731e0de63d8882e3) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`d9c7993`](https://github.com/stdlib-js/stdlib/commit/d9c7993df3cdfd035f4319e2704c03c4a6a465b7) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`ffdaaa6`](https://github.com/stdlib-js/stdlib/commit/ffdaaa6c4d5357d1436a12c26f8e8733b3f5be8f) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`67cdf3c`](https://github.com/stdlib-js/stdlib/commit/67cdf3cc8be241859493c2da00974d595eef73cb) - **chore:** propagate recent doctest and lint fixes to sibling packages [(#11585)](https://github.com/stdlib-js/stdlib/pull/11585) _(by Philipp Burckhardt)_
 -   [`0873811`](https://github.com/stdlib-js/stdlib/commit/0873811a6cdde040bef142386df8f1fe2c64d4df) - **docs:** inline ndarray output in doctests and add missing article [(#11557)](https://github.com/stdlib-js/stdlib/pull/11557) _(by Philipp Burckhardt)_
 -   [`638fdf0`](https://github.com/stdlib-js/stdlib/commit/638fdf0149590cc7e645ac544cb1d36ccc0d867a) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumkbn2` [(#11576)](https://github.com/stdlib-js/stdlib/pull/11576) _(by Uday Kakade)_
 -   [`3c29f4b`](https://github.com/stdlib-js/stdlib/commit/3c29f4b4fd3bf3bf1f6a132c50bc684444d7674b) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumkbn` [(#11574)](https://github.com/stdlib-js/stdlib/pull/11574) _(by Uday Kakade)_
