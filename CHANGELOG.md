@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-27)
+## Unreleased (2026-05-14)
 
 <section class="features">
 
@@ -98,6 +98,8 @@
 
 <details>
 
+-   [`97531ec`](https://github.com/stdlib-js/stdlib/commit/97531ec62caeddc8d193057ccc87bd4495eb5619) - **docs:** add notes content to `blas/ext/base/ndarray/gjoin` README [(#12037)](https://github.com/stdlib-js/stdlib/pull/12037) _(by Philipp Burckhardt)_
+-   [`2628663`](https://github.com/stdlib-js/stdlib/commit/26286631e01471db55b3be13e2a21762b5507f7b) - **chore:** add missing keywords in `blas/ext/base/ndarray` cusum packages [(#11967)](https://github.com/stdlib-js/stdlib/pull/11967) _(by Philipp Burckhardt)_
 -   [`d6b1e3d`](https://github.com/stdlib-js/stdlib/commit/d6b1e3d2286c2ca1044ed87317707ae0be54a351) - **docs:** update namespace table of contents [(#11809)](https://github.com/stdlib-js/stdlib/pull/11809) _(by stdlib-bot)_
 -   [`8b4a0aa`](https://github.com/stdlib-js/stdlib/commit/8b4a0aa79df6b1f2018e2e07b33e8cd106611007) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11808)](https://github.com/stdlib-js/stdlib/pull/11808) _(by stdlib-bot)_
 -   [`8d3c814`](https://github.com/stdlib-js/stdlib/commit/8d3c814b1afa9c348ffb0180d74bd4da5e3a5eb2) - **feat:** add `*unitspace` symbols to namespace _(by Athan Reines)_
