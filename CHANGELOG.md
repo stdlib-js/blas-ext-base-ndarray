@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-14)
+## Unreleased (2026-05-15)
 
 <section class="features">
 
 ### Features
 
+-   [`6bb174f`](https://github.com/stdlib-js/stdlib/commit/6bb174f15e9b209cb91493417b4df44e7d1353eb) - add `zindexOf` and `cindexOf` to namespace
+-   [`ca72b06`](https://github.com/stdlib-js/stdlib/commit/ca72b065a77016d4f71b828dd0833de8ca01b509) - add `blas/ext/base/ndarray/cindex-of` [(#12148)](https://github.com/stdlib-js/stdlib/pull/12148)
+-   [`822b656`](https://github.com/stdlib-js/stdlib/commit/822b65687926b7386e5109e0284b6d6aaf0c4542) - add `blas/ext/base/ndarray/zindex-of` [(#12147)](https://github.com/stdlib-js/stdlib/pull/12147)
 -   [`8b4a0aa`](https://github.com/stdlib-js/stdlib/commit/8b4a0aa79df6b1f2018e2e07b33e8cd106611007) - update `blas/ext/base/ndarray` TypeScript declarations [(#11808)](https://github.com/stdlib-js/stdlib/pull/11808)
 -   [`8d3c814`](https://github.com/stdlib-js/stdlib/commit/8d3c814b1afa9c348ffb0180d74bd4da5e3a5eb2) - add `*unitspace` symbols to namespace
 -   [`cfc58ab`](https://github.com/stdlib-js/stdlib/commit/cfc58ab9bb051fe400e496981598c0bbfc0da30e) - add `blas/ext/base/ndarray/zunitspace` [(#11730)](https://github.com/stdlib-js/stdlib/pull/11730)
@@ -98,6 +101,9 @@
 
 <details>
 
+-   [`6bb174f`](https://github.com/stdlib-js/stdlib/commit/6bb174f15e9b209cb91493417b4df44e7d1353eb) - **feat:** add `zindexOf` and `cindexOf` to namespace _(by Athan Reines)_
+-   [`ca72b06`](https://github.com/stdlib-js/stdlib/commit/ca72b065a77016d4f71b828dd0833de8ca01b509) - **feat:** add `blas/ext/base/ndarray/cindex-of` [(#12148)](https://github.com/stdlib-js/stdlib/pull/12148) _(by Muhammad Haris)_
+-   [`822b656`](https://github.com/stdlib-js/stdlib/commit/822b65687926b7386e5109e0284b6d6aaf0c4542) - **feat:** add `blas/ext/base/ndarray/zindex-of` [(#12147)](https://github.com/stdlib-js/stdlib/pull/12147) _(by Muhammad Haris, Athan Reines)_
 -   [`97531ec`](https://github.com/stdlib-js/stdlib/commit/97531ec62caeddc8d193057ccc87bd4495eb5619) - **docs:** add notes content to `blas/ext/base/ndarray/gjoin` README [(#12037)](https://github.com/stdlib-js/stdlib/pull/12037) _(by Philipp Burckhardt)_
 -   [`2628663`](https://github.com/stdlib-js/stdlib/commit/26286631e01471db55b3be13e2a21762b5507f7b) - **chore:** add missing keywords in `blas/ext/base/ndarray` cusum packages [(#11967)](https://github.com/stdlib-js/stdlib/pull/11967) _(by Philipp Burckhardt)_
 -   [`d6b1e3d`](https://github.com/stdlib-js/stdlib/commit/d6b1e3d2286c2ca1044ed87317707ae0be54a351) - **docs:** update namespace table of contents [(#11809)](https://github.com/stdlib-js/stdlib/pull/11809) _(by stdlib-bot)_
