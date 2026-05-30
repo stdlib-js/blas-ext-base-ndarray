@@ -36,6 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/blas-ext-base-ndarray-caxpb": "github:stdlib-js/blas-ext-base-ndarray-caxpb#main",
     "@stdlib/blas-ext-base-ndarray-cindex-of": "github:stdlib-js/blas-ext-base-ndarray-cindex-of#main",
     "@stdlib/blas-ext-base-ndarray-cone-to": "github:stdlib-js/blas-ext-base-ndarray-cone-to#main",
     "@stdlib/blas-ext-base-ndarray-csum": "^0.1.1",
@@ -121,6 +122,7 @@
     "@stdlib/blas-ext-base-ndarray-ssumors": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-ssumpw": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-sunitspace": "github:stdlib-js/blas-ext-base-ndarray-sunitspace#main",
+    "@stdlib/blas-ext-base-ndarray-sxsa": "github:stdlib-js/blas-ext-base-ndarray-sxsa#main",
     "@stdlib/blas-ext-base-ndarray-szero-to": "github:stdlib-js/blas-ext-base-ndarray-szero-to#main",
     "@stdlib/blas-ext-base-ndarray-zindex-of": "github:stdlib-js/blas-ext-base-ndarray-zindex-of#main",
     "@stdlib/blas-ext-base-ndarray-zone-to": "github:stdlib-js/blas-ext-base-ndarray-zone-to#main",
@@ -148,6 +150,7 @@
     "@stdlib/assert-is-same-float32array": "^0.2.3",
     "@stdlib/assert-is-same-float64array": "^0.2.3",
     "@stdlib/assert-is-string": "^0.2.3",
+    "@stdlib/blas-ext-base-caxpb": "github:stdlib-js/blas-ext-base-caxpb#main",
     "@stdlib/blas-ext-base-cindex-of": "github:stdlib-js/blas-ext-base-cindex-of#main",
     "@stdlib/blas-ext-base-cone-to": "github:stdlib-js/blas-ext-base-cone-to#main",
     "@stdlib/blas-ext-base-csum": "^0.1.1",

@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`87e0a45`](https://github.com/stdlib-js/stdlib/commit/87e0a4506bf7d9708c1388f6c90da4a0264858a4) - add `caxpb` to namespace
+-   [`991a51c`](https://github.com/stdlib-js/stdlib/commit/991a51cd9a5ba2fd67d7f9ad23b11cb5be994435) - add `sxsa` to namespace
+-   [`513268f`](https://github.com/stdlib-js/stdlib/commit/513268fc1c6d70f999af77129cbec0522dd10117) - add `blas/ext/base/ndarray/caxpb` [(#12377)](https://github.com/stdlib-js/stdlib/pull/12377)
 -   [`17cc5aa`](https://github.com/stdlib-js/stdlib/commit/17cc5aa2b49b4182a27b1b1696f56198517caebf) - update `blas/ext/base/ndarray` TypeScript declarations [(#12361)](https://github.com/stdlib-js/stdlib/pull/12361)
 -   [`f9cbc89`](https://github.com/stdlib-js/stdlib/commit/f9cbc8936041fc0767caa30a3bdbc5a91c17c4ca) - add `blas/ext/base/ndarray/sxsa` [(#12350)](https://github.com/stdlib-js/stdlib/pull/12350)
 -   [`a6c328d`](https://github.com/stdlib-js/stdlib/commit/a6c328d343cbb67b8b8357c15e963c7e6a94c7c9) - add various symbols to namespace
@@ -110,6 +113,9 @@
 
 <details>
 
+-   [`87e0a45`](https://github.com/stdlib-js/stdlib/commit/87e0a4506bf7d9708c1388f6c90da4a0264858a4) - **feat:** add `caxpb` to namespace _(by Athan Reines)_
+-   [`991a51c`](https://github.com/stdlib-js/stdlib/commit/991a51cd9a5ba2fd67d7f9ad23b11cb5be994435) - **feat:** add `sxsa` to namespace _(by Athan Reines)_
+-   [`513268f`](https://github.com/stdlib-js/stdlib/commit/513268fc1c6d70f999af77129cbec0522dd10117) - **feat:** add `blas/ext/base/ndarray/caxpb` [(#12377)](https://github.com/stdlib-js/stdlib/pull/12377) _(by Karan Anand)_
 -   [`32c453d`](https://github.com/stdlib-js/stdlib/commit/32c453d442eb82060b8bad46d39ff64361302b25) - **docs:** update namespace table of contents [(#12362)](https://github.com/stdlib-js/stdlib/pull/12362) _(by stdlib-bot)_
 -   [`17cc5aa`](https://github.com/stdlib-js/stdlib/commit/17cc5aa2b49b4182a27b1b1696f56198517caebf) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12361)](https://github.com/stdlib-js/stdlib/pull/12361) _(by stdlib-bot)_
 -   [`f9cbc89`](https://github.com/stdlib-js/stdlib/commit/f9cbc8936041fc0767caa30a3bdbc5a91c17c4ca) - **feat:** add `blas/ext/base/ndarray/sxsa` [(#12350)](https://github.com/stdlib-js/stdlib/pull/12350) _(by Karan Anand)_
