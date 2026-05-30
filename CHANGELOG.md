@@ -110,6 +110,7 @@
 
 <details>
 
+-   [`32c453d`](https://github.com/stdlib-js/stdlib/commit/32c453d442eb82060b8bad46d39ff64361302b25) - **docs:** update namespace table of contents [(#12362)](https://github.com/stdlib-js/stdlib/pull/12362) _(by stdlib-bot)_
 -   [`17cc5aa`](https://github.com/stdlib-js/stdlib/commit/17cc5aa2b49b4182a27b1b1696f56198517caebf) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12361)](https://github.com/stdlib-js/stdlib/pull/12361) _(by stdlib-bot)_
 -   [`f9cbc89`](https://github.com/stdlib-js/stdlib/commit/f9cbc8936041fc0767caa30a3bdbc5a91c17c4ca) - **feat:** add `blas/ext/base/ndarray/sxsa` [(#12350)](https://github.com/stdlib-js/stdlib/pull/12350) _(by Karan Anand)_
 -   [`a6c328d`](https://github.com/stdlib-js/stdlib/commit/a6c328d343cbb67b8b8357c15e963c7e6a94c7c9) - **feat:** add various symbols to namespace _(by Athan Reines)_
