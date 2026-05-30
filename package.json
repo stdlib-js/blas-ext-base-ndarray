@@ -233,6 +233,7 @@
     "@stdlib/blas-ext-base-ssumors": "^0.3.1",
     "@stdlib/blas-ext-base-ssumpw": "^0.3.1",
     "@stdlib/blas-ext-base-sunitspace": "github:stdlib-js/blas-ext-base-sunitspace#main",
+    "@stdlib/blas-ext-base-sxsa": "github:stdlib-js/blas-ext-base-sxsa#main",
     "@stdlib/blas-ext-base-szero-to": "github:stdlib-js/blas-ext-base-szero-to#main",
     "@stdlib/blas-ext-base-zindex-of": "github:stdlib-js/blas-ext-base-zindex-of#main",
     "@stdlib/blas-ext-base-zone-to": "github:stdlib-js/blas-ext-base-zone-to#main",

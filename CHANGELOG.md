@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-29)
+## Unreleased (2026-05-30)
 
 <section class="features">
 
 ### Features
 
+-   [`17cc5aa`](https://github.com/stdlib-js/stdlib/commit/17cc5aa2b49b4182a27b1b1696f56198517caebf) - update `blas/ext/base/ndarray` TypeScript declarations [(#12361)](https://github.com/stdlib-js/stdlib/pull/12361)
+-   [`f9cbc89`](https://github.com/stdlib-js/stdlib/commit/f9cbc8936041fc0767caa30a3bdbc5a91c17c4ca) - add `blas/ext/base/ndarray/sxsa` [(#12350)](https://github.com/stdlib-js/stdlib/pull/12350)
 -   [`a6c328d`](https://github.com/stdlib-js/stdlib/commit/a6c328d343cbb67b8b8357c15e963c7e6a94c7c9) - add various symbols to namespace
 -   [`109713a`](https://github.com/stdlib-js/stdlib/commit/109713a8edf5d67b3416abdae0345166e5d4beeb) - add `blas/ext/base/ndarray/dxsa` [(#12347)](https://github.com/stdlib-js/stdlib/pull/12347)
 -   [`4610fde`](https://github.com/stdlib-js/stdlib/commit/4610fded43149e5811521aaa432b24c1b53c60dc) - add `blas/ext/base/ndarray/saxpb` [(#12277)](https://github.com/stdlib-js/stdlib/pull/12277)
@@ -108,6 +110,8 @@
 
 <details>
 
+-   [`17cc5aa`](https://github.com/stdlib-js/stdlib/commit/17cc5aa2b49b4182a27b1b1696f56198517caebf) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12361)](https://github.com/stdlib-js/stdlib/pull/12361) _(by stdlib-bot)_
+-   [`f9cbc89`](https://github.com/stdlib-js/stdlib/commit/f9cbc8936041fc0767caa30a3bdbc5a91c17c4ca) - **feat:** add `blas/ext/base/ndarray/sxsa` [(#12350)](https://github.com/stdlib-js/stdlib/pull/12350) _(by Karan Anand)_
 -   [`a6c328d`](https://github.com/stdlib-js/stdlib/commit/a6c328d343cbb67b8b8357c15e963c7e6a94c7c9) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`109713a`](https://github.com/stdlib-js/stdlib/commit/109713a8edf5d67b3416abdae0345166e5d4beeb) - **feat:** add `blas/ext/base/ndarray/dxsa` [(#12347)](https://github.com/stdlib-js/stdlib/pull/12347) _(by Karan Anand, Athan Reines)_
 -   [`4610fde`](https://github.com/stdlib-js/stdlib/commit/4610fded43149e5811521aaa432b24c1b53c60dc) - **feat:** add `blas/ext/base/ndarray/saxpb` [(#12277)](https://github.com/stdlib-js/stdlib/pull/12277) _(by Karan Anand)_
