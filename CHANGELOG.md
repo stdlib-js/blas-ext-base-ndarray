@@ -117,6 +117,7 @@
 
 <details>
 
+-   [`78f0c53`](https://github.com/stdlib-js/stdlib/commit/78f0c534da8ae86ddf72c54884ebd040fa3c0ea4) - **docs:** update namespace table of contents [(#12388)](https://github.com/stdlib-js/stdlib/pull/12388) _(by stdlib-bot)_
 -   [`4a99de9`](https://github.com/stdlib-js/stdlib/commit/4a99de96ce637b10b7e949fc516f0c2602ac96c2) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12387)](https://github.com/stdlib-js/stdlib/pull/12387) _(by stdlib-bot)_
 -   [`b930fc4`](https://github.com/stdlib-js/stdlib/commit/b930fc44d1cafc7ffef58c51e42cebf970969f50) - **feat:** add `blas/ext/base/ndarray/cxsa` [(#12383)](https://github.com/stdlib-js/stdlib/pull/12383) _(by Karan Anand)_
 -   [`6ff2ede`](https://github.com/stdlib-js/stdlib/commit/6ff2ede05ab929f0d8d32bf1db831c3bd748c608) - **feat:** add `blas/ext/base/ndarray/gaxpb` [(#12382)](https://github.com/stdlib-js/stdlib/pull/12382) _(by Karan Anand, Athan Reines)_

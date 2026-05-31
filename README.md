@@ -78,6 +78,7 @@ The namespace exposes the following APIs:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`caxpb( arrays )`][@stdlib/blas/ext/base/ndarray/caxpb]</span><span class="delimiter">: </span><span class="description">multiply each element in a one-dimensional single-precision complex floating-point ndarray by a scalar constant and add a scalar constant to each result.</span>
 -   <span class="signature">[`cindexOf( arrays )`][@stdlib/blas/ext/base/ndarray/cindex-of]</span><span class="delimiter">: </span><span class="description">return the first index of a search element in a one-dimensional single-precision complex floating-point ndarray.</span>
 -   <span class="signature">[`coneTo( arrays )`][@stdlib/blas/ext/base/ndarray/cone-to]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional single-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from one.</span>
 -   <span class="signature">[`csum( arrays )`][@stdlib/blas/ext/base/ndarray/csum]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional single-precision complex floating-point ndarray.</span>
@@ -163,6 +164,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`ssumors( arrays )`][@stdlib/blas/ext/base/ndarray/ssumors]</span><span class="delimiter">: </span><span class="description">compute the sum of a one-dimensional single-precision floating-point ndarray using ordinary recursive summation.</span>
 -   <span class="signature">[`ssumpw( arrays )`][@stdlib/blas/ext/base/ndarray/ssumpw]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional single-precision floating-point ndarray using pairwise summation.</span>
 -   <span class="signature">[`sunitspace( arrays )`][@stdlib/blas/ext/base/ndarray/sunitspace]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional single-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
+-   <span class="signature">[`sxsa( arrays )`][@stdlib/blas/ext/base/ndarray/sxsa]</span><span class="delimiter">: </span><span class="description">subtract a scalar constant from each element in a one-dimensional single-precision floating-point ndarray.</span>
 -   <span class="signature">[`szeroTo( arrays )`][@stdlib/blas/ext/base/ndarray/szero-to]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional single-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from zero.</span>
 -   <span class="signature">[`zindexOf( arrays )`][@stdlib/blas/ext/base/ndarray/zindex-of]</span><span class="delimiter">: </span><span class="description">return the first index of a search element in a one-dimensional double-precision complex floating-point ndarray.</span>
 -   <span class="signature">[`zoneTo( arrays )`][@stdlib/blas/ext/base/ndarray/zone-to]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional double-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from one.</span>
@@ -279,6 +281,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas-ext-base-ndarray/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/blas/ext/base/ndarray/caxpb]: https://github.com/stdlib-js/blas-ext-base-ndarray-caxpb
 
 [@stdlib/blas/ext/base/ndarray/cindex-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-cindex-of
 
@@ -449,6 +453,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/ndarray/ssumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-ssumpw
 
 [@stdlib/blas/ext/base/ndarray/sunitspace]: https://github.com/stdlib-js/blas-ext-base-ndarray-sunitspace
+
+[@stdlib/blas/ext/base/ndarray/sxsa]: https://github.com/stdlib-js/blas-ext-base-ndarray-sxsa
 
 [@stdlib/blas/ext/base/ndarray/szero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-szero-to
 
