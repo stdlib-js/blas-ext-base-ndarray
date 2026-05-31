@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-30)
+## Unreleased (2026-05-31)
 
 <section class="features">
 
 ### Features
 
+-   [`4a99de9`](https://github.com/stdlib-js/stdlib/commit/4a99de96ce637b10b7e949fc516f0c2602ac96c2) - update `blas/ext/base/ndarray` TypeScript declarations [(#12387)](https://github.com/stdlib-js/stdlib/pull/12387)
+-   [`b930fc4`](https://github.com/stdlib-js/stdlib/commit/b930fc44d1cafc7ffef58c51e42cebf970969f50) - add `blas/ext/base/ndarray/cxsa` [(#12383)](https://github.com/stdlib-js/stdlib/pull/12383)
+-   [`6ff2ede`](https://github.com/stdlib-js/stdlib/commit/6ff2ede05ab929f0d8d32bf1db831c3bd748c608) - add `blas/ext/base/ndarray/gaxpb` [(#12382)](https://github.com/stdlib-js/stdlib/pull/12382)
+-   [`0f8d445`](https://github.com/stdlib-js/stdlib/commit/0f8d4454279b213a611e2253df5725482fb81762) - add `blas/ext/base/ndarray/zaxpb` [(#12381)](https://github.com/stdlib-js/stdlib/pull/12381)
 -   [`87e0a45`](https://github.com/stdlib-js/stdlib/commit/87e0a4506bf7d9708c1388f6c90da4a0264858a4) - add `caxpb` to namespace
 -   [`991a51c`](https://github.com/stdlib-js/stdlib/commit/991a51cd9a5ba2fd67d7f9ad23b11cb5be994435) - add `sxsa` to namespace
 -   [`513268f`](https://github.com/stdlib-js/stdlib/commit/513268fc1c6d70f999af77129cbec0522dd10117) - add `blas/ext/base/ndarray/caxpb` [(#12377)](https://github.com/stdlib-js/stdlib/pull/12377)
@@ -113,6 +117,10 @@
 
 <details>
 
+-   [`4a99de9`](https://github.com/stdlib-js/stdlib/commit/4a99de96ce637b10b7e949fc516f0c2602ac96c2) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12387)](https://github.com/stdlib-js/stdlib/pull/12387) _(by stdlib-bot)_
+-   [`b930fc4`](https://github.com/stdlib-js/stdlib/commit/b930fc44d1cafc7ffef58c51e42cebf970969f50) - **feat:** add `blas/ext/base/ndarray/cxsa` [(#12383)](https://github.com/stdlib-js/stdlib/pull/12383) _(by Karan Anand)_
+-   [`6ff2ede`](https://github.com/stdlib-js/stdlib/commit/6ff2ede05ab929f0d8d32bf1db831c3bd748c608) - **feat:** add `blas/ext/base/ndarray/gaxpb` [(#12382)](https://github.com/stdlib-js/stdlib/pull/12382) _(by Karan Anand, Athan Reines)_
+-   [`0f8d445`](https://github.com/stdlib-js/stdlib/commit/0f8d4454279b213a611e2253df5725482fb81762) - **feat:** add `blas/ext/base/ndarray/zaxpb` [(#12381)](https://github.com/stdlib-js/stdlib/pull/12381) _(by Karan Anand)_
 -   [`87e0a45`](https://github.com/stdlib-js/stdlib/commit/87e0a4506bf7d9708c1388f6c90da4a0264858a4) - **feat:** add `caxpb` to namespace _(by Athan Reines)_
 -   [`991a51c`](https://github.com/stdlib-js/stdlib/commit/991a51cd9a5ba2fd67d7f9ad23b11cb5be994435) - **feat:** add `sxsa` to namespace _(by Athan Reines)_
 -   [`513268f`](https://github.com/stdlib-js/stdlib/commit/513268fc1c6d70f999af77129cbec0522dd10117) - **feat:** add `blas/ext/base/ndarray/caxpb` [(#12377)](https://github.com/stdlib-js/stdlib/pull/12377) _(by Karan Anand)_
