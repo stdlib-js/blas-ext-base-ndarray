@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`48eafd9`](https://github.com/stdlib-js/stdlib/commit/48eafd99ff26711d802914a9e850f8d11537c1a6) - add `gxsa` to namespace
+-   [`3935357`](https://github.com/stdlib-js/stdlib/commit/3935357126f6f4419533562c09d7a54de1e8b70d) - add `blas/ext/base/ndarray/gxsa` [(#12417)](https://github.com/stdlib-js/stdlib/pull/12417)
 -   [`f18c78a`](https://github.com/stdlib-js/stdlib/commit/f18c78abdf6b01a85fbe0922d5569c355e8fc744) - add `zxsa` to namespace
 -   [`0cefffd`](https://github.com/stdlib-js/stdlib/commit/0cefffd796337779fe11f3bb7f5a1ffd15442abb) - add `blas/ext/base/ndarray/zxsa` [(#12407)](https://github.com/stdlib-js/stdlib/pull/12407)
 -   [`65d7735`](https://github.com/stdlib-js/stdlib/commit/65d7735880ff6d36b49a243112bb56f078e53c49) - add `cxsa`, `gaxpb`, and `zaxpb` to namespace
@@ -120,6 +122,8 @@
 
 <details>
 
+-   [`48eafd9`](https://github.com/stdlib-js/stdlib/commit/48eafd99ff26711d802914a9e850f8d11537c1a6) - **feat:** add `gxsa` to namespace _(by Athan Reines)_
+-   [`3935357`](https://github.com/stdlib-js/stdlib/commit/3935357126f6f4419533562c09d7a54de1e8b70d) - **feat:** add `blas/ext/base/ndarray/gxsa` [(#12417)](https://github.com/stdlib-js/stdlib/pull/12417) _(by Karan Anand)_
 -   [`9dd3df6`](https://github.com/stdlib-js/stdlib/commit/9dd3df6b9e0735d6ffe28d6475e1181ac645f2de) - **docs:** update namespace table of contents [(#12416)](https://github.com/stdlib-js/stdlib/pull/12416) _(by stdlib-bot)_
 -   [`f18c78a`](https://github.com/stdlib-js/stdlib/commit/f18c78abdf6b01a85fbe0922d5569c355e8fc744) - **feat:** add `zxsa` to namespace _(by Athan Reines)_
 -   [`0e3aa56`](https://github.com/stdlib-js/stdlib/commit/0e3aa564804ba57767b8d5859073eadf05fda6d0) - **test:** fix complex array assertions [(#12409)](https://github.com/stdlib-js/stdlib/pull/12409) _(by Karan Anand)_
