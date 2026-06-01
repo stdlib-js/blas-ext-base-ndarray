@@ -84,6 +84,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`csum( arrays )`][@stdlib/blas/ext/base/ndarray/csum]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional single-precision complex floating-point ndarray.</span>
 -   <span class="signature">[`csumkbn( arrays )`][@stdlib/blas/ext/base/ndarray/csumkbn]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional single-precision complex floating-point ndarray using an improved Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`cunitspace( arrays )`][@stdlib/blas/ext/base/ndarray/cunitspace]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional single-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
+-   <span class="signature">[`cxsa( arrays )`][@stdlib/blas/ext/base/ndarray/cxsa]</span><span class="delimiter">: </span><span class="description">subtract a scalar constant from each element in a one-dimensional single-precision complex floating-point ndarray.</span>
 -   <span class="signature">[`czeroTo( arrays )`][@stdlib/blas/ext/base/ndarray/czero-to]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional single-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from zero.</span>
 -   <span class="signature">[`daxpb( arrays )`][@stdlib/blas/ext/base/ndarray/daxpb]</span><span class="delimiter">: </span><span class="description">multiply each element in a one-dimensional double-precision floating-point ndarray by a scalar constant and add a scalar constant to each result.</span>
 -   <span class="signature">[`dcircshift( arrays )`][@stdlib/blas/ext/base/ndarray/dcircshift]</span><span class="delimiter">: </span><span class="description">circularly shift the elements of a one-dimensional double-precision floating-point ndarray by a specified number of positions.</span>
@@ -113,6 +114,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`dunitspace( arrays )`][@stdlib/blas/ext/base/ndarray/dunitspace]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional double-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
 -   <span class="signature">[`dxsa( arrays )`][@stdlib/blas/ext/base/ndarray/dxsa]</span><span class="delimiter">: </span><span class="description">subtract a scalar constant from each element in a one-dimensional double-precision floating-point ndarray.</span>
 -   <span class="signature">[`dzeroTo( arrays )`][@stdlib/blas/ext/base/ndarray/dzero-to]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional double-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from zero.</span>
+-   <span class="signature">[`gaxpb( arrays )`][@stdlib/blas/ext/base/ndarray/gaxpb]</span><span class="delimiter">: </span><span class="description">multiply each element in a one-dimensional ndarray by a scalar constant and add a scalar constant to each result.</span>
 -   <span class="signature">[`gcircshift( arrays )`][@stdlib/blas/ext/base/ndarray/gcircshift]</span><span class="delimiter">: </span><span class="description">circularly shift the elements of a one-dimensional ndarray by a specified number of positions.</span>
 -   <span class="signature">[`gcusum( arrays )`][@stdlib/blas/ext/base/ndarray/gcusum]</span><span class="delimiter">: </span><span class="description">compute the cumulative sum of a one-dimensional ndarray.</span>
 -   <span class="signature">[`gcusumkbn( arrays )`][@stdlib/blas/ext/base/ndarray/gcusumkbn]</span><span class="delimiter">: </span><span class="description">compute the cumulative sum of a one-dimensional ndarray using an improved Kahan–Babuška algorithm.</span>
@@ -166,11 +168,13 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`sunitspace( arrays )`][@stdlib/blas/ext/base/ndarray/sunitspace]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional single-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
 -   <span class="signature">[`sxsa( arrays )`][@stdlib/blas/ext/base/ndarray/sxsa]</span><span class="delimiter">: </span><span class="description">subtract a scalar constant from each element in a one-dimensional single-precision floating-point ndarray.</span>
 -   <span class="signature">[`szeroTo( arrays )`][@stdlib/blas/ext/base/ndarray/szero-to]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional single-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from zero.</span>
+-   <span class="signature">[`zaxpb( arrays )`][@stdlib/blas/ext/base/ndarray/zaxpb]</span><span class="delimiter">: </span><span class="description">multiply each element in a one-dimensional double-precision complex floating-point ndarray by a scalar constant and add a scalar constant to each result.</span>
 -   <span class="signature">[`zindexOf( arrays )`][@stdlib/blas/ext/base/ndarray/zindex-of]</span><span class="delimiter">: </span><span class="description">return the first index of a search element in a one-dimensional double-precision complex floating-point ndarray.</span>
 -   <span class="signature">[`zoneTo( arrays )`][@stdlib/blas/ext/base/ndarray/zone-to]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional double-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from one.</span>
 -   <span class="signature">[`zsum( arrays )`][@stdlib/blas/ext/base/ndarray/zsum]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional double-precision complex floating-point ndarray.</span>
 -   <span class="signature">[`zsumkbn( arrays )`][@stdlib/blas/ext/base/ndarray/zsumkbn]</span><span class="delimiter">: </span><span class="description">compute the sum of all elements in a one-dimensional double-precision complex floating-point ndarray using an improved Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`zunitspace( arrays )`][@stdlib/blas/ext/base/ndarray/zunitspace]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional double-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from a specified value.</span>
+-   <span class="signature">[`zxsa( arrays )`][@stdlib/blas/ext/base/ndarray/zxsa]</span><span class="delimiter">: </span><span class="description">subtract a scalar constant from each element in a one-dimensional double-precision complex floating-point ndarray.</span>
 -   <span class="signature">[`zzeroTo( arrays )`][@stdlib/blas/ext/base/ndarray/zzero-to]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional double-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from zero.</span>
 
 </div>
@@ -294,6 +298,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/blas/ext/base/ndarray/cunitspace]: https://github.com/stdlib-js/blas-ext-base-ndarray-cunitspace
 
+[@stdlib/blas/ext/base/ndarray/cxsa]: https://github.com/stdlib-js/blas-ext-base-ndarray-cxsa
+
 [@stdlib/blas/ext/base/ndarray/czero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-czero-to
 
 [@stdlib/blas/ext/base/ndarray/daxpb]: https://github.com/stdlib-js/blas-ext-base-ndarray-daxpb
@@ -351,6 +357,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/ndarray/dxsa]: https://github.com/stdlib-js/blas-ext-base-ndarray-dxsa
 
 [@stdlib/blas/ext/base/ndarray/dzero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-dzero-to
+
+[@stdlib/blas/ext/base/ndarray/gaxpb]: https://github.com/stdlib-js/blas-ext-base-ndarray-gaxpb
 
 [@stdlib/blas/ext/base/ndarray/gcircshift]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcircshift
 
@@ -458,6 +466,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/blas/ext/base/ndarray/szero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-szero-to
 
+[@stdlib/blas/ext/base/ndarray/zaxpb]: https://github.com/stdlib-js/blas-ext-base-ndarray-zaxpb
+
 [@stdlib/blas/ext/base/ndarray/zindex-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-zindex-of
 
 [@stdlib/blas/ext/base/ndarray/zone-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-zone-to
@@ -467,6 +477,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/ndarray/zsumkbn]: https://github.com/stdlib-js/blas-ext-base-ndarray-zsumkbn
 
 [@stdlib/blas/ext/base/ndarray/zunitspace]: https://github.com/stdlib-js/blas-ext-base-ndarray-zunitspace
+
+[@stdlib/blas/ext/base/ndarray/zxsa]: https://github.com/stdlib-js/blas-ext-base-ndarray-zxsa
 
 [@stdlib/blas/ext/base/ndarray/zzero-to]: https://github.com/stdlib-js/blas-ext-base-ndarray-zzero-to
 

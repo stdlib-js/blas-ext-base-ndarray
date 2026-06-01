@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-31)
+## Unreleased (2026-06-01)
 
 <section class="features">
 
@@ -120,6 +120,7 @@
 
 <details>
 
+-   [`9dd3df6`](https://github.com/stdlib-js/stdlib/commit/9dd3df6b9e0735d6ffe28d6475e1181ac645f2de) - **docs:** update namespace table of contents [(#12416)](https://github.com/stdlib-js/stdlib/pull/12416) _(by stdlib-bot)_
 -   [`f18c78a`](https://github.com/stdlib-js/stdlib/commit/f18c78abdf6b01a85fbe0922d5569c355e8fc744) - **feat:** add `zxsa` to namespace _(by Athan Reines)_
 -   [`0e3aa56`](https://github.com/stdlib-js/stdlib/commit/0e3aa564804ba57767b8d5859073eadf05fda6d0) - **test:** fix complex array assertions [(#12409)](https://github.com/stdlib-js/stdlib/pull/12409) _(by Karan Anand)_
 -   [`298ccaf`](https://github.com/stdlib-js/stdlib/commit/298ccaf6055bcaa44dadb1e334bc5b4c827dc9dc) - **test:** add element comments and sentinel values to `blas/ext/base/ndarray/zxsa` [(#12408)](https://github.com/stdlib-js/stdlib/pull/12408) _(by Karan Anand)_
