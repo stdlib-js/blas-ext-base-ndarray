@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-01)
+## Unreleased (2026-06-02)
 
 <section class="features">
 
@@ -122,6 +122,7 @@
 
 <details>
 
+-   [`f7eebc9`](https://github.com/stdlib-js/stdlib/commit/f7eebc9dd0757b872dc22b1a0eb01c12a7221df8) - **docs:** update namespace table of contents [(#12439)](https://github.com/stdlib-js/stdlib/pull/12439) _(by stdlib-bot)_
 -   [`48eafd9`](https://github.com/stdlib-js/stdlib/commit/48eafd99ff26711d802914a9e850f8d11537c1a6) - **feat:** add `gxsa` to namespace _(by Athan Reines)_
 -   [`3935357`](https://github.com/stdlib-js/stdlib/commit/3935357126f6f4419533562c09d7a54de1e8b70d) - **feat:** add `blas/ext/base/ndarray/gxsa` [(#12417)](https://github.com/stdlib-js/stdlib/pull/12417) _(by Karan Anand)_
 -   [`9dd3df6`](https://github.com/stdlib-js/stdlib/commit/9dd3df6b9e0735d6ffe28d6475e1181ac645f2de) - **docs:** update namespace table of contents [(#12416)](https://github.com/stdlib-js/stdlib/pull/12416) _(by stdlib-bot)_
