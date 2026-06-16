@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-14)
+## Unreleased (2026-06-16)
 
 <section class="features">
 
 ### Features
 
+-   [`eafdf72`](https://github.com/stdlib-js/stdlib/commit/eafdf722458fbde031140158a111fc5d0848f27c) - add `gaxpby` to namespace
+-   [`5b2170f`](https://github.com/stdlib-js/stdlib/commit/5b2170fd17caecbf83aa54bd2d86986ab9c52049) - add `blas/ext/base/ndarray/gaxpby` [(#12866)](https://github.com/stdlib-js/stdlib/pull/12866)
 -   [`3a3602f`](https://github.com/stdlib-js/stdlib/commit/3a3602f19b6b7cac6318f6afd501e604f762111a) - update `blas/ext/base/ndarray` TypeScript declarations [(#12862)](https://github.com/stdlib-js/stdlib/pull/12862)
 -   [`7494322`](https://github.com/stdlib-js/stdlib/commit/74943221b2af4eb0ab11ac2e5dbe77d2b5cd1eb3) - add `caxpby`, `daxpby`, `saxpby`, and `zaxpby` to namespace
 -   [`7338b16`](https://github.com/stdlib-js/stdlib/commit/7338b160a946daaf5622e6a1c486b5e960bfc374) - add `blas/ext/base/ndarray/zaxpby` [(#12712)](https://github.com/stdlib-js/stdlib/pull/12712)
@@ -129,6 +131,9 @@
 
 <details>
 
+-   [`eafdf72`](https://github.com/stdlib-js/stdlib/commit/eafdf722458fbde031140158a111fc5d0848f27c) - **feat:** add `gaxpby` to namespace _(by Athan Reines)_
+-   [`fcca435`](https://github.com/stdlib-js/stdlib/commit/fcca4355ad6d547eb04701c573cd151fe74adf88) - **docs:** update `blas/ext/base/ndarray` scalar helper imports [(#12880)](https://github.com/stdlib-js/stdlib/pull/12880) _(by Karan Anand)_
+-   [`5b2170f`](https://github.com/stdlib-js/stdlib/commit/5b2170fd17caecbf83aa54bd2d86986ab9c52049) - **feat:** add `blas/ext/base/ndarray/gaxpby` [(#12866)](https://github.com/stdlib-js/stdlib/pull/12866) _(by Karan Anand, Athan Reines)_
 -   [`9e6c578`](https://github.com/stdlib-js/stdlib/commit/9e6c578d92e5a56efc80e63a5078ac131c55e569) - **docs:** update namespace table of contents [(#12864)](https://github.com/stdlib-js/stdlib/pull/12864) _(by stdlib-bot)_
 -   [`3a3602f`](https://github.com/stdlib-js/stdlib/commit/3a3602f19b6b7cac6318f6afd501e604f762111a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12862)](https://github.com/stdlib-js/stdlib/pull/12862) _(by stdlib-bot)_
 -   [`7494322`](https://github.com/stdlib-js/stdlib/commit/74943221b2af4eb0ab11ac2e5dbe77d2b5cd1eb3) - **feat:** add `caxpby`, `daxpby`, `saxpby`, and `zaxpby` to namespace _(by Athan Reines)_
