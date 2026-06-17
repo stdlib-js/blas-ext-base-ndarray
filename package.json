@@ -53,6 +53,7 @@
     "@stdlib/blas-ext-base-ndarray-dcusumkbn2": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-dcusumors": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-dcusumpw": "^0.1.1",
+    "@stdlib/blas-ext-base-ndarray-ddiff": "github:stdlib-js/blas-ext-base-ndarray-ddiff#main",
     "@stdlib/blas-ext-base-ndarray-dindex-of": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-dlast-index-of": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-dlinspace": "^0.1.1",
