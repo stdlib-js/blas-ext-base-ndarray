@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-06-17)
 
 <section class="features">
 
 ### Features
 
+-   [`9e7300a`](https://github.com/stdlib-js/stdlib/commit/9e7300a53bfd4bc958a24e0aa1818e482660f476) - update `blas/ext/base/ndarray` TypeScript declarations [(#12928)](https://github.com/stdlib-js/stdlib/pull/12928)
+-   [`8498df4`](https://github.com/stdlib-js/stdlib/commit/8498df4dafe6e7bdb6b6bbaffb300e43da0588ba) - add `blas/ext/base/ndarray/ddiff` [(#12870)](https://github.com/stdlib-js/stdlib/pull/12870)
 -   [`eafdf72`](https://github.com/stdlib-js/stdlib/commit/eafdf722458fbde031140158a111fc5d0848f27c) - add `gaxpby` to namespace
 -   [`5b2170f`](https://github.com/stdlib-js/stdlib/commit/5b2170fd17caecbf83aa54bd2d86986ab9c52049) - add `blas/ext/base/ndarray/gaxpby` [(#12866)](https://github.com/stdlib-js/stdlib/pull/12866)
 -   [`3a3602f`](https://github.com/stdlib-js/stdlib/commit/3a3602f19b6b7cac6318f6afd501e604f762111a) - update `blas/ext/base/ndarray` TypeScript declarations [(#12862)](https://github.com/stdlib-js/stdlib/pull/12862)
@@ -131,6 +133,10 @@
 
 <details>
 
+-   [`9e7300a`](https://github.com/stdlib-js/stdlib/commit/9e7300a53bfd4bc958a24e0aa1818e482660f476) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12928)](https://github.com/stdlib-js/stdlib/pull/12928) _(by stdlib-bot)_
+-   [`884245d`](https://github.com/stdlib-js/stdlib/commit/884245d7dd6273d24c89f8f294d6796d65c328c4) - **docs:** update namespace table of contents [(#12931)](https://github.com/stdlib-js/stdlib/pull/12931) _(by stdlib-bot)_
+-   [`45848d1`](https://github.com/stdlib-js/stdlib/commit/45848d1dc0f91c2a851126a53e739375b8e7d67e) - **chore:** clean-up for changes introduced in previous commits [(#12921)](https://github.com/stdlib-js/stdlib/pull/12921) _(by Philipp Burckhardt)_
+-   [`8498df4`](https://github.com/stdlib-js/stdlib/commit/8498df4dafe6e7bdb6b6bbaffb300e43da0588ba) - **feat:** add `blas/ext/base/ndarray/ddiff` [(#12870)](https://github.com/stdlib-js/stdlib/pull/12870) _(by Muhammad Haris, Athan Reines)_
 -   [`eafdf72`](https://github.com/stdlib-js/stdlib/commit/eafdf722458fbde031140158a111fc5d0848f27c) - **feat:** add `gaxpby` to namespace _(by Athan Reines)_
 -   [`fcca435`](https://github.com/stdlib-js/stdlib/commit/fcca4355ad6d547eb04701c573cd151fe74adf88) - **docs:** update `blas/ext/base/ndarray` scalar helper imports [(#12880)](https://github.com/stdlib-js/stdlib/pull/12880) _(by Karan Anand)_
 -   [`5b2170f`](https://github.com/stdlib-js/stdlib/commit/5b2170fd17caecbf83aa54bd2d86986ab9c52049) - **feat:** add `blas/ext/base/ndarray/gaxpby` [(#12866)](https://github.com/stdlib-js/stdlib/pull/12866) _(by Karan Anand, Athan Reines)_
