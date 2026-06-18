@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-17)
+## Unreleased (2026-06-18)
 
 <section class="features">
 
 ### Features
 
+-   [`37e473f`](https://github.com/stdlib-js/stdlib/commit/37e473f40210e8eae7e786ba5b2e67e52c5e3fc6) - update `blas/ext/base/ndarray` TypeScript declarations [(#12944)](https://github.com/stdlib-js/stdlib/pull/12944)
+-   [`bfaddc8`](https://github.com/stdlib-js/stdlib/commit/bfaddc8367ecd7beed039b7ccd3865445cc8a651) - add `blas/ext/base/ndarray/scunone` [(#12887)](https://github.com/stdlib-js/stdlib/pull/12887)
 -   [`07b52ea`](https://github.com/stdlib-js/stdlib/commit/07b52ea9ea981054c92233451fdd5e3a374cd18c) - add `ddiff` to namespace
 -   [`9e7300a`](https://github.com/stdlib-js/stdlib/commit/9e7300a53bfd4bc958a24e0aa1818e482660f476) - update `blas/ext/base/ndarray` TypeScript declarations [(#12928)](https://github.com/stdlib-js/stdlib/pull/12928)
 -   [`8498df4`](https://github.com/stdlib-js/stdlib/commit/8498df4dafe6e7bdb6b6bbaffb300e43da0588ba) - add `blas/ext/base/ndarray/ddiff` [(#12870)](https://github.com/stdlib-js/stdlib/pull/12870)
@@ -134,6 +136,8 @@
 
 <details>
 
+-   [`37e473f`](https://github.com/stdlib-js/stdlib/commit/37e473f40210e8eae7e786ba5b2e67e52c5e3fc6) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12944)](https://github.com/stdlib-js/stdlib/pull/12944) _(by stdlib-bot)_
+-   [`bfaddc8`](https://github.com/stdlib-js/stdlib/commit/bfaddc8367ecd7beed039b7ccd3865445cc8a651) - **feat:** add `blas/ext/base/ndarray/scunone` [(#12887)](https://github.com/stdlib-js/stdlib/pull/12887) _(by Muhammad Haris)_
 -   [`07b52ea`](https://github.com/stdlib-js/stdlib/commit/07b52ea9ea981054c92233451fdd5e3a374cd18c) - **feat:** add `ddiff` to namespace _(by Athan Reines)_
 -   [`9e7300a`](https://github.com/stdlib-js/stdlib/commit/9e7300a53bfd4bc958a24e0aa1818e482660f476) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12928)](https://github.com/stdlib-js/stdlib/pull/12928) _(by stdlib-bot)_
 -   [`884245d`](https://github.com/stdlib-js/stdlib/commit/884245d7dd6273d24c89f8f294d6796d65c328c4) - **docs:** update namespace table of contents [(#12931)](https://github.com/stdlib-js/stdlib/pull/12931) _(by stdlib-bot)_
