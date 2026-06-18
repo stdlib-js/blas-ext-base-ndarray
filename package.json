@@ -109,6 +109,7 @@
     "@stdlib/blas-ext-base-ndarray-saxpb": "github:stdlib-js/blas-ext-base-ndarray-saxpb#main",
     "@stdlib/blas-ext-base-ndarray-saxpby": "github:stdlib-js/blas-ext-base-ndarray-saxpby#main",
     "@stdlib/blas-ext-base-ndarray-scircshift": "github:stdlib-js/blas-ext-base-ndarray-scircshift#main",
+    "@stdlib/blas-ext-base-ndarray-scunone": "github:stdlib-js/blas-ext-base-ndarray-scunone#main",
     "@stdlib/blas-ext-base-ndarray-scusum": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-scusumkbn": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-scusumkbn2": "^0.1.1",
