@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-18)
+## Unreleased (2026-06-19)
 
 <section class="features">
 
 ### Features
 
+-   [`882c6dd`](https://github.com/stdlib-js/stdlib/commit/882c6dd2a6d6740d82f607fb278dc157f708deb0) - update `blas/ext/base/ndarray` TypeScript declarations [(#12961)](https://github.com/stdlib-js/stdlib/pull/12961)
 -   [`9bc3dc8`](https://github.com/stdlib-js/stdlib/commit/9bc3dc8b54f957ac3d0978cf51cbc22c1639716e) - add `scunone` to namespace
 -   [`37e473f`](https://github.com/stdlib-js/stdlib/commit/37e473f40210e8eae7e786ba5b2e67e52c5e3fc6) - update `blas/ext/base/ndarray` TypeScript declarations [(#12944)](https://github.com/stdlib-js/stdlib/pull/12944)
 -   [`bfaddc8`](https://github.com/stdlib-js/stdlib/commit/bfaddc8367ecd7beed039b7ccd3865445cc8a651) - add `blas/ext/base/ndarray/scunone` [(#12887)](https://github.com/stdlib-js/stdlib/pull/12887)
@@ -137,6 +138,7 @@
 
 <details>
 
+-   [`882c6dd`](https://github.com/stdlib-js/stdlib/commit/882c6dd2a6d6740d82f607fb278dc157f708deb0) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12961)](https://github.com/stdlib-js/stdlib/pull/12961) _(by stdlib-bot)_
 -   [`118a1ea`](https://github.com/stdlib-js/stdlib/commit/118a1eaf28afc9be92abb582b8ca43439237d6a7) - **docs:** update namespace table of contents [(#12947)](https://github.com/stdlib-js/stdlib/pull/12947) _(by stdlib-bot)_
 -   [`9bc3dc8`](https://github.com/stdlib-js/stdlib/commit/9bc3dc8b54f957ac3d0978cf51cbc22c1639716e) - **feat:** add `scunone` to namespace _(by Athan Reines)_
 -   [`37e473f`](https://github.com/stdlib-js/stdlib/commit/37e473f40210e8eae7e786ba5b2e67e52c5e3fc6) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12944)](https://github.com/stdlib-js/stdlib/pull/12944) _(by stdlib-bot)_
