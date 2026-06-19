@@ -138,6 +138,7 @@
 
 <details>
 
+-   [`2fbaef4`](https://github.com/stdlib-js/stdlib/commit/2fbaef4857d78ad2adc501f93ae872e44a02df6b) - **docs:** update namespace table of contents [(#12963)](https://github.com/stdlib-js/stdlib/pull/12963) _(by stdlib-bot)_
 -   [`882c6dd`](https://github.com/stdlib-js/stdlib/commit/882c6dd2a6d6740d82f607fb278dc157f708deb0) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12961)](https://github.com/stdlib-js/stdlib/pull/12961) _(by stdlib-bot)_
 -   [`118a1ea`](https://github.com/stdlib-js/stdlib/commit/118a1eaf28afc9be92abb582b8ca43439237d6a7) - **docs:** update namespace table of contents [(#12947)](https://github.com/stdlib-js/stdlib/pull/12947) _(by stdlib-bot)_
 -   [`9bc3dc8`](https://github.com/stdlib-js/stdlib/commit/9bc3dc8b54f957ac3d0978cf51cbc22c1639716e) - **feat:** add `scunone` to namespace _(by Athan Reines)_
