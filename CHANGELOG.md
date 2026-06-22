@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`a1693f8`](https://github.com/stdlib-js/stdlib/commit/a1693f8fea97d0808f8325e0b780126c45ad3e68) - add `zxpy` to namespace
+-   [`bf4aa3e`](https://github.com/stdlib-js/stdlib/commit/bf4aa3e2c46f0218ec550fb1c909ef20eadb6714) - update `blas/ext/base/ndarray` TypeScript declarations [(#13039)](https://github.com/stdlib-js/stdlib/pull/13039)
+-   [`ef06e88`](https://github.com/stdlib-js/stdlib/commit/ef06e88569a1ec15a9fcc15407fc44bbe3916296) - add `blas/ext/base/ndarray/zxpy` [(#13037)](https://github.com/stdlib-js/stdlib/pull/13037)
 -   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - add `cxpy` and `sxpy` to namespace
 -   [`8f77aab`](https://github.com/stdlib-js/stdlib/commit/8f77aabbbbbc2bf52c48d52f12399f39ed28bdc6) - add `blas/ext/base/ndarray/cxpy` [(#13035)](https://github.com/stdlib-js/stdlib/pull/13035)
 -   [`19b7973`](https://github.com/stdlib-js/stdlib/commit/19b79733604d2bee711f83c3a838e6df0c79216a) - add `blas/ext/base/ndarray/sxpy` [(#13034)](https://github.com/stdlib-js/stdlib/pull/13034)
@@ -149,6 +152,10 @@
 
 <details>
 
+-   [`a1693f8`](https://github.com/stdlib-js/stdlib/commit/a1693f8fea97d0808f8325e0b780126c45ad3e68) - **feat:** add `zxpy` to namespace _(by Athan Reines)_
+-   [`bf4aa3e`](https://github.com/stdlib-js/stdlib/commit/bf4aa3e2c46f0218ec550fb1c909ef20eadb6714) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13039)](https://github.com/stdlib-js/stdlib/pull/13039) _(by stdlib-bot)_
+-   [`ef06e88`](https://github.com/stdlib-js/stdlib/commit/ef06e88569a1ec15a9fcc15407fc44bbe3916296) - **feat:** add `blas/ext/base/ndarray/zxpy` [(#13037)](https://github.com/stdlib-js/stdlib/pull/13037) _(by Karan Anand)_
+-   [`ab50f59`](https://github.com/stdlib-js/stdlib/commit/ab50f59f75c9074346747fe1d71fcf55bda1db2f) - **docs:** update Markdown stdlib package URLs [(#13038)](https://github.com/stdlib-js/stdlib/pull/13038) _(by stdlib-bot)_
 -   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - **feat:** add `cxpy` and `sxpy` to namespace _(by Athan Reines)_
 -   [`8f77aab`](https://github.com/stdlib-js/stdlib/commit/8f77aabbbbbc2bf52c48d52f12399f39ed28bdc6) - **feat:** add `blas/ext/base/ndarray/cxpy` [(#13035)](https://github.com/stdlib-js/stdlib/pull/13035) _(by Karan Anand)_
 -   [`19b7973`](https://github.com/stdlib-js/stdlib/commit/19b79733604d2bee711f83c3a838e6df0c79216a) - **feat:** add `blas/ext/base/ndarray/sxpy` [(#13034)](https://github.com/stdlib-js/stdlib/pull/13034) _(by Karan Anand)_

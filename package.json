@@ -147,6 +147,7 @@
     "@stdlib/blas-ext-base-ndarray-zsum": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-zsumkbn": "^0.1.1",
     "@stdlib/blas-ext-base-ndarray-zunitspace": "github:stdlib-js/blas-ext-base-ndarray-zunitspace#main",
+    "@stdlib/blas-ext-base-ndarray-zxpy": "github:stdlib-js/blas-ext-base-ndarray-zxpy#main",
     "@stdlib/blas-ext-base-ndarray-zxsa": "github:stdlib-js/blas-ext-base-ndarray-zxsa#main",
     "@stdlib/blas-ext-base-ndarray-zzero-to": "github:stdlib-js/blas-ext-base-ndarray-zzero-to#main",
     "@stdlib/utils-define-read-only-property": "^0.2.3"
@@ -283,6 +284,7 @@
     "@stdlib/blas-ext-base-zsum": "^0.1.1",
     "@stdlib/blas-ext-base-zsumkbn": "^0.1.1",
     "@stdlib/blas-ext-base-zunitspace": "github:stdlib-js/blas-ext-base-zunitspace#main",
+    "@stdlib/blas-ext-base-zxpy": "github:stdlib-js/blas-ext-base-zxpy#main",
     "@stdlib/blas-ext-base-zxsa": "github:stdlib-js/blas-ext-base-zxsa#main",
     "@stdlib/blas-ext-base-zzero-to": "github:stdlib-js/blas-ext-base-zzero-to#main",
     "@stdlib/complex-float32-ctor": "^0.1.1",
