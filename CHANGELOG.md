@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - add `cxpy` and `sxpy` to namespace
+-   [`8f77aab`](https://github.com/stdlib-js/stdlib/commit/8f77aabbbbbc2bf52c48d52f12399f39ed28bdc6) - add `blas/ext/base/ndarray/cxpy` [(#13035)](https://github.com/stdlib-js/stdlib/pull/13035)
+-   [`19b7973`](https://github.com/stdlib-js/stdlib/commit/19b79733604d2bee711f83c3a838e6df0c79216a) - add `blas/ext/base/ndarray/sxpy` [(#13034)](https://github.com/stdlib-js/stdlib/pull/13034)
 -   [`026754a`](https://github.com/stdlib-js/stdlib/commit/026754aa609cd8aae2f3cc12d3ded66b2a4c6ce0) - add `dxpy` and `gxpy` to namespace
 -   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032)
 -   [`4916a79`](https://github.com/stdlib-js/stdlib/commit/4916a794abe0c977d4257e149a493e988b6dfdba) - add `blas/ext/base/ndarray/gxpy` [(#13031)](https://github.com/stdlib-js/stdlib/pull/13031)
@@ -146,6 +149,9 @@
 
 <details>
 
+-   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - **feat:** add `cxpy` and `sxpy` to namespace _(by Athan Reines)_
+-   [`8f77aab`](https://github.com/stdlib-js/stdlib/commit/8f77aabbbbbc2bf52c48d52f12399f39ed28bdc6) - **feat:** add `blas/ext/base/ndarray/cxpy` [(#13035)](https://github.com/stdlib-js/stdlib/pull/13035) _(by Karan Anand)_
+-   [`19b7973`](https://github.com/stdlib-js/stdlib/commit/19b79733604d2bee711f83c3a838e6df0c79216a) - **feat:** add `blas/ext/base/ndarray/sxpy` [(#13034)](https://github.com/stdlib-js/stdlib/pull/13034) _(by Karan Anand)_
 -   [`026754a`](https://github.com/stdlib-js/stdlib/commit/026754aa609cd8aae2f3cc12d3ded66b2a4c6ce0) - **feat:** add `dxpy` and `gxpy` to namespace _(by Athan Reines)_
 -   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - **feat:** add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032) _(by Karan Anand)_
 -   [`4916a79`](https://github.com/stdlib-js/stdlib/commit/4916a794abe0c977d4257e149a493e988b6dfdba) - **feat:** add `blas/ext/base/ndarray/gxpy` [(#13031)](https://github.com/stdlib-js/stdlib/pull/13031) _(by Karan Anand)_
