@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-21)
+## Unreleased (2026-06-22)
 
 <section class="features">
 
 ### Features
 
+-   [`026754a`](https://github.com/stdlib-js/stdlib/commit/026754aa609cd8aae2f3cc12d3ded66b2a4c6ce0) - add `dxpy` and `gxpy` to namespace
+-   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032)
+-   [`4916a79`](https://github.com/stdlib-js/stdlib/commit/4916a794abe0c977d4257e149a493e988b6dfdba) - add `blas/ext/base/ndarray/gxpy` [(#13031)](https://github.com/stdlib-js/stdlib/pull/13031)
 -   [`5609f46`](https://github.com/stdlib-js/stdlib/commit/5609f46b441850c67aa6d22f3f023953bf2f2461) - add `gindexOfTruthy`, `gindexOfFalsy`, and `dindexOfFalsy` to namespace
 -   [`99dac60`](https://github.com/stdlib-js/stdlib/commit/99dac6017130f2cd82a68b6772016bd3128245d3) - add `blas/ext/base/ndarray/gindex-of-truthy` [(#12998)](https://github.com/stdlib-js/stdlib/pull/12998)
 -   [`24ae0ea`](https://github.com/stdlib-js/stdlib/commit/24ae0ea1e48f8fe8cfbcefbedbc395c590da1082) - add `blas/ext/base/ndarray/dindex-of-falsy` [(#12993)](https://github.com/stdlib-js/stdlib/pull/12993)
@@ -143,6 +146,10 @@
 
 <details>
 
+-   [`026754a`](https://github.com/stdlib-js/stdlib/commit/026754aa609cd8aae2f3cc12d3ded66b2a4c6ce0) - **feat:** add `dxpy` and `gxpy` to namespace _(by Athan Reines)_
+-   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - **feat:** add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032) _(by Karan Anand)_
+-   [`4916a79`](https://github.com/stdlib-js/stdlib/commit/4916a794abe0c977d4257e149a493e988b6dfdba) - **feat:** add `blas/ext/base/ndarray/gxpy` [(#13031)](https://github.com/stdlib-js/stdlib/pull/13031) _(by Karan Anand)_
+-   [`a876b5e`](https://github.com/stdlib-js/stdlib/commit/a876b5e1601b2a3468f428578c03f617504db8d5) - **chore:** follow-up fixes for prior commits [(#13014)](https://github.com/stdlib-js/stdlib/pull/13014) _(by Philipp Burckhardt)_
 -   [`5609f46`](https://github.com/stdlib-js/stdlib/commit/5609f46b441850c67aa6d22f3f023953bf2f2461) - **feat:** add `gindexOfTruthy`, `gindexOfFalsy`, and `dindexOfFalsy` to namespace _(by Athan Reines)_
 -   [`99dac60`](https://github.com/stdlib-js/stdlib/commit/99dac6017130f2cd82a68b6772016bd3128245d3) - **feat:** add `blas/ext/base/ndarray/gindex-of-truthy` [(#12998)](https://github.com/stdlib-js/stdlib/pull/12998) _(by Muhammad Haris, Athan Reines)_
 -   [`b3383d1`](https://github.com/stdlib-js/stdlib/commit/b3383d1340434b809dd7c2d73664293f5a29e948) - **fix:** use correct element type _(by Athan Reines)_
