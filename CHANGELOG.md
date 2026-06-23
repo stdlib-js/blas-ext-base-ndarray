@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-22)
+## Unreleased (2026-06-23)
 
 <section class="features">
 
 ### Features
 
+-   [`4c3293f`](https://github.com/stdlib-js/stdlib/commit/4c3293f70b23dcec6671641de8f6ed28bb8368e3) - update `blas/ext/base/ndarray` TypeScript declarations [(#13074)](https://github.com/stdlib-js/stdlib/pull/13074)
 -   [`a1693f8`](https://github.com/stdlib-js/stdlib/commit/a1693f8fea97d0808f8325e0b780126c45ad3e68) - add `zxpy` to namespace
 -   [`bf4aa3e`](https://github.com/stdlib-js/stdlib/commit/bf4aa3e2c46f0218ec550fb1c909ef20eadb6714) - update `blas/ext/base/ndarray` TypeScript declarations [(#13039)](https://github.com/stdlib-js/stdlib/pull/13039)
 -   [`ef06e88`](https://github.com/stdlib-js/stdlib/commit/ef06e88569a1ec15a9fcc15407fc44bbe3916296) - add `blas/ext/base/ndarray/zxpy` [(#13037)](https://github.com/stdlib-js/stdlib/pull/13037)
@@ -152,6 +153,9 @@
 
 <details>
 
+-   [`4c3293f`](https://github.com/stdlib-js/stdlib/commit/4c3293f70b23dcec6671641de8f6ed28bb8368e3) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13074)](https://github.com/stdlib-js/stdlib/pull/13074) _(by stdlib-bot)_
+-   [`fb7ba7a`](https://github.com/stdlib-js/stdlib/commit/fb7ba7aa301480bcab339b75cc7562966292e365) - **docs:** update namespace table of contents [(#13079)](https://github.com/stdlib-js/stdlib/pull/13079) _(by stdlib-bot)_
+-   [`d826990`](https://github.com/stdlib-js/stdlib/commit/d826990e554527589aae2026d63c616d8663f05f) - **docs:** update function descriptions [(#13044)](https://github.com/stdlib-js/stdlib/pull/13044) _(by Karan Anand)_
 -   [`6a301dd`](https://github.com/stdlib-js/stdlib/commit/6a301ddefd0cf3bd4c05b26ff69aaaebaa356b83) - **docs:** update namespace table of contents [(#13043)](https://github.com/stdlib-js/stdlib/pull/13043) _(by stdlib-bot)_
 -   [`a1693f8`](https://github.com/stdlib-js/stdlib/commit/a1693f8fea97d0808f8325e0b780126c45ad3e68) - **feat:** add `zxpy` to namespace _(by Athan Reines)_
 -   [`bf4aa3e`](https://github.com/stdlib-js/stdlib/commit/bf4aa3e2c46f0218ec550fb1c909ef20eadb6714) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13039)](https://github.com/stdlib-js/stdlib/pull/13039) _(by stdlib-bot)_
