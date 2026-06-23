@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - add `cxsy` and `zxsy` to namespace
+-   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082)
+-   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081)
 -   [`2cf02f1`](https://github.com/stdlib-js/stdlib/commit/2cf02f163d47f46ab7ac02a78b2feeb1e089c419) - add `dxsy`, `gxsy`, and `sxsy` to namespace
 -   [`4d22f38`](https://github.com/stdlib-js/stdlib/commit/4d22f38cd1c2d00c47e20eca23ed6fd12cf517a5) - add `blas/ext/base/ndarray/gxsy` [(#13041)](https://github.com/stdlib-js/stdlib/pull/13041)
 -   [`beecc92`](https://github.com/stdlib-js/stdlib/commit/beecc92a0cb588375fa43a0e028151bd164ef99b) - add `blas/ext/base/ndarray/dxsy` [(#13045)](https://github.com/stdlib-js/stdlib/pull/13045)
@@ -157,6 +160,9 @@
 
 <details>
 
+-   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - **feat:** add `cxsy` and `zxsy` to namespace _(by Athan Reines)_
+-   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - **feat:** add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082) _(by Karan Anand)_
+-   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - **feat:** add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081) _(by Karan Anand)_
 -   [`2cf02f1`](https://github.com/stdlib-js/stdlib/commit/2cf02f163d47f46ab7ac02a78b2feeb1e089c419) - **feat:** add `dxsy`, `gxsy`, and `sxsy` to namespace _(by Athan Reines)_
 -   [`4d22f38`](https://github.com/stdlib-js/stdlib/commit/4d22f38cd1c2d00c47e20eca23ed6fd12cf517a5) - **feat:** add `blas/ext/base/ndarray/gxsy` [(#13041)](https://github.com/stdlib-js/stdlib/pull/13041) _(by Karan Anand)_
 -   [`75fa3bf`](https://github.com/stdlib-js/stdlib/commit/75fa3bfd4969f4453369d4f5d8e32be7ec32e8cd) - **docs:** update descriptions and example [(#13059)](https://github.com/stdlib-js/stdlib/pull/13059) _(by Philipp Burckhardt)_
