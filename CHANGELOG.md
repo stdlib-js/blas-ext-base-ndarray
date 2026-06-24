@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-23)
+## Unreleased (2026-06-24)
 
 <section class="features">
 
 ### Features
 
+-   [`1fbfb26`](https://github.com/stdlib-js/stdlib/commit/1fbfb26cfc749fe945b5f5063614591e3452efe5) - update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099)
 -   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - add `cxsy` and `zxsy` to namespace
 -   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082)
 -   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081)
@@ -160,6 +161,8 @@
 
 <details>
 
+-   [`1fbfb26`](https://github.com/stdlib-js/stdlib/commit/1fbfb26cfc749fe945b5f5063614591e3452efe5) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099) _(by stdlib-bot)_
+-   [`d7a14c5`](https://github.com/stdlib-js/stdlib/commit/d7a14c565535f33ebb04986642388d5d81008271) - **docs:** update namespace table of contents [(#13102)](https://github.com/stdlib-js/stdlib/pull/13102) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - **feat:** add `cxsy` and `zxsy` to namespace _(by Athan Reines)_
 -   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - **feat:** add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082) _(by Karan Anand)_
 -   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - **feat:** add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081) _(by Karan Anand)_
