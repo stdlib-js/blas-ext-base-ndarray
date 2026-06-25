@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-06-25)
 
 <section class="features">
 
 ### Features
 
+-   [`044ad8b`](https://github.com/stdlib-js/stdlib/commit/044ad8bfa193804089dfe0c3ed6792cb8aa08dcd) - update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099)
 -   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - add `cxsy` and `zxsy` to namespace
 -   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082)
 -   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081)
@@ -146,6 +147,7 @@
 
 ### Bug Fixes
 
+-   [`92b5eb4`](https://github.com/stdlib-js/stdlib/commit/92b5eb479a9ba6d3fe4f722d2f1b47e61a03122c) - use correct argument during error message interpolation and update descriptions [(#13105)](https://github.com/stdlib-js/stdlib/pull/13105)
 -   [`b3383d1`](https://github.com/stdlib-js/stdlib/commit/b3383d1340434b809dd7c2d73664293f5a29e948) - use correct element type
 -   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum`
 -   [`60fcd9d`](https://github.com/stdlib-js/stdlib/commit/60fcd9dc51b43ad76b1b14e6d7b4c30a5670114a) - improve type specificity
@@ -160,7 +162,11 @@
 
 <details>
 
--   [`d7a14c5`](https://github.com/stdlib-js/stdlib/commit/d7a14c565535f33ebb04986642388d5d81008271) - **docs:** update namespace table of contents [(#13102)](https://github.com/stdlib-js/stdlib/pull/13102) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`92b5eb4`](https://github.com/stdlib-js/stdlib/commit/92b5eb479a9ba6d3fe4f722d2f1b47e61a03122c) - **fix:** use correct argument during error message interpolation and update descriptions [(#13105)](https://github.com/stdlib-js/stdlib/pull/13105) _(by Philipp Burckhardt)_
+-   [`b52a4cb`](https://github.com/stdlib-js/stdlib/commit/b52a4cb5aeacbab2ab682e5d1cce3ed69d97dc2f) - **docs:** update descriptions _(by Athan Reines)_
+-   [`2d5b8a4`](https://github.com/stdlib-js/stdlib/commit/2d5b8a469e9c931bdb18722c8c6bf3583027b527) - **docs:** update Markdown stdlib package URLs [(#13098)](https://github.com/stdlib-js/stdlib/pull/13098) _(by stdlib-bot)_
+-   [`044ad8b`](https://github.com/stdlib-js/stdlib/commit/044ad8bfa193804089dfe0c3ed6792cb8aa08dcd) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099) _(by stdlib-bot)_
+-   [`1d854da`](https://github.com/stdlib-js/stdlib/commit/1d854da49607ee557f130ec91e54ef5112cba630) - **docs:** update namespace table of contents [(#13102)](https://github.com/stdlib-js/stdlib/pull/13102) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - **feat:** add `cxsy` and `zxsy` to namespace _(by Athan Reines)_
 -   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - **feat:** add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082) _(by Karan Anand)_
 -   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - **feat:** add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081) _(by Karan Anand)_
