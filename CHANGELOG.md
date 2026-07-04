@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-29)
+## Unreleased (2026-07-04)
 
 <section class="features">
 
@@ -162,6 +162,7 @@
 
 <details>
 
+-   [`06a4c2a`](https://github.com/stdlib-js/stdlib/commit/06a4c2a688d19743d078d6956af415b635579199) - **docs:** update descriptions [(#13258)](https://github.com/stdlib-js/stdlib/pull/13258) _(by Philipp Burckhardt, Athan Reines)_
 -   [`92b5eb4`](https://github.com/stdlib-js/stdlib/commit/92b5eb479a9ba6d3fe4f722d2f1b47e61a03122c) - **fix:** use correct argument during error message interpolation and update descriptions [(#13105)](https://github.com/stdlib-js/stdlib/pull/13105) _(by Philipp Burckhardt)_
 -   [`b52a4cb`](https://github.com/stdlib-js/stdlib/commit/b52a4cb5aeacbab2ab682e5d1cce3ed69d97dc2f) - **docs:** update descriptions _(by Athan Reines)_
 -   [`2d5b8a4`](https://github.com/stdlib-js/stdlib/commit/2d5b8a469e9c931bdb18722c8c6bf3583027b527) - **docs:** update Markdown stdlib package URLs [(#13098)](https://github.com/stdlib-js/stdlib/pull/13098) _(by stdlib-bot)_
