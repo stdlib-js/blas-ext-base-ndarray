@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-05)
+## Unreleased (2026-07-06)
 
 <section class="features">
 
 ### Features
 
+-   [`555c400`](https://github.com/stdlib-js/stdlib/commit/555c400e40e046884107b497434ffffd6d4cc5fd) - add `dxmy`, `gxmy`, and `sxmy` to namespace
+-   [`dd0ee83`](https://github.com/stdlib-js/stdlib/commit/dd0ee83a47432aed42e12599ec0b92a22acec482) - add `blas/ext/base/ndarray/gxmy` [(#13299)](https://github.com/stdlib-js/stdlib/pull/13299)
+-   [`d3a484b`](https://github.com/stdlib-js/stdlib/commit/d3a484ba7067078dca7245362ee38a1b9ecf7034) - add `blas/ext/base/ndarray/sxmy` [(#13298)](https://github.com/stdlib-js/stdlib/pull/13298)
+-   [`7979ea1`](https://github.com/stdlib-js/stdlib/commit/7979ea11e2fd977fcccbbe697273e1cf0cd515df) - add `blas/ext/base/ndarray/dxmy` [(#13297)](https://github.com/stdlib-js/stdlib/pull/13297)
 -   [`044ad8b`](https://github.com/stdlib-js/stdlib/commit/044ad8bfa193804089dfe0c3ed6792cb8aa08dcd) - update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099)
 -   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - add `cxsy` and `zxsy` to namespace
 -   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082)
@@ -162,6 +166,10 @@
 
 <details>
 
+-   [`555c400`](https://github.com/stdlib-js/stdlib/commit/555c400e40e046884107b497434ffffd6d4cc5fd) - **feat:** add `dxmy`, `gxmy`, and `sxmy` to namespace _(by Athan Reines)_
+-   [`dd0ee83`](https://github.com/stdlib-js/stdlib/commit/dd0ee83a47432aed42e12599ec0b92a22acec482) - **feat:** add `blas/ext/base/ndarray/gxmy` [(#13299)](https://github.com/stdlib-js/stdlib/pull/13299) _(by Karan Anand)_
+-   [`d3a484b`](https://github.com/stdlib-js/stdlib/commit/d3a484ba7067078dca7245362ee38a1b9ecf7034) - **feat:** add `blas/ext/base/ndarray/sxmy` [(#13298)](https://github.com/stdlib-js/stdlib/pull/13298) _(by Karan Anand)_
+-   [`7979ea1`](https://github.com/stdlib-js/stdlib/commit/7979ea11e2fd977fcccbbe697273e1cf0cd515df) - **feat:** add `blas/ext/base/ndarray/dxmy` [(#13297)](https://github.com/stdlib-js/stdlib/pull/13297) _(by Karan Anand)_
 -   [`26f6338`](https://github.com/stdlib-js/stdlib/commit/26f63380e6d7f701abbdc1761a3a86a0595dd958) - **docs:** update namespace table of contents [(#13277)](https://github.com/stdlib-js/stdlib/pull/13277) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`06a4c2a`](https://github.com/stdlib-js/stdlib/commit/06a4c2a688d19743d078d6956af415b635579199) - **docs:** update descriptions [(#13258)](https://github.com/stdlib-js/stdlib/pull/13258) _(by Philipp Burckhardt, Athan Reines)_
 -   [`92b5eb4`](https://github.com/stdlib-js/stdlib/commit/92b5eb479a9ba6d3fe4f722d2f1b47e61a03122c) - **fix:** use correct argument during error message interpolation and update descriptions [(#13105)](https://github.com/stdlib-js/stdlib/pull/13105) _(by Philipp Burckhardt)_
