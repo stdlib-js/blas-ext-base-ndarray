@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-07)
+## Unreleased (2026-07-08)
 
 <section class="features">
 
 ### Features
 
+-   [`bb93e56`](https://github.com/stdlib-js/stdlib/commit/bb93e568471ae6a13b42c4dd2b519b88dc7d0028) - add `cxmy` and `zxmy` to namespace
+-   [`41ba398`](https://github.com/stdlib-js/stdlib/commit/41ba39852bc5480c16acd778911ab1e921a1df32) - add `blas/ext/base/ndarray/cxmy` [(#13300)](https://github.com/stdlib-js/stdlib/pull/13300)
+-   [`f1c7e3f`](https://github.com/stdlib-js/stdlib/commit/f1c7e3f164551ff6275f36052ab82bacafdd69ca) - add `blas/ext/base/ndarray/zxmy` [(#13301)](https://github.com/stdlib-js/stdlib/pull/13301)
+-   [`528f13a`](https://github.com/stdlib-js/stdlib/commit/528f13a49d359a17a1adc57d4d39b9f6718c408b) - update `blas/ext/base/ndarray` TypeScript declarations [(#13347)](https://github.com/stdlib-js/stdlib/pull/13347)
 -   [`555c400`](https://github.com/stdlib-js/stdlib/commit/555c400e40e046884107b497434ffffd6d4cc5fd) - add `dxmy`, `gxmy`, and `sxmy` to namespace
 -   [`dd0ee83`](https://github.com/stdlib-js/stdlib/commit/dd0ee83a47432aed42e12599ec0b92a22acec482) - add `blas/ext/base/ndarray/gxmy` [(#13299)](https://github.com/stdlib-js/stdlib/pull/13299)
 -   [`d3a484b`](https://github.com/stdlib-js/stdlib/commit/d3a484ba7067078dca7245362ee38a1b9ecf7034) - add `blas/ext/base/ndarray/sxmy` [(#13298)](https://github.com/stdlib-js/stdlib/pull/13298)
@@ -166,6 +170,10 @@
 
 <details>
 
+-   [`bb93e56`](https://github.com/stdlib-js/stdlib/commit/bb93e568471ae6a13b42c4dd2b519b88dc7d0028) - **feat:** add `cxmy` and `zxmy` to namespace _(by Athan Reines)_
+-   [`41ba398`](https://github.com/stdlib-js/stdlib/commit/41ba39852bc5480c16acd778911ab1e921a1df32) - **feat:** add `blas/ext/base/ndarray/cxmy` [(#13300)](https://github.com/stdlib-js/stdlib/pull/13300) _(by Karan Anand)_
+-   [`f1c7e3f`](https://github.com/stdlib-js/stdlib/commit/f1c7e3f164551ff6275f36052ab82bacafdd69ca) - **feat:** add `blas/ext/base/ndarray/zxmy` [(#13301)](https://github.com/stdlib-js/stdlib/pull/13301) _(by Karan Anand)_
+-   [`528f13a`](https://github.com/stdlib-js/stdlib/commit/528f13a49d359a17a1adc57d4d39b9f6718c408b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13347)](https://github.com/stdlib-js/stdlib/pull/13347) _(by stdlib-bot)_
 -   [`1d90643`](https://github.com/stdlib-js/stdlib/commit/1d90643c8086210ebcb542d5e71fbdccad868e51) - **docs:** update namespace table of contents [(#13350)](https://github.com/stdlib-js/stdlib/pull/13350) _(by stdlib-bot)_
 -   [`555c400`](https://github.com/stdlib-js/stdlib/commit/555c400e40e046884107b497434ffffd6d4cc5fd) - **feat:** add `dxmy`, `gxmy`, and `sxmy` to namespace _(by Athan Reines)_
 -   [`dd0ee83`](https://github.com/stdlib-js/stdlib/commit/dd0ee83a47432aed42e12599ec0b92a22acec482) - **feat:** add `blas/ext/base/ndarray/gxmy` [(#13299)](https://github.com/stdlib-js/stdlib/pull/13299) _(by Karan Anand)_
