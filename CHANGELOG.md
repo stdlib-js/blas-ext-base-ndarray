@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5ca34e1`](https://github.com/stdlib-js/stdlib/commit/5ca34e1e1bd01241b598bb886ecabd6ba883ef0e) - update `blas/ext/base/ndarray` TypeScript declarations [(#13461)](https://github.com/stdlib-js/stdlib/pull/13461)
 -   [`ea0b2cd`](https://github.com/stdlib-js/stdlib/commit/ea0b2cdf6e87efa81e5eb0f4dd687b293a0e40e1) - add `gfillNotEqual` to namespace
 -   [`7d7370b`](https://github.com/stdlib-js/stdlib/commit/7d7370befa87a49e6f99cc7115cbc04acc3648b6) - add `blas/ext/base/ndarray/gfill-not-equal` [(#13412)](https://github.com/stdlib-js/stdlib/pull/13412)
 -   [`6b6be64`](https://github.com/stdlib-js/stdlib/commit/6b6be6461e4a28602d9b74246203306480689d7c) - update `blas/ext/base/ndarray` TypeScript declarations [(#13382)](https://github.com/stdlib-js/stdlib/pull/13382)
@@ -173,6 +174,7 @@
 
 <details>
 
+-   [`5ca34e1`](https://github.com/stdlib-js/stdlib/commit/5ca34e1e1bd01241b598bb886ecabd6ba883ef0e) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13461)](https://github.com/stdlib-js/stdlib/pull/13461) _(by stdlib-bot)_
 -   [`ea0b2cd`](https://github.com/stdlib-js/stdlib/commit/ea0b2cdf6e87efa81e5eb0f4dd687b293a0e40e1) - **feat:** add `gfillNotEqual` to namespace _(by Athan Reines)_
 -   [`0f24d0d`](https://github.com/stdlib-js/stdlib/commit/0f24d0d9f742c471f083ad6c00df814e05053d12) - **docs:** update descriptions and comments [(#13451)](https://github.com/stdlib-js/stdlib/pull/13451) _(by Philipp Burckhardt)_
 -   [`7d7370b`](https://github.com/stdlib-js/stdlib/commit/7d7370befa87a49e6f99cc7115cbc04acc3648b6) - **feat:** add `blas/ext/base/ndarray/gfill-not-equal` [(#13412)](https://github.com/stdlib-js/stdlib/pull/13412) _(by Muhammad Haris)_
