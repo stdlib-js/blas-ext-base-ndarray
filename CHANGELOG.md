@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-14)
+## Unreleased (2026-07-16)
 
 <section class="features">
 
 ### Features
 
+-   [`44dee83`](https://github.com/stdlib-js/stdlib/commit/44dee832cb6e29bf2d7674dceb8978e3e68613ae) - add `sfillNotEqual` and `dfillNotEqual` to namespace
+-   [`17fa2b7`](https://github.com/stdlib-js/stdlib/commit/17fa2b74b3a31b9042e9d017246dff89b7e8c33a) - add `blas/ext/base/ndarray/dfill-not-equal` [(#13413)](https://github.com/stdlib-js/stdlib/pull/13413)
+-   [`2369938`](https://github.com/stdlib-js/stdlib/commit/2369938272d133d7ea0776230f83674d4d19a9c8) - add `blas/ext/base/ndarray/sfill-not-equal` [(#13414)](https://github.com/stdlib-js/stdlib/pull/13414)
 -   [`5ca34e1`](https://github.com/stdlib-js/stdlib/commit/5ca34e1e1bd01241b598bb886ecabd6ba883ef0e) - update `blas/ext/base/ndarray` TypeScript declarations [(#13461)](https://github.com/stdlib-js/stdlib/pull/13461)
 -   [`ea0b2cd`](https://github.com/stdlib-js/stdlib/commit/ea0b2cdf6e87efa81e5eb0f4dd687b293a0e40e1) - add `gfillNotEqual` to namespace
 -   [`7d7370b`](https://github.com/stdlib-js/stdlib/commit/7d7370befa87a49e6f99cc7115cbc04acc3648b6) - add `blas/ext/base/ndarray/gfill-not-equal` [(#13412)](https://github.com/stdlib-js/stdlib/pull/13412)
@@ -174,6 +177,9 @@
 
 <details>
 
+-   [`44dee83`](https://github.com/stdlib-js/stdlib/commit/44dee832cb6e29bf2d7674dceb8978e3e68613ae) - **feat:** add `sfillNotEqual` and `dfillNotEqual` to namespace _(by Athan Reines)_
+-   [`17fa2b7`](https://github.com/stdlib-js/stdlib/commit/17fa2b74b3a31b9042e9d017246dff89b7e8c33a) - **feat:** add `blas/ext/base/ndarray/dfill-not-equal` [(#13413)](https://github.com/stdlib-js/stdlib/pull/13413) _(by Muhammad Haris)_
+-   [`2369938`](https://github.com/stdlib-js/stdlib/commit/2369938272d133d7ea0776230f83674d4d19a9c8) - **feat:** add `blas/ext/base/ndarray/sfill-not-equal` [(#13414)](https://github.com/stdlib-js/stdlib/pull/13414) _(by Muhammad Haris)_
 -   [`462801a`](https://github.com/stdlib-js/stdlib/commit/462801a8eb3659986bb713f55cb923faa976d881) - **docs:** update namespace table of contents [(#13465)](https://github.com/stdlib-js/stdlib/pull/13465) _(by stdlib-bot)_
 -   [`5ca34e1`](https://github.com/stdlib-js/stdlib/commit/5ca34e1e1bd01241b598bb886ecabd6ba883ef0e) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13461)](https://github.com/stdlib-js/stdlib/pull/13461) _(by stdlib-bot)_
 -   [`ea0b2cd`](https://github.com/stdlib-js/stdlib/commit/ea0b2cdf6e87efa81e5eb0f4dd687b293a0e40e1) - **feat:** add `gfillNotEqual` to namespace _(by Athan Reines)_
