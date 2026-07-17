@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-16)
+## Unreleased (2026-07-17)
 
 <section class="features">
 
 ### Features
 
+-   [`58b7b90`](https://github.com/stdlib-js/stdlib/commit/58b7b9015fde01541172c02f046f84f28e10dc68) - update `blas/ext/base/ndarray` TypeScript declarations [(#13513)](https://github.com/stdlib-js/stdlib/pull/13513)
 -   [`44dee83`](https://github.com/stdlib-js/stdlib/commit/44dee832cb6e29bf2d7674dceb8978e3e68613ae) - add `sfillNotEqual` and `dfillNotEqual` to namespace
 -   [`17fa2b7`](https://github.com/stdlib-js/stdlib/commit/17fa2b74b3a31b9042e9d017246dff89b7e8c33a) - add `blas/ext/base/ndarray/dfill-not-equal` [(#13413)](https://github.com/stdlib-js/stdlib/pull/13413)
 -   [`2369938`](https://github.com/stdlib-js/stdlib/commit/2369938272d133d7ea0776230f83674d4d19a9c8) - add `blas/ext/base/ndarray/sfill-not-equal` [(#13414)](https://github.com/stdlib-js/stdlib/pull/13414)
@@ -177,6 +178,7 @@
 
 <details>
 
+-   [`58b7b90`](https://github.com/stdlib-js/stdlib/commit/58b7b9015fde01541172c02f046f84f28e10dc68) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13513)](https://github.com/stdlib-js/stdlib/pull/13513) _(by stdlib-bot)_
 -   [`44dee83`](https://github.com/stdlib-js/stdlib/commit/44dee832cb6e29bf2d7674dceb8978e3e68613ae) - **feat:** add `sfillNotEqual` and `dfillNotEqual` to namespace _(by Athan Reines)_
 -   [`17fa2b7`](https://github.com/stdlib-js/stdlib/commit/17fa2b74b3a31b9042e9d017246dff89b7e8c33a) - **feat:** add `blas/ext/base/ndarray/dfill-not-equal` [(#13413)](https://github.com/stdlib-js/stdlib/pull/13413) _(by Muhammad Haris)_
 -   [`2369938`](https://github.com/stdlib-js/stdlib/commit/2369938272d133d7ea0776230f83674d4d19a9c8) - **feat:** add `blas/ext/base/ndarray/sfill-not-equal` [(#13414)](https://github.com/stdlib-js/stdlib/pull/13414) _(by Muhammad Haris)_
