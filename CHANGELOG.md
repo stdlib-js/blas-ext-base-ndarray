@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-17)
+## Unreleased (2026-07-19)
 
 <section class="features">
 
 ### Features
 
+-   [`160c917`](https://github.com/stdlib-js/stdlib/commit/160c9178e6c3913668f3afd8748c3cf9d62ccc4b) - add `dany`, `gany`, and `sany` to namespace
+-   [`24f73b5`](https://github.com/stdlib-js/stdlib/commit/24f73b54d01b658711f1a5a7476d6d40c529d11d) - add `blas/ext/base/ndarray/sany` [(#13529)](https://github.com/stdlib-js/stdlib/pull/13529)
+-   [`3314d55`](https://github.com/stdlib-js/stdlib/commit/3314d55954420932363b7c696055d7ea3c6274c9) - add `blas/ext/base/ndarray/gany` [(#13534)](https://github.com/stdlib-js/stdlib/pull/13534)
+-   [`8fd9261`](https://github.com/stdlib-js/stdlib/commit/8fd92613a473f36db4bf57fdb6d34b6a0664c2b2) - add `blas/ext/base/ndarray/dany` [(#13530)](https://github.com/stdlib-js/stdlib/pull/13530)
 -   [`58b7b90`](https://github.com/stdlib-js/stdlib/commit/58b7b9015fde01541172c02f046f84f28e10dc68) - update `blas/ext/base/ndarray` TypeScript declarations [(#13513)](https://github.com/stdlib-js/stdlib/pull/13513)
 -   [`44dee83`](https://github.com/stdlib-js/stdlib/commit/44dee832cb6e29bf2d7674dceb8978e3e68613ae) - add `sfillNotEqual` and `dfillNotEqual` to namespace
 -   [`17fa2b7`](https://github.com/stdlib-js/stdlib/commit/17fa2b74b3a31b9042e9d017246dff89b7e8c33a) - add `blas/ext/base/ndarray/dfill-not-equal` [(#13413)](https://github.com/stdlib-js/stdlib/pull/13413)
@@ -178,6 +182,11 @@
 
 <details>
 
+-   [`160c917`](https://github.com/stdlib-js/stdlib/commit/160c9178e6c3913668f3afd8748c3cf9d62ccc4b) - **feat:** add `dany`, `gany`, and `sany` to namespace _(by Athan Reines)_
+-   [`24f73b5`](https://github.com/stdlib-js/stdlib/commit/24f73b54d01b658711f1a5a7476d6d40c529d11d) - **feat:** add `blas/ext/base/ndarray/sany` [(#13529)](https://github.com/stdlib-js/stdlib/pull/13529) _(by Muhammad Haris, Athan Reines)_
+-   [`3314d55`](https://github.com/stdlib-js/stdlib/commit/3314d55954420932363b7c696055d7ea3c6274c9) - **feat:** add `blas/ext/base/ndarray/gany` [(#13534)](https://github.com/stdlib-js/stdlib/pull/13534) _(by Muhammad Haris, Athan Reines)_
+-   [`8fd9261`](https://github.com/stdlib-js/stdlib/commit/8fd92613a473f36db4bf57fdb6d34b6a0664c2b2) - **feat:** add `blas/ext/base/ndarray/dany` [(#13530)](https://github.com/stdlib-js/stdlib/pull/13530) _(by Muhammad Haris, Athan Reines)_
+-   [`f20ee0e`](https://github.com/stdlib-js/stdlib/commit/f20ee0ec83653a2e8d1073b044fb39255c990fbb) - **chore:** clean-up [(#13497)](https://github.com/stdlib-js/stdlib/pull/13497) _(by Philipp Burckhardt, Athan Reines)_
 -   [`75e4560`](https://github.com/stdlib-js/stdlib/commit/75e456086d0770ffc7fff40628d23a48816f4614) - **docs:** update namespace table of contents [(#13515)](https://github.com/stdlib-js/stdlib/pull/13515) _(by stdlib-bot)_
 -   [`58b7b90`](https://github.com/stdlib-js/stdlib/commit/58b7b9015fde01541172c02f046f84f28e10dc68) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13513)](https://github.com/stdlib-js/stdlib/pull/13513) _(by stdlib-bot)_
 -   [`44dee83`](https://github.com/stdlib-js/stdlib/commit/44dee832cb6e29bf2d7674dceb8978e3e68613ae) - **feat:** add `sfillNotEqual` and `dfillNotEqual` to namespace _(by Athan Reines)_
