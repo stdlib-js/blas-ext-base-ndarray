@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-19)
+## Unreleased (2026-07-20)
 
 <section class="features">
 
 ### Features
 
+-   [`3450f46`](https://github.com/stdlib-js/stdlib/commit/3450f464c9e33b8092962c1964043105fa900132) - update `blas/ext/base/ndarray` TypeScript declarations [(#13572)](https://github.com/stdlib-js/stdlib/pull/13572)
 -   [`f30c7d6`](https://github.com/stdlib-js/stdlib/commit/f30c7d6183d3c5163a6a5239e406bcb735868690) - add various symbols to namespace
 -   [`e40a9ef`](https://github.com/stdlib-js/stdlib/commit/e40a9efbd69b97f4564ff23f72c124f10fd2c027) - add `blas/ext/base/ndarray/dfill-equal` [(#13563)](https://github.com/stdlib-js/stdlib/pull/13563)
 -   [`cbdd37a`](https://github.com/stdlib-js/stdlib/commit/cbdd37aceddd4442eff47da66662422f4eb2aa59) - add `blas/ext/base/ndarray/gindex-of-not-equal` [(#13556)](https://github.com/stdlib-js/stdlib/pull/13556)
@@ -188,6 +189,8 @@
 
 <details>
 
+-   [`3450f46`](https://github.com/stdlib-js/stdlib/commit/3450f464c9e33b8092962c1964043105fa900132) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13572)](https://github.com/stdlib-js/stdlib/pull/13572) _(by stdlib-bot)_
+-   [`90b59bc`](https://github.com/stdlib-js/stdlib/commit/90b59bc772f94cd29af6854a219dd77a8197b78d) - **docs:** update namespace table of contents [(#13575)](https://github.com/stdlib-js/stdlib/pull/13575) _(by stdlib-bot)_
 -   [`f30c7d6`](https://github.com/stdlib-js/stdlib/commit/f30c7d6183d3c5163a6a5239e406bcb735868690) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`e40a9ef`](https://github.com/stdlib-js/stdlib/commit/e40a9efbd69b97f4564ff23f72c124f10fd2c027) - **feat:** add `blas/ext/base/ndarray/dfill-equal` [(#13563)](https://github.com/stdlib-js/stdlib/pull/13563) _(by Muhammad Haris, Athan Reines)_
 -   [`cbdd37a`](https://github.com/stdlib-js/stdlib/commit/cbdd37aceddd4442eff47da66662422f4eb2aa59) - **feat:** add `blas/ext/base/ndarray/gindex-of-not-equal` [(#13556)](https://github.com/stdlib-js/stdlib/pull/13556) _(by Muhammad Haris, Athan Reines)_
