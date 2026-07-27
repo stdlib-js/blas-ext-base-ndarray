@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-21)
+## Unreleased (2026-07-27)
 
 <section class="features">
 
 ### Features
 
+-   [`99657f7`](https://github.com/stdlib-js/stdlib/commit/99657f7dca2210ad0b553421f26258c7b629e0a3) - add `dfirstIndexLessThan`, `gfirstIndexLessThan`, `dindexOfNotEqual` to namespace
+-   [`fe25a4b`](https://github.com/stdlib-js/stdlib/commit/fe25a4b46be84e652ad9d48b2937463a10336fda) - add `blas/ext/base/ndarray/dindex-of-not-equal` [(#13559)](https://github.com/stdlib-js/stdlib/pull/13559)
+-   [`ef9df8b`](https://github.com/stdlib-js/stdlib/commit/ef9df8bc3581c73332209cc3a52cd0ad8cbedbec) - add `blas/ext/base/ndarray/dfirst-index-less-than` [(#13597)](https://github.com/stdlib-js/stdlib/pull/13597)
+-   [`bc7c322`](https://github.com/stdlib-js/stdlib/commit/bc7c322891b1c0b758e6aef323b2f22a3bab1500) - add `blas/ext/base/ndarray/gfirst-index-less-than` [(#13596)](https://github.com/stdlib-js/stdlib/pull/13596)
 -   [`b1e5869`](https://github.com/stdlib-js/stdlib/commit/b1e58694eb92fa9db04ae7b584e3ad2b3a6d1fa0) - update `blas/ext/base/ndarray` TypeScript declarations [(#13588)](https://github.com/stdlib-js/stdlib/pull/13588)
 -   [`9a1c7c1`](https://github.com/stdlib-js/stdlib/commit/9a1c7c1fb370e0fab0a7b560a64240682b507186) - add `zxdy` to namespace
 -   [`7dd59f5`](https://github.com/stdlib-js/stdlib/commit/7dd59f5645376fd714344cf7967837491775d4c2) - add `blas/ext/base/ndarray/zxdy` [(#13568)](https://github.com/stdlib-js/stdlib/pull/13568)
@@ -192,6 +196,12 @@
 
 <details>
 
+-   [`99657f7`](https://github.com/stdlib-js/stdlib/commit/99657f7dca2210ad0b553421f26258c7b629e0a3) - **feat:** add `dfirstIndexLessThan`, `gfirstIndexLessThan`, `dindexOfNotEqual` to namespace _(by Athan Reines)_
+-   [`fe25a4b`](https://github.com/stdlib-js/stdlib/commit/fe25a4b46be84e652ad9d48b2937463a10336fda) - **feat:** add `blas/ext/base/ndarray/dindex-of-not-equal` [(#13559)](https://github.com/stdlib-js/stdlib/pull/13559) _(by Muhammad Haris, Athan Reines)_
+-   [`ef9df8b`](https://github.com/stdlib-js/stdlib/commit/ef9df8bc3581c73332209cc3a52cd0ad8cbedbec) - **feat:** add `blas/ext/base/ndarray/dfirst-index-less-than` [(#13597)](https://github.com/stdlib-js/stdlib/pull/13597) _(by Muhammad Haris, Athan Reines)_
+-   [`bc7c322`](https://github.com/stdlib-js/stdlib/commit/bc7c322891b1c0b758e6aef323b2f22a3bab1500) - **feat:** add `blas/ext/base/ndarray/gfirst-index-less-than` [(#13596)](https://github.com/stdlib-js/stdlib/pull/13596) _(by Muhammad Haris, Athan Reines)_
+-   [`4a0c3be`](https://github.com/stdlib-js/stdlib/commit/4a0c3be4719f713b69a8ff6b66cc3b0573bf4444) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`f748b45`](https://github.com/stdlib-js/stdlib/commit/f748b45d1e3b17e3ccbd096268bf186fdeaee5ab) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`b1e5869`](https://github.com/stdlib-js/stdlib/commit/b1e58694eb92fa9db04ae7b584e3ad2b3a6d1fa0) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13588)](https://github.com/stdlib-js/stdlib/pull/13588) _(by stdlib-bot)_
 -   [`3f8fe7f`](https://github.com/stdlib-js/stdlib/commit/3f8fe7fe0c3783141a6bc80690ab78497591323f) - **docs:** update namespace table of contents [(#13591)](https://github.com/stdlib-js/stdlib/pull/13591) _(by stdlib-bot)_
 -   [`9a1c7c1`](https://github.com/stdlib-js/stdlib/commit/9a1c7c1fb370e0fab0a7b560a64240682b507186) - **feat:** add `zxdy` to namespace _(by Athan Reines)_
