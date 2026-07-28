@@ -203,6 +203,7 @@
 
 <details>
 
+-   [`bbf6a5e`](https://github.com/stdlib-js/stdlib/commit/bbf6a5ef5bd087179307dfb6cfccc0320dff80d4) - **docs:** update namespace table of contents [(#13711)](https://github.com/stdlib-js/stdlib/pull/13711) _(by stdlib-bot)_
 -   [`9eee625`](https://github.com/stdlib-js/stdlib/commit/9eee625da3c54f3661b5fee34aa59c5917f391d5) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13708)](https://github.com/stdlib-js/stdlib/pull/13708) _(by stdlib-bot)_
 -   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - **feat:** add `cwxsa`, `dwxsa`, `gwxsa`, `swxsa`, and `zwxsa` to namespace _(by Athan Reines)_
 -   [`7d094cf`](https://github.com/stdlib-js/stdlib/commit/7d094cf3a0884ea538611332e6355facda825489) - **docs:** add link [(#13685)](https://github.com/stdlib-js/stdlib/pull/13685) _(by Karan Anand)_
