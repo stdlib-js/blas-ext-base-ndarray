@@ -141,6 +141,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`gcusumkbn2( arrays )`][@stdlib/blas/ext/base/ndarray/gcusumkbn2]</span><span class="delimiter">: </span><span class="description">compute the cumulative sum of a one-dimensional ndarray using a second-order iterative Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`gcusumors( arrays )`][@stdlib/blas/ext/base/ndarray/gcusumors]</span><span class="delimiter">: </span><span class="description">compute the cumulative sum of a one-dimensional ndarray using ordinary recursive summation.</span>
 -   <span class="signature">[`gcusumpw( arrays )`][@stdlib/blas/ext/base/ndarray/gcusumpw]</span><span class="delimiter">: </span><span class="description">compute the cumulative sum of a one-dimensional ndarray using pairwise summation.</span>
+-   <span class="signature">[`gfillEqual( arrays )`][@stdlib/blas/ext/base/ndarray/gfill-equal]</span><span class="delimiter">: </span><span class="description">replace elements in a one-dimensional ndarray equal to a provided search element with a specified scalar constant.</span>
 -   <span class="signature">[`gfillNotEqual( arrays )`][@stdlib/blas/ext/base/ndarray/gfill-not-equal]</span><span class="delimiter">: </span><span class="description">replace elements in a one-dimensional ndarray not equal to a provided search element with a specified scalar constant.</span>
 -   <span class="signature">[`gfindIndex( arrays, clbk[, thisArg] )`][@stdlib/blas/ext/base/ndarray/gfind-index]</span><span class="delimiter">: </span><span class="description">return the index of the first element in a one-dimensional ndarray which passes a test implemented by a predicate function.</span>
 -   <span class="signature">[`gfindLastIndex( arrays, clbk[, thisArg] )`][@stdlib/blas/ext/base/ndarray/gfind-last-index]</span><span class="delimiter">: </span><span class="description">return the index of the last element in a one-dimensional ndarray which passes a test implemented by a predicate function.</span>
@@ -184,6 +185,7 @@ The namespace exposes the following APIs:
 -   <span class="signature">[`scusumkbn2( arrays )`][@stdlib/blas/ext/base/ndarray/scusumkbn2]</span><span class="delimiter">: </span><span class="description">compute the cumulative sum of a one-dimensional single-precision floating-point ndarray using a second-order iterative Kahan–Babuška algorithm.</span>
 -   <span class="signature">[`scusumors( arrays )`][@stdlib/blas/ext/base/ndarray/scusumors]</span><span class="delimiter">: </span><span class="description">compute the cumulative sum of a one-dimensional single-precision floating-point ndarray using ordinary recursive summation.</span>
 -   <span class="signature">[`sfillNotEqual( arrays )`][@stdlib/blas/ext/base/ndarray/sfill-not-equal]</span><span class="delimiter">: </span><span class="description">replace elements in a one-dimensional single-precision floating-point ndarray not equal to a provided search element with a specified scalar constant.</span>
+-   <span class="signature">[`sindexOfNotEqual( arrays )`][@stdlib/blas/ext/base/ndarray/sindex-of-not-equal]</span><span class="delimiter">: </span><span class="description">return the first index of an element in a one-dimensional single-precision floating-point ndarray which is not equal to a specified search element.</span>
 -   <span class="signature">[`sindexOf( arrays )`][@stdlib/blas/ext/base/ndarray/sindex-of]</span><span class="delimiter">: </span><span class="description">return the first index of a search element in a one-dimensional single-precision floating-point ndarray.</span>
 -   <span class="signature">[`slastIndexOf( arrays )`][@stdlib/blas/ext/base/ndarray/slast-index-of]</span><span class="delimiter">: </span><span class="description">return the last index of a search element in a one-dimensional single-precision floating-point ndarray.</span>
 -   <span class="signature">[`slinspace( arrays )`][@stdlib/blas/ext/base/ndarray/slinspace]</span><span class="delimiter">: </span><span class="description">fill a one-dimensional single-precision floating-point ndarray with linearly spaced values over a specified interval.</span>
@@ -458,6 +460,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/blas/ext/base/ndarray/gcusumpw]: https://github.com/stdlib-js/blas-ext-base-ndarray-gcusumpw
 
+[@stdlib/blas/ext/base/ndarray/gfill-equal]: https://github.com/stdlib-js/blas-ext-base-ndarray-gfill-equal
+
 [@stdlib/blas/ext/base/ndarray/gfill-not-equal]: https://github.com/stdlib-js/blas-ext-base-ndarray-gfill-not-equal
 
 [@stdlib/blas/ext/base/ndarray/gfind-index]: https://github.com/stdlib-js/blas-ext-base-ndarray-gfind-index
@@ -543,6 +547,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/ext/base/ndarray/scusumors]: https://github.com/stdlib-js/blas-ext-base-ndarray-scusumors
 
 [@stdlib/blas/ext/base/ndarray/sfill-not-equal]: https://github.com/stdlib-js/blas-ext-base-ndarray-sfill-not-equal
+
+[@stdlib/blas/ext/base/ndarray/sindex-of-not-equal]: https://github.com/stdlib-js/blas-ext-base-ndarray-sindex-of-not-equal
 
 [@stdlib/blas/ext/base/ndarray/sindex-of]: https://github.com/stdlib-js/blas-ext-base-ndarray-sindex-of
 
