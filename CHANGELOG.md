@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-28)
+## Unreleased (2026-08-01)
 
 <section class="features">
 
 ### Features
 
+-   [`f7f06ec`](https://github.com/stdlib-js/stdlib/commit/f7f06ec06d23b1b67d90d955b32b595a476fb6b3) - add `gfillEqual` and `sindexOfNotEqual` to namespace
+-   [`321bbd8`](https://github.com/stdlib-js/stdlib/commit/321bbd80199d4fc09e59e5d00bd0996fed349005) - add `blas/ext/base/ndarray/sindex-of-not-equal` [(#13560)](https://github.com/stdlib-js/stdlib/pull/13560)
+-   [`bdd912c`](https://github.com/stdlib-js/stdlib/commit/bdd912cecb2c3485281ad3552667b8c1b4a529cb) - add `blas/ext/base/ndarray/gfill-equal` [(#13561)](https://github.com/stdlib-js/stdlib/pull/13561)
 -   [`9eee625`](https://github.com/stdlib-js/stdlib/commit/9eee625da3c54f3661b5fee34aa59c5917f391d5) - update `blas/ext/base/ndarray` TypeScript declarations [(#13708)](https://github.com/stdlib-js/stdlib/pull/13708)
 -   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - add `cwxsa`, `dwxsa`, `gwxsa`, `swxsa`, and `zwxsa` to namespace
 -   [`262e4c6`](https://github.com/stdlib-js/stdlib/commit/262e4c6027e39fba8f8a80b6844369e262bb62a4) - add `blas/ext/base/ndarray/zwxsa` [(#13682)](https://github.com/stdlib-js/stdlib/pull/13682)
@@ -203,6 +206,9 @@
 
 <details>
 
+-   [`f7f06ec`](https://github.com/stdlib-js/stdlib/commit/f7f06ec06d23b1b67d90d955b32b595a476fb6b3) - **feat:** add `gfillEqual` and `sindexOfNotEqual` to namespace _(by Athan Reines)_
+-   [`321bbd8`](https://github.com/stdlib-js/stdlib/commit/321bbd80199d4fc09e59e5d00bd0996fed349005) - **feat:** add `blas/ext/base/ndarray/sindex-of-not-equal` [(#13560)](https://github.com/stdlib-js/stdlib/pull/13560) _(by Muhammad Haris, Athan Reines)_
+-   [`bdd912c`](https://github.com/stdlib-js/stdlib/commit/bdd912cecb2c3485281ad3552667b8c1b4a529cb) - **feat:** add `blas/ext/base/ndarray/gfill-equal` [(#13561)](https://github.com/stdlib-js/stdlib/pull/13561) _(by Muhammad Haris, Athan Reines)_
 -   [`bbf6a5e`](https://github.com/stdlib-js/stdlib/commit/bbf6a5ef5bd087179307dfb6cfccc0320dff80d4) - **docs:** update namespace table of contents [(#13711)](https://github.com/stdlib-js/stdlib/pull/13711) _(by stdlib-bot)_
 -   [`9eee625`](https://github.com/stdlib-js/stdlib/commit/9eee625da3c54f3661b5fee34aa59c5917f391d5) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13708)](https://github.com/stdlib-js/stdlib/pull/13708) _(by stdlib-bot)_
 -   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - **feat:** add `cwxsa`, `dwxsa`, `gwxsa`, `swxsa`, and `zwxsa` to namespace _(by Athan Reines)_
