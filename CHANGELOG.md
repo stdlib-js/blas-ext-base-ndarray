@@ -4,12 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-01)
+## Unreleased (2026-08-04)
 
 <section class="features">
 
 ### Features
 
+-   [`fa48b8a`](https://github.com/stdlib-js/stdlib/commit/fa48b8abe427c09d597ea3fbba4eba244cae31cd) - add various symbols to namespace
+-   [`deb4cc6`](https://github.com/stdlib-js/stdlib/commit/deb4cc6d397356e6bc6523c2ba471a0779588c02) - add `blas/ext/base/ndarray/cindex-of-truthy` [(#13885)](https://github.com/stdlib-js/stdlib/pull/13885)
+-   [`f9cf5fa`](https://github.com/stdlib-js/stdlib/commit/f9cf5fa73ea2476423eab22e31b6972eea1f6760) - add `blas/ext/base/ndarray/zindex-of-truthy` [(#13887)](https://github.com/stdlib-js/stdlib/pull/13887)
+-   [`fa9cd2c`](https://github.com/stdlib-js/stdlib/commit/fa9cd2c7f7d3422b12942d1c65511d422075ee58) - add `blas/ext/base/ndarray/dindex-of-truthy` [(#13881)](https://github.com/stdlib-js/stdlib/pull/13881)
+-   [`7990082`](https://github.com/stdlib-js/stdlib/commit/7990082003e2fed3624714a9d073ea9600a359cc) - add `blas/ext/base/ndarray/sindex-of-truthy` [(#13882)](https://github.com/stdlib-js/stdlib/pull/13882)
+-   [`6628c7e`](https://github.com/stdlib-js/stdlib/commit/6628c7ef569d23c7e469a6d03b0e332dc81a02a3) - update `blas/ext/base/ndarray` TypeScript declarations [(#13821)](https://github.com/stdlib-js/stdlib/pull/13821)
 -   [`f7f06ec`](https://github.com/stdlib-js/stdlib/commit/f7f06ec06d23b1b67d90d955b32b595a476fb6b3) - add `gfillEqual` and `sindexOfNotEqual` to namespace
 -   [`321bbd8`](https://github.com/stdlib-js/stdlib/commit/321bbd80199d4fc09e59e5d00bd0996fed349005) - add `blas/ext/base/ndarray/sindex-of-not-equal` [(#13560)](https://github.com/stdlib-js/stdlib/pull/13560)
 -   [`bdd912c`](https://github.com/stdlib-js/stdlib/commit/bdd912cecb2c3485281ad3552667b8c1b4a529cb) - add `blas/ext/base/ndarray/gfill-equal` [(#13561)](https://github.com/stdlib-js/stdlib/pull/13561)
@@ -206,6 +212,13 @@
 
 <details>
 
+-   [`fa48b8a`](https://github.com/stdlib-js/stdlib/commit/fa48b8abe427c09d597ea3fbba4eba244cae31cd) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`deb4cc6`](https://github.com/stdlib-js/stdlib/commit/deb4cc6d397356e6bc6523c2ba471a0779588c02) - **feat:** add `blas/ext/base/ndarray/cindex-of-truthy` [(#13885)](https://github.com/stdlib-js/stdlib/pull/13885) _(by Muhammad Haris)_
+-   [`f9cf5fa`](https://github.com/stdlib-js/stdlib/commit/f9cf5fa73ea2476423eab22e31b6972eea1f6760) - **feat:** add `blas/ext/base/ndarray/zindex-of-truthy` [(#13887)](https://github.com/stdlib-js/stdlib/pull/13887) _(by Muhammad Haris)_
+-   [`fa9cd2c`](https://github.com/stdlib-js/stdlib/commit/fa9cd2c7f7d3422b12942d1c65511d422075ee58) - **feat:** add `blas/ext/base/ndarray/dindex-of-truthy` [(#13881)](https://github.com/stdlib-js/stdlib/pull/13881) _(by Muhammad Haris)_
+-   [`7990082`](https://github.com/stdlib-js/stdlib/commit/7990082003e2fed3624714a9d073ea9600a359cc) - **feat:** add `blas/ext/base/ndarray/sindex-of-truthy` [(#13882)](https://github.com/stdlib-js/stdlib/pull/13882) _(by Muhammad Haris)_
+-   [`7c04275`](https://github.com/stdlib-js/stdlib/commit/7c04275a9a0843b2031922a8d98af83869d092e7) - **docs:** clean-up [(#13833)](https://github.com/stdlib-js/stdlib/pull/13833) _(by Philipp Burckhardt)_
+-   [`6628c7e`](https://github.com/stdlib-js/stdlib/commit/6628c7ef569d23c7e469a6d03b0e332dc81a02a3) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13821)](https://github.com/stdlib-js/stdlib/pull/13821) _(by stdlib-bot)_
 -   [`23754ee`](https://github.com/stdlib-js/stdlib/commit/23754ee4984d1234aad0ed046a1387232f472ae6) - **docs:** update namespace table of contents [(#13824)](https://github.com/stdlib-js/stdlib/pull/13824) _(by stdlib-bot)_
 -   [`f7f06ec`](https://github.com/stdlib-js/stdlib/commit/f7f06ec06d23b1b67d90d955b32b595a476fb6b3) - **feat:** add `gfillEqual` and `sindexOfNotEqual` to namespace _(by Athan Reines)_
 -   [`321bbd8`](https://github.com/stdlib-js/stdlib/commit/321bbd80199d4fc09e59e5d00bd0996fed349005) - **feat:** add `blas/ext/base/ndarray/sindex-of-not-equal` [(#13560)](https://github.com/stdlib-js/stdlib/pull/13560) _(by Muhammad Haris, Athan Reines)_
