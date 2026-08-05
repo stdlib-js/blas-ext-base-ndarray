@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`75dab5b`](https://github.com/stdlib-js/stdlib/commit/75dab5bc88fd1d882d0e39cbbb63e0c5d81a9b32) - update `blas/ext/base/ndarray` TypeScript declarations [(#13929)](https://github.com/stdlib-js/stdlib/pull/13929)
 -   [`fa48b8a`](https://github.com/stdlib-js/stdlib/commit/fa48b8abe427c09d597ea3fbba4eba244cae31cd) - add various symbols to namespace
 -   [`deb4cc6`](https://github.com/stdlib-js/stdlib/commit/deb4cc6d397356e6bc6523c2ba471a0779588c02) - add `blas/ext/base/ndarray/cindex-of-truthy` [(#13885)](https://github.com/stdlib-js/stdlib/pull/13885)
 -   [`f9cf5fa`](https://github.com/stdlib-js/stdlib/commit/f9cf5fa73ea2476423eab22e31b6972eea1f6760) - add `blas/ext/base/ndarray/zindex-of-truthy` [(#13887)](https://github.com/stdlib-js/stdlib/pull/13887)
@@ -212,6 +213,7 @@
 
 <details>
 
+-   [`75dab5b`](https://github.com/stdlib-js/stdlib/commit/75dab5bc88fd1d882d0e39cbbb63e0c5d81a9b32) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13929)](https://github.com/stdlib-js/stdlib/pull/13929) _(by stdlib-bot)_
 -   [`879f1c8`](https://github.com/stdlib-js/stdlib/commit/879f1c8c38558b441ceed6b0d086e0a715a81c99) - **docs:** update namespace table of contents [(#13932)](https://github.com/stdlib-js/stdlib/pull/13932) _(by stdlib-bot)_
 -   [`fa48b8a`](https://github.com/stdlib-js/stdlib/commit/fa48b8abe427c09d597ea3fbba4eba244cae31cd) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`deb4cc6`](https://github.com/stdlib-js/stdlib/commit/deb4cc6d397356e6bc6523c2ba471a0779588c02) - **feat:** add `blas/ext/base/ndarray/cindex-of-truthy` [(#13885)](https://github.com/stdlib-js/stdlib/pull/13885) _(by Muhammad Haris)_
