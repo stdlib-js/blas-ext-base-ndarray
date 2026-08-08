@@ -4,12 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-07)
+## Unreleased (2026-08-08)
 
 <section class="features">
 
 ### Features
 
+-   [`ed534a5`](https://github.com/stdlib-js/stdlib/commit/ed534a54f1af518e58efa792f366a9293d183212) - add various symbols to namespace
+-   [`5b355d1`](https://github.com/stdlib-js/stdlib/commit/5b355d144a03bc354d1eda469d0f263e02146af8) - add C implementation for `blas/ext/base/ndarray/snansumkbn` [(#14032)](https://github.com/stdlib-js/stdlib/pull/14032)
+-   [`62c3bf3`](https://github.com/stdlib-js/stdlib/commit/62c3bf3e748bd1f0917f7b17b1a3f4a387cdaf39) - add `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14019)](https://github.com/stdlib-js/stdlib/pull/14019)
+-   [`8d72b98`](https://github.com/stdlib-js/stdlib/commit/8d72b98bee671ef70300fae9d60e7247720ad33d) - add `blas/ext/base/ndarray/sfirst-index-less-than` [(#14021)](https://github.com/stdlib-js/stdlib/pull/14021)
+-   [`d91654c`](https://github.com/stdlib-js/stdlib/commit/d91654cdb66fd04d95c0f583311352569c41ab3e) - add `blas/ext/base/ndarray/dlast-index-equal` [(#14024)](https://github.com/stdlib-js/stdlib/pull/14024)
+-   [`2f8f0be`](https://github.com/stdlib-js/stdlib/commit/2f8f0be49ee217957c7cfae99f98072d59770c5a) - add `blas/ext/base/ndarray/glast-index-equal` [(#14023)](https://github.com/stdlib-js/stdlib/pull/14023)
 -   [`4929800`](https://github.com/stdlib-js/stdlib/commit/4929800a100d94e4decad89ef6e4779cd2ed655a) - add `dcopyWithin`, `gcopyWithin`, and `scopyWithin` to namespace
 -   [`0cd0c16`](https://github.com/stdlib-js/stdlib/commit/0cd0c164a01f117ae7bbe3797401749b1f85b3a3) - add `blas/ext/base/ndarray/scopy-within` [(#14006)](https://github.com/stdlib-js/stdlib/pull/14006)
 -   [`3285719`](https://github.com/stdlib-js/stdlib/commit/32857196b6f4dea7b428b5f7fdc26c8b79e7d567) - add `blas/ext/base/ndarray/gcopy-within` [(#14002)](https://github.com/stdlib-js/stdlib/pull/14002)
@@ -217,6 +223,12 @@
 
 <details>
 
+-   [`ed534a5`](https://github.com/stdlib-js/stdlib/commit/ed534a54f1af518e58efa792f366a9293d183212) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`5b355d1`](https://github.com/stdlib-js/stdlib/commit/5b355d144a03bc354d1eda469d0f263e02146af8) - **feat:** add C implementation for `blas/ext/base/ndarray/snansumkbn` [(#14032)](https://github.com/stdlib-js/stdlib/pull/14032) _(by Atharva Patange)_
+-   [`62c3bf3`](https://github.com/stdlib-js/stdlib/commit/62c3bf3e748bd1f0917f7b17b1a3f4a387cdaf39) - **feat:** add `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14019)](https://github.com/stdlib-js/stdlib/pull/14019) _(by Muhammad Haris)_
+-   [`8d72b98`](https://github.com/stdlib-js/stdlib/commit/8d72b98bee671ef70300fae9d60e7247720ad33d) - **feat:** add `blas/ext/base/ndarray/sfirst-index-less-than` [(#14021)](https://github.com/stdlib-js/stdlib/pull/14021) _(by Muhammad Haris)_
+-   [`d91654c`](https://github.com/stdlib-js/stdlib/commit/d91654cdb66fd04d95c0f583311352569c41ab3e) - **feat:** add `blas/ext/base/ndarray/dlast-index-equal` [(#14024)](https://github.com/stdlib-js/stdlib/pull/14024) _(by Muhammad Haris)_
+-   [`2f8f0be`](https://github.com/stdlib-js/stdlib/commit/2f8f0be49ee217957c7cfae99f98072d59770c5a) - **feat:** add `blas/ext/base/ndarray/glast-index-equal` [(#14023)](https://github.com/stdlib-js/stdlib/pull/14023) _(by Muhammad Haris, Athan Reines)_
 -   [`4929800`](https://github.com/stdlib-js/stdlib/commit/4929800a100d94e4decad89ef6e4779cd2ed655a) - **feat:** add `dcopyWithin`, `gcopyWithin`, and `scopyWithin` to namespace _(by Athan Reines)_
 -   [`0cd0c16`](https://github.com/stdlib-js/stdlib/commit/0cd0c164a01f117ae7bbe3797401749b1f85b3a3) - **feat:** add `blas/ext/base/ndarray/scopy-within` [(#14006)](https://github.com/stdlib-js/stdlib/pull/14006) _(by Muhammad Haris)_
 -   [`3285719`](https://github.com/stdlib-js/stdlib/commit/32857196b6f4dea7b428b5f7fdc26c8b79e7d567) - **feat:** add `blas/ext/base/ndarray/gcopy-within` [(#14002)](https://github.com/stdlib-js/stdlib/pull/14002) _(by Muhammad Haris)_
@@ -540,10 +552,11 @@
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Athan Reines
+-   Atharva Patange
 -   AyushiJain18270
 -   Gururaj Gurram
 -   Karan Anand
