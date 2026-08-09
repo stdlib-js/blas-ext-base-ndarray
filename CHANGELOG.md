@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-08)
+## Unreleased (2026-08-09)
 
 <section class="features">
 
@@ -211,6 +211,7 @@
 
 ### Bug Fixes
 
+-   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052)
 -   [`92b5eb4`](https://github.com/stdlib-js/stdlib/commit/92b5eb479a9ba6d3fe4f722d2f1b47e61a03122c) - use correct argument during error message interpolation and update descriptions [(#13105)](https://github.com/stdlib-js/stdlib/pull/13105)
 -   [`b3383d1`](https://github.com/stdlib-js/stdlib/commit/b3383d1340434b809dd7c2d73664293f5a29e948) - use correct element type
 -   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum`
@@ -226,6 +227,9 @@
 
 <details>
 
+-   [`ec0202a`](https://github.com/stdlib-js/stdlib/commit/ec0202a035e395dae873b7b6efc12e0c0ca6caac) - **docs:** update namespace table of contents [(#14083)](https://github.com/stdlib-js/stdlib/pull/14083) _(by stdlib-bot)_
+-   [`91c2fae`](https://github.com/stdlib-js/stdlib/commit/91c2fae9c872e69410f67d10374e65173c67c38d) - **chore:** clean-up [(#14054)](https://github.com/stdlib-js/stdlib/pull/14054) _(by Philipp Burckhardt)_
+-   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - **fix:** pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052) _(by Philipp Burckhardt, Athan Reines)_
 -   [`e364ad8`](https://github.com/stdlib-js/stdlib/commit/e364ad86d18b7d2ca02eeeeffc567de620a84696) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14040)](https://github.com/stdlib-js/stdlib/pull/14040) _(by stdlib-bot)_
 -   [`ec28702`](https://github.com/stdlib-js/stdlib/commit/ec28702dd34b0f1338abc26e8c0c001e73c8cba7) - **feat:** add `gfirstIndexGreaterThan` to namespace _(by Athan Reines)_
 -   [`d87632e`](https://github.com/stdlib-js/stdlib/commit/d87632e1af73ae549bb5c1e30ba8c73427b2eb22) - **feat:** add `blas/ext/base/ndarray/gfirst-index-greater-than` [(#14015)](https://github.com/stdlib-js/stdlib/pull/14015) _(by Muhammad Haris)_
