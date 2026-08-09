@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`2591722`](https://github.com/stdlib-js/stdlib/commit/25917224ea51893f8c3ba4b3d9f8eea0bb6795a3) - add `dtriu` to namespace
+-   [`2e44e74`](https://github.com/stdlib-js/stdlib/commit/2e44e746a2ba82e39926d773524268fac83142f3) - add `blas/ext/base/ndarray/dtriu` [(#14089)](https://github.com/stdlib-js/stdlib/pull/14089)
 -   [`e364ad8`](https://github.com/stdlib-js/stdlib/commit/e364ad86d18b7d2ca02eeeeffc567de620a84696) - update `blas/ext/base/ndarray` TypeScript declarations [(#14040)](https://github.com/stdlib-js/stdlib/pull/14040)
 -   [`ec28702`](https://github.com/stdlib-js/stdlib/commit/ec28702dd34b0f1338abc26e8c0c001e73c8cba7) - add `gfirstIndexGreaterThan` to namespace
 -   [`d87632e`](https://github.com/stdlib-js/stdlib/commit/d87632e1af73ae549bb5c1e30ba8c73427b2eb22) - add `blas/ext/base/ndarray/gfirst-index-greater-than` [(#14015)](https://github.com/stdlib-js/stdlib/pull/14015)
@@ -227,6 +229,8 @@
 
 <details>
 
+-   [`2591722`](https://github.com/stdlib-js/stdlib/commit/25917224ea51893f8c3ba4b3d9f8eea0bb6795a3) - **feat:** add `dtriu` to namespace _(by Athan Reines)_
+-   [`2e44e74`](https://github.com/stdlib-js/stdlib/commit/2e44e746a2ba82e39926d773524268fac83142f3) - **feat:** add `blas/ext/base/ndarray/dtriu` [(#14089)](https://github.com/stdlib-js/stdlib/pull/14089) _(by Kaustubh Patange, Athan Reines)_
 -   [`ec0202a`](https://github.com/stdlib-js/stdlib/commit/ec0202a035e395dae873b7b6efc12e0c0ca6caac) - **docs:** update namespace table of contents [(#14083)](https://github.com/stdlib-js/stdlib/pull/14083) _(by stdlib-bot)_
 -   [`91c2fae`](https://github.com/stdlib-js/stdlib/commit/91c2fae9c872e69410f67d10374e65173c67c38d) - **chore:** clean-up [(#14054)](https://github.com/stdlib-js/stdlib/pull/14054) _(by Philipp Burckhardt)_
 -   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - **fix:** pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052) _(by Philipp Burckhardt, Athan Reines)_
