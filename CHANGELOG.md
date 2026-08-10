@@ -10,6 +10,11 @@
 
 ### Features
 
+-   [`d5388c7`](https://github.com/stdlib-js/stdlib/commit/d5388c7ef6195e13eaf65b0c992f99b6beca3666) - add `dfillNaN`, `gfillNaN`, and `sfillNaN` to namespace
+-   [`57d089d`](https://github.com/stdlib-js/stdlib/commit/57d089d94dab4143f14d3ac7e46a119ae6991ef3) - add `blas/ext/base/ndarray/sfill-nan` [(#14133)](https://github.com/stdlib-js/stdlib/pull/14133)
+-   [`735a941`](https://github.com/stdlib-js/stdlib/commit/735a9411e6b778b641e6eedbb56e7a502adc9a9f) - add `blas/ext/base/ndarray/gfill-nan` [(#14131)](https://github.com/stdlib-js/stdlib/pull/14131)
+-   [`2629048`](https://github.com/stdlib-js/stdlib/commit/2629048890664e4c307094416a57415dd8135a35) - add `blas/ext/base/ndarray/dfill-nan` [(#14132)](https://github.com/stdlib-js/stdlib/pull/14132)
+-   [`1405009`](https://github.com/stdlib-js/stdlib/commit/14050092a81cfd437e12d97426e08b77c6288306) - update `blas/ext/base/ndarray` TypeScript declarations [(#14115)](https://github.com/stdlib-js/stdlib/pull/14115)
 -   [`47fac55`](https://github.com/stdlib-js/stdlib/commit/47fac55c2a9246770f30d4700f65e9972c75c12d) - add `ctriu`, `gtriu`, `striu`, and `ztriu` to namespace
 -   [`9f9dfc5`](https://github.com/stdlib-js/stdlib/commit/9f9dfc5c6df0ec6a5b9752567cdb78812825c93b) - add `blas/ext/base/ndarray/gtriu` [(#14107)](https://github.com/stdlib-js/stdlib/pull/14107)
 -   [`375701a`](https://github.com/stdlib-js/stdlib/commit/375701a0232fa37fdf0a44db0c826b33aca577eb) - add `blas/ext/base/ndarray/ctriu` [(#14104)](https://github.com/stdlib-js/stdlib/pull/14104)
@@ -234,6 +239,12 @@
 
 <details>
 
+-   [`d5388c7`](https://github.com/stdlib-js/stdlib/commit/d5388c7ef6195e13eaf65b0c992f99b6beca3666) - **feat:** add `dfillNaN`, `gfillNaN`, and `sfillNaN` to namespace _(by Athan Reines)_
+-   [`57d089d`](https://github.com/stdlib-js/stdlib/commit/57d089d94dab4143f14d3ac7e46a119ae6991ef3) - **feat:** add `blas/ext/base/ndarray/sfill-nan` [(#14133)](https://github.com/stdlib-js/stdlib/pull/14133) _(by Muhammad Haris)_
+-   [`362ed23`](https://github.com/stdlib-js/stdlib/commit/362ed235c69d59eb98bab5297be26b7261ed120e) - **chore:** clean-up [(#14136)](https://github.com/stdlib-js/stdlib/pull/14136) _(by Philipp Burckhardt)_
+-   [`735a941`](https://github.com/stdlib-js/stdlib/commit/735a9411e6b778b641e6eedbb56e7a502adc9a9f) - **feat:** add `blas/ext/base/ndarray/gfill-nan` [(#14131)](https://github.com/stdlib-js/stdlib/pull/14131) _(by Muhammad Haris, Athan Reines)_
+-   [`2629048`](https://github.com/stdlib-js/stdlib/commit/2629048890664e4c307094416a57415dd8135a35) - **feat:** add `blas/ext/base/ndarray/dfill-nan` [(#14132)](https://github.com/stdlib-js/stdlib/pull/14132) _(by Muhammad Haris)_
+-   [`1405009`](https://github.com/stdlib-js/stdlib/commit/14050092a81cfd437e12d97426e08b77c6288306) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14115)](https://github.com/stdlib-js/stdlib/pull/14115) _(by stdlib-bot)_
 -   [`b1b4f73`](https://github.com/stdlib-js/stdlib/commit/b1b4f730d452ff63a3c56b35f500f67573285aa4) - **docs:** update namespace table of contents [(#14117)](https://github.com/stdlib-js/stdlib/pull/14117) _(by stdlib-bot)_
 -   [`47fac55`](https://github.com/stdlib-js/stdlib/commit/47fac55c2a9246770f30d4700f65e9972c75c12d) - **feat:** add `ctriu`, `gtriu`, `striu`, and `ztriu` to namespace _(by Athan Reines)_
 -   [`9f9dfc5`](https://github.com/stdlib-js/stdlib/commit/9f9dfc5c6df0ec6a5b9752567cdb78812825c93b) - **feat:** add `blas/ext/base/ndarray/gtriu` [(#14107)](https://github.com/stdlib-js/stdlib/pull/14107) _(by Kaustubh Patange, Athan Reines)_
