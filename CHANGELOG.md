@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-10)
+## Unreleased (2026-08-12)
 
 <section class="features">
 
 ### Features
 
+-   [`599080a`](https://github.com/stdlib-js/stdlib/commit/599080aa13ced2667593a4a6d3e6163e529d321c) - update `blas/ext/base/ndarray` TypeScript declarations [(#14158)](https://github.com/stdlib-js/stdlib/pull/14158)
+-   [`a820b8a`](https://github.com/stdlib-js/stdlib/commit/a820b8a361a662f864a2f341873fad4f154ead8b) - add `blas/ext/base/ndarray/sfirst-index-equal` [(#14144)](https://github.com/stdlib-js/stdlib/pull/14144)
 -   [`d5388c7`](https://github.com/stdlib-js/stdlib/commit/d5388c7ef6195e13eaf65b0c992f99b6beca3666) - add `dfillNaN`, `gfillNaN`, and `sfillNaN` to namespace
 -   [`57d089d`](https://github.com/stdlib-js/stdlib/commit/57d089d94dab4143f14d3ac7e46a119ae6991ef3) - add `blas/ext/base/ndarray/sfill-nan` [(#14133)](https://github.com/stdlib-js/stdlib/pull/14133)
 -   [`735a941`](https://github.com/stdlib-js/stdlib/commit/735a9411e6b778b641e6eedbb56e7a502adc9a9f) - add `blas/ext/base/ndarray/gfill-nan` [(#14131)](https://github.com/stdlib-js/stdlib/pull/14131)
@@ -239,6 +241,8 @@
 
 <details>
 
+-   [`599080a`](https://github.com/stdlib-js/stdlib/commit/599080aa13ced2667593a4a6d3e6163e529d321c) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14158)](https://github.com/stdlib-js/stdlib/pull/14158) _(by stdlib-bot)_
+-   [`a820b8a`](https://github.com/stdlib-js/stdlib/commit/a820b8a361a662f864a2f341873fad4f154ead8b) - **feat:** add `blas/ext/base/ndarray/sfirst-index-equal` [(#14144)](https://github.com/stdlib-js/stdlib/pull/14144) _(by Muhammad Haris)_
 -   [`d5388c7`](https://github.com/stdlib-js/stdlib/commit/d5388c7ef6195e13eaf65b0c992f99b6beca3666) - **feat:** add `dfillNaN`, `gfillNaN`, and `sfillNaN` to namespace _(by Athan Reines)_
 -   [`57d089d`](https://github.com/stdlib-js/stdlib/commit/57d089d94dab4143f14d3ac7e46a119ae6991ef3) - **feat:** add `blas/ext/base/ndarray/sfill-nan` [(#14133)](https://github.com/stdlib-js/stdlib/pull/14133) _(by Muhammad Haris)_
 -   [`362ed23`](https://github.com/stdlib-js/stdlib/commit/362ed235c69d59eb98bab5297be26b7261ed120e) - **chore:** clean-up [(#14136)](https://github.com/stdlib-js/stdlib/pull/14136) _(by Philipp Burckhardt)_
