@@ -10,6 +10,14 @@
 
 ### Features
 
+-   [`bce7738`](https://github.com/stdlib-js/stdlib/commit/bce77380bab8cc8ef9780a7d8f645c14641f4afe) - add `gfirstIndexEqual` and `sfirstIndexEqual` to namespace
+-   [`01ca36a`](https://github.com/stdlib-js/stdlib/commit/01ca36acc577f19d513e0a9ddcad8f248cd38623) - add various symbols to namespace
+-   [`e14689c`](https://github.com/stdlib-js/stdlib/commit/e14689c8cb6ec34420e0aa4b54f1f0b40329630e) - add `blas/ext/base/ndarray/dfirst-index-equal` [(#14143)](https://github.com/stdlib-js/stdlib/pull/14143)
+-   [`445c209`](https://github.com/stdlib-js/stdlib/commit/445c2097668e7ff6b25e1c40bceec884d4859456) - add `blas/ext/base/ndarray/gfirst-index-equal` [(#14142)](https://github.com/stdlib-js/stdlib/pull/14142)
+-   [`efcee13`](https://github.com/stdlib-js/stdlib/commit/efcee13a34fd28bfd14c4f23b1670caaa35f7f57) - add `blas/ext/base/ndarray/cfill-equal` [(#14139)](https://github.com/stdlib-js/stdlib/pull/14139)
+-   [`a49b81a`](https://github.com/stdlib-js/stdlib/commit/a49b81adab9582921f4b51ea096f27548d603163) - add `blas/ext/base/ndarray/sfill-equal` [(#14137)](https://github.com/stdlib-js/stdlib/pull/14137)
+-   [`6dbb82e`](https://github.com/stdlib-js/stdlib/commit/6dbb82e35361bbd0dccfe53a7e8ad1985f905157) - add `blas/ext/base/ndarray/zcopy-within` [(#14130)](https://github.com/stdlib-js/stdlib/pull/14130)
+-   [`ba1e337`](https://github.com/stdlib-js/stdlib/commit/ba1e337a36a6f2800cce453d33f0692899b35608) - add `blas/ext/base/ndarray/ccopy-within` [(#14121)](https://github.com/stdlib-js/stdlib/pull/14121)
 -   [`599080a`](https://github.com/stdlib-js/stdlib/commit/599080aa13ced2667593a4a6d3e6163e529d321c) - update `blas/ext/base/ndarray` TypeScript declarations [(#14158)](https://github.com/stdlib-js/stdlib/pull/14158)
 -   [`a820b8a`](https://github.com/stdlib-js/stdlib/commit/a820b8a361a662f864a2f341873fad4f154ead8b) - add `blas/ext/base/ndarray/sfirst-index-equal` [(#14144)](https://github.com/stdlib-js/stdlib/pull/14144)
 -   [`d5388c7`](https://github.com/stdlib-js/stdlib/commit/d5388c7ef6195e13eaf65b0c992f99b6beca3666) - add `dfillNaN`, `gfillNaN`, and `sfillNaN` to namespace
@@ -241,6 +249,14 @@
 
 <details>
 
+-   [`bce7738`](https://github.com/stdlib-js/stdlib/commit/bce77380bab8cc8ef9780a7d8f645c14641f4afe) - **feat:** add `gfirstIndexEqual` and `sfirstIndexEqual` to namespace _(by Athan Reines)_
+-   [`01ca36a`](https://github.com/stdlib-js/stdlib/commit/01ca36acc577f19d513e0a9ddcad8f248cd38623) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`e14689c`](https://github.com/stdlib-js/stdlib/commit/e14689c8cb6ec34420e0aa4b54f1f0b40329630e) - **feat:** add `blas/ext/base/ndarray/dfirst-index-equal` [(#14143)](https://github.com/stdlib-js/stdlib/pull/14143) _(by Muhammad Haris)_
+-   [`445c209`](https://github.com/stdlib-js/stdlib/commit/445c2097668e7ff6b25e1c40bceec884d4859456) - **feat:** add `blas/ext/base/ndarray/gfirst-index-equal` [(#14142)](https://github.com/stdlib-js/stdlib/pull/14142) _(by Muhammad Haris, Athan Reines)_
+-   [`efcee13`](https://github.com/stdlib-js/stdlib/commit/efcee13a34fd28bfd14c4f23b1670caaa35f7f57) - **feat:** add `blas/ext/base/ndarray/cfill-equal` [(#14139)](https://github.com/stdlib-js/stdlib/pull/14139) _(by Muhammad Haris)_
+-   [`a49b81a`](https://github.com/stdlib-js/stdlib/commit/a49b81adab9582921f4b51ea096f27548d603163) - **feat:** add `blas/ext/base/ndarray/sfill-equal` [(#14137)](https://github.com/stdlib-js/stdlib/pull/14137) _(by Muhammad Haris)_
+-   [`6dbb82e`](https://github.com/stdlib-js/stdlib/commit/6dbb82e35361bbd0dccfe53a7e8ad1985f905157) - **feat:** add `blas/ext/base/ndarray/zcopy-within` [(#14130)](https://github.com/stdlib-js/stdlib/pull/14130) _(by Muhammad Haris, Athan Reines)_
+-   [`ba1e337`](https://github.com/stdlib-js/stdlib/commit/ba1e337a36a6f2800cce453d33f0692899b35608) - **feat:** add `blas/ext/base/ndarray/ccopy-within` [(#14121)](https://github.com/stdlib-js/stdlib/pull/14121) _(by Muhammad Haris, Athan Reines)_
 -   [`7026843`](https://github.com/stdlib-js/stdlib/commit/7026843acbef82db73bf6bb972fe23ad1ff6fa67) - **style:** add missing spaces [(#14185)](https://github.com/stdlib-js/stdlib/pull/14185) _(by stdlib-bot)_
 -   [`cb9723a`](https://github.com/stdlib-js/stdlib/commit/cb9723af638d9244ea0b50bcb07c550f13bdedce) - **docs:** update examples [(#14169)](https://github.com/stdlib-js/stdlib/pull/14169) _(by Philipp Burckhardt)_
 -   [`7e9dca6`](https://github.com/stdlib-js/stdlib/commit/7e9dca6eb3e1be487ecc88b9c112529ad552c7c8) - **docs:** update namespace table of contents [(#14160)](https://github.com/stdlib-js/stdlib/pull/14160) _(by stdlib-bot)_
