@@ -241,6 +241,8 @@
 
 <details>
 
+-   [`7026843`](https://github.com/stdlib-js/stdlib/commit/7026843acbef82db73bf6bb972fe23ad1ff6fa67) - **style:** add missing spaces [(#14185)](https://github.com/stdlib-js/stdlib/pull/14185) _(by stdlib-bot)_
+-   [`cb9723a`](https://github.com/stdlib-js/stdlib/commit/cb9723af638d9244ea0b50bcb07c550f13bdedce) - **docs:** update examples [(#14169)](https://github.com/stdlib-js/stdlib/pull/14169) _(by Philipp Burckhardt)_
 -   [`7e9dca6`](https://github.com/stdlib-js/stdlib/commit/7e9dca6eb3e1be487ecc88b9c112529ad552c7c8) - **docs:** update namespace table of contents [(#14160)](https://github.com/stdlib-js/stdlib/pull/14160) _(by stdlib-bot)_
 -   [`599080a`](https://github.com/stdlib-js/stdlib/commit/599080aa13ced2667593a4a6d3e6163e529d321c) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14158)](https://github.com/stdlib-js/stdlib/pull/14158) _(by stdlib-bot)_
 -   [`a820b8a`](https://github.com/stdlib-js/stdlib/commit/a820b8a361a662f864a2f341873fad4f154ead8b) - **feat:** add `blas/ext/base/ndarray/sfirst-index-equal` [(#14144)](https://github.com/stdlib-js/stdlib/pull/14144) _(by Muhammad Haris)_
