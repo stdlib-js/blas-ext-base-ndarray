@@ -10,6 +10,14 @@
 
 ### Features
 
+-   [`18cc6c9`](https://github.com/stdlib-js/stdlib/commit/18cc6c969003812326429219c70e75c83cdc7c88) - add various symbols to namespace
+-   [`3e299e1`](https://github.com/stdlib-js/stdlib/commit/3e299e13834581df8dcfa91a6da50edcfa39bb65) - add `blas/ext/base/ndarray/slast-index-of-falsy` [(#14193)](https://github.com/stdlib-js/stdlib/pull/14193)
+-   [`0e146cd`](https://github.com/stdlib-js/stdlib/commit/0e146cdc2077af101d6b58515a945176422fe537) - add `blas/ext/base/ndarray/dlogspace` [(#14197)](https://github.com/stdlib-js/stdlib/pull/14197)
+-   [`0c4c031`](https://github.com/stdlib-js/stdlib/commit/0c4c031e5f1f4c171fbb4932d83c07d2389b08c9) - add `blas/ext/base/ndarray/gtril` [(#14195)](https://github.com/stdlib-js/stdlib/pull/14195)
+-   [`f3b6efc`](https://github.com/stdlib-js/stdlib/commit/f3b6efc11c1a43b12266c3fe106115612c564398) - add `blas/ext/base/ndarray/dtril` [(#14198)](https://github.com/stdlib-js/stdlib/pull/14198)
+-   [`5ac5ee8`](https://github.com/stdlib-js/stdlib/commit/5ac5ee8280a1f154b0565f28a75241ab11517021) - add `blas/ext/base/ndarray/stril` [(#14200)](https://github.com/stdlib-js/stdlib/pull/14200)
+-   [`f75e287`](https://github.com/stdlib-js/stdlib/commit/f75e28742007a9b0188af5bf33ad0d9db76e3ac3) - add `blas/ext/base/ndarray/ctril` [(#14203)](https://github.com/stdlib-js/stdlib/pull/14203)
+-   [`5ab0bad`](https://github.com/stdlib-js/stdlib/commit/5ab0badd77eebc760fb7c55ac567269e5758dd66) - add `blas/ext/base/ndarray/ztril` [(#14204)](https://github.com/stdlib-js/stdlib/pull/14204)
 -   [`ba965f3`](https://github.com/stdlib-js/stdlib/commit/ba965f3f8ab3b2ddd33c70930cd715bb0d7c8603) - update `blas/ext/base/ndarray` TypeScript declarations [(#14215)](https://github.com/stdlib-js/stdlib/pull/14215)
 -   [`6e66cf0`](https://github.com/stdlib-js/stdlib/commit/6e66cf065601eda2e266ed9aa7c8413982c63b91) - add `dlastIndexOfFalsy` and `glastIndexOfFalsy` to namespace
 -   [`384f5f3`](https://github.com/stdlib-js/stdlib/commit/384f5f36c8ec4748cb87fe93db9d1ef227cc9806) - add `blas/ext/base/ndarray/dlast-index-of-falsy` [(#14192)](https://github.com/stdlib-js/stdlib/pull/14192)
@@ -253,6 +261,14 @@
 
 <details>
 
+-   [`18cc6c9`](https://github.com/stdlib-js/stdlib/commit/18cc6c969003812326429219c70e75c83cdc7c88) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`3e299e1`](https://github.com/stdlib-js/stdlib/commit/3e299e13834581df8dcfa91a6da50edcfa39bb65) - **feat:** add `blas/ext/base/ndarray/slast-index-of-falsy` [(#14193)](https://github.com/stdlib-js/stdlib/pull/14193) _(by Muhammad Haris)_
+-   [`0e146cd`](https://github.com/stdlib-js/stdlib/commit/0e146cdc2077af101d6b58515a945176422fe537) - **feat:** add `blas/ext/base/ndarray/dlogspace` [(#14197)](https://github.com/stdlib-js/stdlib/pull/14197) _(by Muhammad Haris, Athan Reines)_
+-   [`0c4c031`](https://github.com/stdlib-js/stdlib/commit/0c4c031e5f1f4c171fbb4932d83c07d2389b08c9) - **feat:** add `blas/ext/base/ndarray/gtril` [(#14195)](https://github.com/stdlib-js/stdlib/pull/14195) _(by Kaustubh Patange)_
+-   [`f3b6efc`](https://github.com/stdlib-js/stdlib/commit/f3b6efc11c1a43b12266c3fe106115612c564398) - **feat:** add `blas/ext/base/ndarray/dtril` [(#14198)](https://github.com/stdlib-js/stdlib/pull/14198) _(by Kaustubh Patange)_
+-   [`5ac5ee8`](https://github.com/stdlib-js/stdlib/commit/5ac5ee8280a1f154b0565f28a75241ab11517021) - **feat:** add `blas/ext/base/ndarray/stril` [(#14200)](https://github.com/stdlib-js/stdlib/pull/14200) _(by Kaustubh Patange)_
+-   [`f75e287`](https://github.com/stdlib-js/stdlib/commit/f75e28742007a9b0188af5bf33ad0d9db76e3ac3) - **feat:** add `blas/ext/base/ndarray/ctril` [(#14203)](https://github.com/stdlib-js/stdlib/pull/14203) _(by Kaustubh Patange)_
+-   [`5ab0bad`](https://github.com/stdlib-js/stdlib/commit/5ab0badd77eebc760fb7c55ac567269e5758dd66) - **feat:** add `blas/ext/base/ndarray/ztril` [(#14204)](https://github.com/stdlib-js/stdlib/pull/14204) _(by Kaustubh Patange)_
 -   [`ba965f3`](https://github.com/stdlib-js/stdlib/commit/ba965f3f8ab3b2ddd33c70930cd715bb0d7c8603) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14215)](https://github.com/stdlib-js/stdlib/pull/14215) _(by stdlib-bot)_
 -   [`5f8108e`](https://github.com/stdlib-js/stdlib/commit/5f8108ecdd886bd931b2f6d61cd53a4ae5f08da7) - **docs:** update namespace table of contents [(#14216)](https://github.com/stdlib-js/stdlib/pull/14216) _(by stdlib-bot)_
 -   [`6f563d5`](https://github.com/stdlib-js/stdlib/commit/6f563d5f65c22965e60a82e70c73a5e687df4b00) - **style:** add missing spaces [(#14201)](https://github.com/stdlib-js/stdlib/pull/14201) _(by Philipp Burckhardt)_
