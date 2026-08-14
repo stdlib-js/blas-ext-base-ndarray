@@ -356,6 +356,7 @@
     "@stdlib/blas-ext-base-gsumors": "^0.3.1",
     "@stdlib/blas-ext-base-gsumpw": "^0.3.1",
     "@stdlib/blas-ext-base-gtril": "github:stdlib-js/blas-ext-base-gtril#main",
+    "@stdlib/blas-ext-base-gtril2triu": "github:stdlib-js/blas-ext-base-gtril2triu#main",
     "@stdlib/blas-ext-base-gtriu": "github:stdlib-js/blas-ext-base-gtriu#main",
     "@stdlib/blas-ext-base-gunitspace": "github:stdlib-js/blas-ext-base-gunitspace#main",
     "@stdlib/blas-ext-base-gwxsa": "github:stdlib-js/blas-ext-base-gwxsa#main",
