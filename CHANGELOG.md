@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`098f2aa`](https://github.com/stdlib-js/stdlib/commit/098f2aab4fc05985e2c77656979c5e0cc10acfea) - add `clogspace` and `zlogspace` to namespace
 -   [`b22e8a1`](https://github.com/stdlib-js/stdlib/commit/b22e8a1a8d028835838373b02827cd2455ebb31b) - update `blas/ext/base/ndarray` TypeScript declarations [(#14275)](https://github.com/stdlib-js/stdlib/pull/14275)
 -   [`3d73475`](https://github.com/stdlib-js/stdlib/commit/3d7347567576a84986a880725813e2fb3661bd8b) - add `blas/ext/base/ndarray/clogspace` [(#14259)](https://github.com/stdlib-js/stdlib/pull/14259)
 -   [`ae59aca`](https://github.com/stdlib-js/stdlib/commit/ae59aca2eabc642bc1fb071d8348d56147dc2cec) - add `blas/ext/base/ndarray/zlogspace` [(#14260)](https://github.com/stdlib-js/stdlib/pull/14260)
@@ -274,6 +275,7 @@
 
 <details>
 
+-   [`098f2aa`](https://github.com/stdlib-js/stdlib/commit/098f2aab4fc05985e2c77656979c5e0cc10acfea) - **feat:** add `clogspace` and `zlogspace` to namespace _(by Athan Reines)_
 -   [`c4b044e`](https://github.com/stdlib-js/stdlib/commit/c4b044ebd891cbe24cd1f943669c4b9cf6e416f2) - **docs:** update namespace table of contents [(#14276)](https://github.com/stdlib-js/stdlib/pull/14276) _(by stdlib-bot)_
 -   [`b22e8a1`](https://github.com/stdlib-js/stdlib/commit/b22e8a1a8d028835838373b02827cd2455ebb31b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14275)](https://github.com/stdlib-js/stdlib/pull/14275) _(by stdlib-bot)_
 -   [`3d73475`](https://github.com/stdlib-js/stdlib/commit/3d7347567576a84986a880725813e2fb3661bd8b) - **feat:** add `blas/ext/base/ndarray/clogspace` [(#14259)](https://github.com/stdlib-js/stdlib/pull/14259) _(by Muhammad Haris, Athan Reines)_
