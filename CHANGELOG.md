@@ -277,6 +277,7 @@
 
 <details>
 
+-   [`e9da81b`](https://github.com/stdlib-js/stdlib/commit/e9da81b43505b0596674047188ff1a8f2aed3e29) - **docs:** update namespace table of contents [(#14319)](https://github.com/stdlib-js/stdlib/pull/14319) _(by stdlib-bot)_
 -   [`3254d8b`](https://github.com/stdlib-js/stdlib/commit/3254d8b5589749dfedca8543caca4af8fbd2c1b5) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14316)](https://github.com/stdlib-js/stdlib/pull/14316) _(by stdlib-bot)_
 -   [`1004397`](https://github.com/stdlib-js/stdlib/commit/1004397672af1c551c8f991b307a1628d85b3362) - **feat:** add `blas/ext/base/ndarray/gdiff` [(#14291)](https://github.com/stdlib-js/stdlib/pull/14291) _(by Muhammad Haris)_
 -   [`8d4d135`](https://github.com/stdlib-js/stdlib/commit/8d4d1355663101a5d493a6bed12c0e22491b881f) - **docs:** fix note [(#14290)](https://github.com/stdlib-js/stdlib/pull/14290) _(by Philipp Burckhardt, Athan Reines)_
