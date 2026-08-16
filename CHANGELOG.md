@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-15)
+## Unreleased (2026-08-16)
 
 <section class="features">
 
 ### Features
 
+-   [`3254d8b`](https://github.com/stdlib-js/stdlib/commit/3254d8b5589749dfedca8543caca4af8fbd2c1b5) - update `blas/ext/base/ndarray` TypeScript declarations [(#14316)](https://github.com/stdlib-js/stdlib/pull/14316)
+-   [`1004397`](https://github.com/stdlib-js/stdlib/commit/1004397672af1c551c8f991b307a1628d85b3362) - add `blas/ext/base/ndarray/gdiff` [(#14291)](https://github.com/stdlib-js/stdlib/pull/14291)
 -   [`098f2aa`](https://github.com/stdlib-js/stdlib/commit/098f2aab4fc05985e2c77656979c5e0cc10acfea) - add `clogspace` and `zlogspace` to namespace
 -   [`b22e8a1`](https://github.com/stdlib-js/stdlib/commit/b22e8a1a8d028835838373b02827cd2455ebb31b) - update `blas/ext/base/ndarray` TypeScript declarations [(#14275)](https://github.com/stdlib-js/stdlib/pull/14275)
 -   [`3d73475`](https://github.com/stdlib-js/stdlib/commit/3d7347567576a84986a880725813e2fb3661bd8b) - add `blas/ext/base/ndarray/clogspace` [(#14259)](https://github.com/stdlib-js/stdlib/pull/14259)
@@ -275,6 +277,9 @@
 
 <details>
 
+-   [`3254d8b`](https://github.com/stdlib-js/stdlib/commit/3254d8b5589749dfedca8543caca4af8fbd2c1b5) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14316)](https://github.com/stdlib-js/stdlib/pull/14316) _(by stdlib-bot)_
+-   [`1004397`](https://github.com/stdlib-js/stdlib/commit/1004397672af1c551c8f991b307a1628d85b3362) - **feat:** add `blas/ext/base/ndarray/gdiff` [(#14291)](https://github.com/stdlib-js/stdlib/pull/14291) _(by Muhammad Haris)_
+-   [`8d4d135`](https://github.com/stdlib-js/stdlib/commit/8d4d1355663101a5d493a6bed12c0e22491b881f) - **docs:** fix note [(#14290)](https://github.com/stdlib-js/stdlib/pull/14290) _(by Philipp Burckhardt, Athan Reines)_
 -   [`098f2aa`](https://github.com/stdlib-js/stdlib/commit/098f2aab4fc05985e2c77656979c5e0cc10acfea) - **feat:** add `clogspace` and `zlogspace` to namespace _(by Athan Reines)_
 -   [`c4b044e`](https://github.com/stdlib-js/stdlib/commit/c4b044ebd891cbe24cd1f943669c4b9cf6e416f2) - **docs:** update namespace table of contents [(#14276)](https://github.com/stdlib-js/stdlib/pull/14276) _(by stdlib-bot)_
 -   [`b22e8a1`](https://github.com/stdlib-js/stdlib/commit/b22e8a1a8d028835838373b02827cd2455ebb31b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14275)](https://github.com/stdlib-js/stdlib/pull/14275) _(by stdlib-bot)_
