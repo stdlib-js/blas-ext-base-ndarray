@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-17)
+## Unreleased (2026-08-20)
 
 <section class="features">
 
 ### Features
 
+-   [`bc2a3cd`](https://github.com/stdlib-js/stdlib/commit/bc2a3cd0e2deb320893b5ee8dcb155081d4ee790) - add support for `fromIndex` [(#14428)](https://github.com/stdlib-js/stdlib/pull/14428)
+-   [`3765acc`](https://github.com/stdlib-js/stdlib/commit/3765accb3bed4d090f06fba3a053f317691c63e0) - add `fromIndex` support [(#14411)](https://github.com/stdlib-js/stdlib/pull/14411)
+-   [`c63a215`](https://github.com/stdlib-js/stdlib/commit/c63a21506b0d85ee01091cff9b91198a79849b1a) - update `blas/ext/base/ndarray` TypeScript declarations [(#14341)](https://github.com/stdlib-js/stdlib/pull/14341)
 -   [`36c54ac`](https://github.com/stdlib-js/stdlib/commit/36c54acddca9a5b8c9fd10cf98e693e77d82f81f) - add `blas/ext/base/ndarray/sindex-of-falsy` [(#14328)](https://github.com/stdlib-js/stdlib/pull/14328)
 -   [`1ae14e5`](https://github.com/stdlib-js/stdlib/commit/1ae14e528c7a698bc2e538222caa3dc263f34858) - add `blas/ext/base/ndarray/cindex-of-falsy` [(#14331)](https://github.com/stdlib-js/stdlib/pull/14331)
 -   [`128f0b2`](https://github.com/stdlib-js/stdlib/commit/128f0b2b02139660ad0fd32b0ff3cae4fdc7050e) - add `blas/ext/base/ndarray/zindex-of-falsy` [(#14332)](https://github.com/stdlib-js/stdlib/pull/14332)
@@ -283,12 +286,31 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`bc2a3cd`](https://github.com/stdlib-js/stdlib/commit/bc2a3cd0e2deb320893b5ee8dcb155081d4ee790): add support for `fromIndex`
+
+    -   To maintain prior behavior, users should provide a zero-dimensional `fromIndex` array containing the value `0`.
+
+-   [`3765acc`](https://github.com/stdlib-js/stdlib/commit/3765accb3bed4d090f06fba3a053f317691c63e0): add `fromIndex` support
+
+    -   To preserve the old behavior, users should provide an additional zero-dimensional ndarray containing the value `0`.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`bc2a3cd`](https://github.com/stdlib-js/stdlib/commit/bc2a3cd0e2deb320893b5ee8dcb155081d4ee790) - **feat:** add support for `fromIndex` [(#14428)](https://github.com/stdlib-js/stdlib/pull/14428) _(by stdlib-bot)_
+-   [`3765acc`](https://github.com/stdlib-js/stdlib/commit/3765accb3bed4d090f06fba3a053f317691c63e0) - **feat:** add `fromIndex` support [(#14411)](https://github.com/stdlib-js/stdlib/pull/14411) _(by Muhammad Haris)_
+-   [`c63a215`](https://github.com/stdlib-js/stdlib/commit/c63a21506b0d85ee01091cff9b91198a79849b1a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14341)](https://github.com/stdlib-js/stdlib/pull/14341) _(by stdlib-bot)_
 -   [`ed4c180`](https://github.com/stdlib-js/stdlib/commit/ed4c180a7f5aaccda01e181f8836c0d81bbe81e8) - **docs:** update namespace table of contents [(#14343)](https://github.com/stdlib-js/stdlib/pull/14343) _(by stdlib-bot)_
 -   [`36c54ac`](https://github.com/stdlib-js/stdlib/commit/36c54acddca9a5b8c9fd10cf98e693e77d82f81f) - **feat:** add `blas/ext/base/ndarray/sindex-of-falsy` [(#14328)](https://github.com/stdlib-js/stdlib/pull/14328) _(by Muhammad Haris, Athan Reines)_
 -   [`1ae14e5`](https://github.com/stdlib-js/stdlib/commit/1ae14e528c7a698bc2e538222caa3dc263f34858) - **feat:** add `blas/ext/base/ndarray/cindex-of-falsy` [(#14331)](https://github.com/stdlib-js/stdlib/pull/14331) _(by Muhammad Haris, Athan Reines)_
