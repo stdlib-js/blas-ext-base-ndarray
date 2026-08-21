@@ -488,6 +488,7 @@
     "@stdlib/math-base-special-sin": "^0.3.1",
     "@stdlib/math-base-special-sinf": "^0.1.1",
     "@stdlib/ndarray-base-assert-is-equal-data-type": "^0.1.1",
+    "@stdlib/ndarray-base-clip-index": "github:stdlib-js/ndarray-base-clip-index#main",
     "@stdlib/ndarray-base-ctor": "^0.3.1",
     "@stdlib/ndarray-base-data-buffer": "^0.2.3",
     "@stdlib/ndarray-base-from-scalar": "^0.2.3",
