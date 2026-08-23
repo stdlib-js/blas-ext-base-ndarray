@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-22)
+## Unreleased (2026-08-23)
 
 <section class="features">
 
 ### Features
 
+-   [`5e61b9f`](https://github.com/stdlib-js/stdlib/commit/5e61b9f1b491a2930875f2d96bc3824bc78ca141) - update `blas/ext/base/ndarray` TypeScript declarations [(#14548)](https://github.com/stdlib-js/stdlib/pull/14548)
 -   [`7dd4dad`](https://github.com/stdlib-js/stdlib/commit/7dd4dadfbb00e369019a3a6b05c1dbe40ac59d04) - add `cindexOfFalsy`, `sindexOfFalsy`, and `zindexOfFalsy` to namespace
 -   [`d537e25`](https://github.com/stdlib-js/stdlib/commit/d537e25f522fbaf4fa5895edc4f66983a289fd43) - add `dnone`, `gnone`, and `snone` to namespace
 -   [`8fa2c52`](https://github.com/stdlib-js/stdlib/commit/8fa2c52b95a04127651034cd5c2cd35938fcafb8) - add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-falsy` [(#14530)](https://github.com/stdlib-js/stdlib/pull/14530)
@@ -319,6 +320,10 @@
 
 ### BREAKING CHANGES
 
+-   [`5e61b9f`](https://github.com/stdlib-js/stdlib/commit/5e61b9f1b491a2930875f2d96bc3824bc78ca141): add `fromIndex` support
+
+    -   A number of symbols related to searching and exported in this namespace now support `fromIndex` ndarrays. To maintain previous behavior, you'll need to provide a `fromIndex` ndarray containing the appropriate index from which to begin searching.
+
 -   [`8fa2c52`](https://github.com/stdlib-js/stdlib/commit/8fa2c52b95a04127651034cd5c2cd35938fcafb8): add `fromIndex` support
 
     -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
@@ -429,6 +434,7 @@
 
 <details>
 
+-   [`5e61b9f`](https://github.com/stdlib-js/stdlib/commit/5e61b9f1b491a2930875f2d96bc3824bc78ca141) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14548)](https://github.com/stdlib-js/stdlib/pull/14548) _(by stdlib-bot)_
 -   [`7dd4dad`](https://github.com/stdlib-js/stdlib/commit/7dd4dadfbb00e369019a3a6b05c1dbe40ac59d04) - **feat:** add `cindexOfFalsy`, `sindexOfFalsy`, and `zindexOfFalsy` to namespace _(by Athan Reines)_
 -   [`d537e25`](https://github.com/stdlib-js/stdlib/commit/d537e25f522fbaf4fa5895edc4f66983a289fd43) - **feat:** add `dnone`, `gnone`, and `snone` to namespace _(by Athan Reines)_
 -   [`8fa2c52`](https://github.com/stdlib-js/stdlib/commit/8fa2c52b95a04127651034cd5c2cd35938fcafb8) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-falsy` [(#14530)](https://github.com/stdlib-js/stdlib/pull/14530) _(by Muhammad Haris)_
