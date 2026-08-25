@@ -4,12 +4,20 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-23)
+## Unreleased (2026-08-25)
 
 <section class="features">
 
 ### Features
 
+-   [`1da8091`](https://github.com/stdlib-js/stdlib/commit/1da80916f08e37d8a0f1ac101e35c703f9b2e8f0) - add `*cuany` and `*cuevery` symbols to namespace
+-   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594)
+-   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595)
+-   [`fab9d7d`](https://github.com/stdlib-js/stdlib/commit/fab9d7d5935add7eddd0870c0aac47dd81900c6e) - add `blas/ext/base/ndarray/dcuany` [(#14596)](https://github.com/stdlib-js/stdlib/pull/14596)
+-   [`502567f`](https://github.com/stdlib-js/stdlib/commit/502567f3a3983a60cb3fd2349108caccf20e101c) - add `blas/ext/base/ndarray/dcuevery` [(#14599)](https://github.com/stdlib-js/stdlib/pull/14599)
+-   [`1325fe3`](https://github.com/stdlib-js/stdlib/commit/1325fe3510c6a28012be524d4db204070d2e0503) - add `blas/ext/base/ndarray/scuevery` [(#14598)](https://github.com/stdlib-js/stdlib/pull/14598)
+-   [`eed691c`](https://github.com/stdlib-js/stdlib/commit/eed691c613ef5bbfd3e4117ed7ddf4434f304149) - add `blas/ext/base/ndarray/gcuevery` [(#14597)](https://github.com/stdlib-js/stdlib/pull/14597)
+-   [`932501c`](https://github.com/stdlib-js/stdlib/commit/932501c1d4855f9ce40e26c0bfe275487ddb8c1d) - add `blas/ext/base/ndarray/gwxpy` [(#14585)](https://github.com/stdlib-js/stdlib/pull/14585)
 -   [`5e61b9f`](https://github.com/stdlib-js/stdlib/commit/5e61b9f1b491a2930875f2d96bc3824bc78ca141) - update `blas/ext/base/ndarray` TypeScript declarations [(#14548)](https://github.com/stdlib-js/stdlib/pull/14548)
 -   [`7dd4dad`](https://github.com/stdlib-js/stdlib/commit/7dd4dadfbb00e369019a3a6b05c1dbe40ac59d04) - add `cindexOfFalsy`, `sindexOfFalsy`, and `zindexOfFalsy` to namespace
 -   [`d537e25`](https://github.com/stdlib-js/stdlib/commit/d537e25f522fbaf4fa5895edc4f66983a289fd43) - add `dnone`, `gnone`, and `snone` to namespace
@@ -434,6 +442,16 @@
 
 <details>
 
+-   [`1da8091`](https://github.com/stdlib-js/stdlib/commit/1da80916f08e37d8a0f1ac101e35c703f9b2e8f0) - **feat:** add `*cuany` and `*cuevery` symbols to namespace _(by Athan Reines)_
+-   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - **feat:** add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594) _(by Muhammad Haris, Athan Reines)_
+-   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - **feat:** add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595) _(by Muhammad Haris)_
+-   [`fab9d7d`](https://github.com/stdlib-js/stdlib/commit/fab9d7d5935add7eddd0870c0aac47dd81900c6e) - **feat:** add `blas/ext/base/ndarray/dcuany` [(#14596)](https://github.com/stdlib-js/stdlib/pull/14596) _(by Muhammad Haris, Athan Reines)_
+-   [`68cf8ce`](https://github.com/stdlib-js/stdlib/commit/68cf8ce0a381d65660506efd5507aefbed2f724c) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`323cfc1`](https://github.com/stdlib-js/stdlib/commit/323cfc1e10b30d9ace1550c116466946771f3ef6) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`502567f`](https://github.com/stdlib-js/stdlib/commit/502567f3a3983a60cb3fd2349108caccf20e101c) - **feat:** add `blas/ext/base/ndarray/dcuevery` [(#14599)](https://github.com/stdlib-js/stdlib/pull/14599) _(by Muhammad Haris)_
+-   [`1325fe3`](https://github.com/stdlib-js/stdlib/commit/1325fe3510c6a28012be524d4db204070d2e0503) - **feat:** add `blas/ext/base/ndarray/scuevery` [(#14598)](https://github.com/stdlib-js/stdlib/pull/14598) _(by Muhammad Haris)_
+-   [`eed691c`](https://github.com/stdlib-js/stdlib/commit/eed691c613ef5bbfd3e4117ed7ddf4434f304149) - **feat:** add `blas/ext/base/ndarray/gcuevery` [(#14597)](https://github.com/stdlib-js/stdlib/pull/14597) _(by Muhammad Haris)_
+-   [`932501c`](https://github.com/stdlib-js/stdlib/commit/932501c1d4855f9ce40e26c0bfe275487ddb8c1d) - **feat:** add `blas/ext/base/ndarray/gwxpy` [(#14585)](https://github.com/stdlib-js/stdlib/pull/14585) _(by Kaustubh Patange, Athan Reines)_
 -   [`86cd981`](https://github.com/stdlib-js/stdlib/commit/86cd981199dc115e9b7484131436c802c3d9a090) - **docs:** update namespace table of contents [(#14552)](https://github.com/stdlib-js/stdlib/pull/14552) _(by stdlib-bot)_
 -   [`5e61b9f`](https://github.com/stdlib-js/stdlib/commit/5e61b9f1b491a2930875f2d96bc3824bc78ca141) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14548)](https://github.com/stdlib-js/stdlib/pull/14548) _(by stdlib-bot)_
 -   [`7dd4dad`](https://github.com/stdlib-js/stdlib/commit/7dd4dadfbb00e369019a3a6b05c1dbe40ac59d04) - **feat:** add `cindexOfFalsy`, `sindexOfFalsy`, and `zindexOfFalsy` to namespace _(by Athan Reines)_
