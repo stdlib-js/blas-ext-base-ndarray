@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-25)
+## Unreleased (2026-08-26)
 
 <section class="features">
 
 ### Features
 
+-   [`3877ffe`](https://github.com/stdlib-js/stdlib/commit/3877ffefae4b0625e11e8e245a48bb1876e48a2d) - update `blas/ext/base/ndarray` TypeScript declarations [(#14639)](https://github.com/stdlib-js/stdlib/pull/14639)
+-   [`79ac1a4`](https://github.com/stdlib-js/stdlib/commit/79ac1a407266a39afcae23507ca3718462e4bd91) - add `fromIndex` support to `blas/ext/base/ndarray/gfind-last-index` [(#14479)](https://github.com/stdlib-js/stdlib/pull/14479)
+-   [`841011d`](https://github.com/stdlib-js/stdlib/commit/841011deebe7ea01b903cf353146b2f922e317e7) - add `fromIndex` support to `blas/ext/base/ndarray/sfirst-index-less-than` [(#14560)](https://github.com/stdlib-js/stdlib/pull/14560)
+-   [`3942bbc`](https://github.com/stdlib-js/stdlib/commit/3942bbcc7b4be8eb4ce0491095b9e8389ed26344) - add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-not-equal` [(#14561)](https://github.com/stdlib-js/stdlib/pull/14561)
 -   [`1da8091`](https://github.com/stdlib-js/stdlib/commit/1da80916f08e37d8a0f1ac101e35c703f9b2e8f0) - add `*cuany` and `*cuevery` symbols to namespace
 -   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594)
 -   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595)
@@ -328,6 +332,22 @@
 
 ### BREAKING CHANGES
 
+-   [`3877ffe`](https://github.com/stdlib-js/stdlib/commit/3877ffefae4b0625e11e8e245a48bb1876e48a2d): add `fromIndex` support
+
+    -   Several symbols for performing a search now require providing a `fromIndex` zero-dimensional ndarray as an ancillary ndarray. Migrating should be straightforward, but one should examine the individual APIs to determine exact semantics.
+
+-   [`79ac1a4`](https://github.com/stdlib-js/stdlib/commit/79ac1a407266a39afcae23507ca3718462e4bd91): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
+
+-   [`841011d`](https://github.com/stdlib-js/stdlib/commit/841011deebe7ea01b903cf353146b2f922e317e7): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
+
+-   [`3942bbc`](https://github.com/stdlib-js/stdlib/commit/3942bbcc7b4be8eb4ce0491095b9e8389ed26344): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
+
 -   [`5e61b9f`](https://github.com/stdlib-js/stdlib/commit/5e61b9f1b491a2930875f2d96bc3824bc78ca141): add `fromIndex` support
 
     -   A number of symbols related to searching and exported in this namespace now support `fromIndex` ndarrays. To maintain previous behavior, you'll need to provide a `fromIndex` ndarray containing the appropriate index from which to begin searching.
@@ -442,6 +462,11 @@
 
 <details>
 
+-   [`3877ffe`](https://github.com/stdlib-js/stdlib/commit/3877ffefae4b0625e11e8e245a48bb1876e48a2d) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14639)](https://github.com/stdlib-js/stdlib/pull/14639) _(by stdlib-bot)_
+-   [`436e791`](https://github.com/stdlib-js/stdlib/commit/436e791d013826eecbf13e2cf25a2037369fce10) - **docs:** update namespace table of contents [(#14643)](https://github.com/stdlib-js/stdlib/pull/14643) _(by stdlib-bot)_
+-   [`79ac1a4`](https://github.com/stdlib-js/stdlib/commit/79ac1a407266a39afcae23507ca3718462e4bd91) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/gfind-last-index` [(#14479)](https://github.com/stdlib-js/stdlib/pull/14479) _(by Muhammad Haris, Athan Reines)_
+-   [`841011d`](https://github.com/stdlib-js/stdlib/commit/841011deebe7ea01b903cf353146b2f922e317e7) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/sfirst-index-less-than` [(#14560)](https://github.com/stdlib-js/stdlib/pull/14560) _(by Muhammad Haris)_
+-   [`3942bbc`](https://github.com/stdlib-js/stdlib/commit/3942bbcc7b4be8eb4ce0491095b9e8389ed26344) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-not-equal` [(#14561)](https://github.com/stdlib-js/stdlib/pull/14561) _(by Muhammad Haris)_
 -   [`1da8091`](https://github.com/stdlib-js/stdlib/commit/1da80916f08e37d8a0f1ac101e35c703f9b2e8f0) - **feat:** add `*cuany` and `*cuevery` symbols to namespace _(by Athan Reines)_
 -   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - **feat:** add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594) _(by Muhammad Haris, Athan Reines)_
 -   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - **feat:** add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595) _(by Muhammad Haris)_
