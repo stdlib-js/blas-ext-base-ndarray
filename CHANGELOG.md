@@ -4,12 +4,23 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-27)
+## Unreleased (2026-08-28)
 
 <section class="features">
 
 ### Features
 
+-   [`8306d65`](https://github.com/stdlib-js/stdlib/commit/8306d6548276f8b8379254b305ade90e24257ae2) - update `blas/ext/base/ndarray` TypeScript declarations [(#14736)](https://github.com/stdlib-js/stdlib/pull/14736)
+-   [`f7c810a`](https://github.com/stdlib-js/stdlib/commit/f7c810a389b0aaaf8f67ba243fca57bef079e9bc) - add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-not-equal` [(#14703)](https://github.com/stdlib-js/stdlib/pull/14703)
+-   [`71e3b52`](https://github.com/stdlib-js/stdlib/commit/71e3b52b2b4982ee910790f1d42848a9d27f94a4) - add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-truthy` [(#14654)](https://github.com/stdlib-js/stdlib/pull/14654)
+-   [`59656ab`](https://github.com/stdlib-js/stdlib/commit/59656ab3fcd4a0ae2ffbdd5a0ee7100b97996fde) - add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-falsy` [(#14653)](https://github.com/stdlib-js/stdlib/pull/14653)
+-   [`9ba74da`](https://github.com/stdlib-js/stdlib/commit/9ba74dac73db26d42a64e7de6c40a22133e0a578) - add index normalization support to `blas/ext/base/ndarray/zcopy-within` [(#14665)](https://github.com/stdlib-js/stdlib/pull/14665)
+-   [`c953ebb`](https://github.com/stdlib-js/stdlib/commit/c953ebbb70017c2667e06e6e0961d6caad896232) - add index normalization support to `blas/ext/base/ndarray/scopy-within` [(#14663)](https://github.com/stdlib-js/stdlib/pull/14663)
+-   [`7449bad`](https://github.com/stdlib-js/stdlib/commit/7449bad77b16a66aff957cdb2d73e9d43e986c1e) - add index normalization support to `blas/ext/base/ndarray/ccopy-within` [(#14664)](https://github.com/stdlib-js/stdlib/pull/14664)
+-   [`6408fd2`](https://github.com/stdlib-js/stdlib/commit/6408fd295118ec9f6ccaa7be8e45cc28b1d91829) - add index normalization support to `blas/ext/base/ndarray/dcopy-within` [(#14662)](https://github.com/stdlib-js/stdlib/pull/14662)
+-   [`908b873`](https://github.com/stdlib-js/stdlib/commit/908b8733dfed96e76af11526f2ac8016f22bf571) - add index normalization support to `blas/ext/base/ndarray/gcopy-within` [(#14656)](https://github.com/stdlib-js/stdlib/pull/14656)
+-   [`7e7e7b5`](https://github.com/stdlib-js/stdlib/commit/7e7e7b5718b0d9e7c61a6bb1a997bf684660c792) - add `fromIndex` support to `blas/ext/base/ndarray/glast-index-of-truthy` [(#14652)](https://github.com/stdlib-js/stdlib/pull/14652)
+-   [`f2f33ac`](https://github.com/stdlib-js/stdlib/commit/f2f33ac7e3a704523904ec4a92538d2a9fea898b) - add `fromIndex` support to `blas/ext/base/ndarray/glast-index-of-falsy` [(#14650)](https://github.com/stdlib-js/stdlib/pull/14650)
 -   [`8867485`](https://github.com/stdlib-js/stdlib/commit/8867485f8935d068ea9444fbbaa87bed80ef22b4) - update `blas/ext/base/ndarray` TypeScript declarations [(#14680)](https://github.com/stdlib-js/stdlib/pull/14680)
 -   [`d4a3595`](https://github.com/stdlib-js/stdlib/commit/d4a3595a92234d91bdb4d3bd640ae102981b0d63) - add `fromIndex` support to `blas/ext/base/ndarray/glast-index-equal` [(#14648)](https://github.com/stdlib-js/stdlib/pull/14648)
 -   [`3877ffe`](https://github.com/stdlib-js/stdlib/commit/3877ffefae4b0625e11e8e245a48bb1876e48a2d) - update `blas/ext/base/ndarray` TypeScript declarations [(#14639)](https://github.com/stdlib-js/stdlib/pull/14639)
@@ -334,6 +345,30 @@
 
 ### BREAKING CHANGES
 
+-   [`8306d65`](https://github.com/stdlib-js/stdlib/commit/8306d6548276f8b8379254b305ade90e24257ae2): add support for `fromIndex`, `start`, and `end` ancillary ndarrays
+
+    -   Various symbols have been updated to support additional zero-dimensional ndarray arguments in order to restrict search ranges. To preserve previous behavior, users should provide zero-dimensional ndarrays containing values equal to previously implicit values.
+
+-   [`f7c810a`](https://github.com/stdlib-js/stdlib/commit/f7c810a389b0aaaf8f67ba243fca57bef079e9bc): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
+-   [`71e3b52`](https://github.com/stdlib-js/stdlib/commit/71e3b52b2b4982ee910790f1d42848a9d27f94a4): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
+
+-   [`59656ab`](https://github.com/stdlib-js/stdlib/commit/59656ab3fcd4a0ae2ffbdd5a0ee7100b97996fde): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
+
+-   [`7e7e7b5`](https://github.com/stdlib-js/stdlib/commit/7e7e7b5718b0d9e7c61a6bb1a997bf684660c792): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
+
+-   [`f2f33ac`](https://github.com/stdlib-js/stdlib/commit/f2f33ac7e3a704523904ec4a92538d2a9fea898b): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
+
 -   [`8867485`](https://github.com/stdlib-js/stdlib/commit/8867485f8935d068ea9444fbbaa87bed80ef22b4): add `fromIndex` support
 
     -   Various symbols now have `fromIndex` support. To maintain previous behavior, provide an additional zero-dimensional ndarray containing an initial search index.
@@ -472,6 +507,17 @@
 
 <details>
 
+-   [`8306d65`](https://github.com/stdlib-js/stdlib/commit/8306d6548276f8b8379254b305ade90e24257ae2) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14736)](https://github.com/stdlib-js/stdlib/pull/14736) _(by stdlib-bot)_
+-   [`f7c810a`](https://github.com/stdlib-js/stdlib/commit/f7c810a389b0aaaf8f67ba243fca57bef079e9bc) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-not-equal` [(#14703)](https://github.com/stdlib-js/stdlib/pull/14703) _(by Muhammad Haris)_
+-   [`71e3b52`](https://github.com/stdlib-js/stdlib/commit/71e3b52b2b4982ee910790f1d42848a9d27f94a4) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-truthy` [(#14654)](https://github.com/stdlib-js/stdlib/pull/14654) _(by Muhammad Haris)_
+-   [`59656ab`](https://github.com/stdlib-js/stdlib/commit/59656ab3fcd4a0ae2ffbdd5a0ee7100b97996fde) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-falsy` [(#14653)](https://github.com/stdlib-js/stdlib/pull/14653) _(by Muhammad Haris)_
+-   [`9ba74da`](https://github.com/stdlib-js/stdlib/commit/9ba74dac73db26d42a64e7de6c40a22133e0a578) - **feat:** add index normalization support to `blas/ext/base/ndarray/zcopy-within` [(#14665)](https://github.com/stdlib-js/stdlib/pull/14665) _(by Muhammad Haris)_
+-   [`c953ebb`](https://github.com/stdlib-js/stdlib/commit/c953ebbb70017c2667e06e6e0961d6caad896232) - **feat:** add index normalization support to `blas/ext/base/ndarray/scopy-within` [(#14663)](https://github.com/stdlib-js/stdlib/pull/14663) _(by Muhammad Haris)_
+-   [`7449bad`](https://github.com/stdlib-js/stdlib/commit/7449bad77b16a66aff957cdb2d73e9d43e986c1e) - **feat:** add index normalization support to `blas/ext/base/ndarray/ccopy-within` [(#14664)](https://github.com/stdlib-js/stdlib/pull/14664) _(by Muhammad Haris)_
+-   [`6408fd2`](https://github.com/stdlib-js/stdlib/commit/6408fd295118ec9f6ccaa7be8e45cc28b1d91829) - **feat:** add index normalization support to `blas/ext/base/ndarray/dcopy-within` [(#14662)](https://github.com/stdlib-js/stdlib/pull/14662) _(by Muhammad Haris)_
+-   [`908b873`](https://github.com/stdlib-js/stdlib/commit/908b8733dfed96e76af11526f2ac8016f22bf571) - **feat:** add index normalization support to `blas/ext/base/ndarray/gcopy-within` [(#14656)](https://github.com/stdlib-js/stdlib/pull/14656) _(by Muhammad Haris)_
+-   [`7e7e7b5`](https://github.com/stdlib-js/stdlib/commit/7e7e7b5718b0d9e7c61a6bb1a997bf684660c792) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/glast-index-of-truthy` [(#14652)](https://github.com/stdlib-js/stdlib/pull/14652) _(by Muhammad Haris)_
+-   [`f2f33ac`](https://github.com/stdlib-js/stdlib/commit/f2f33ac7e3a704523904ec4a92538d2a9fea898b) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/glast-index-of-falsy` [(#14650)](https://github.com/stdlib-js/stdlib/pull/14650) _(by Muhammad Haris)_
 -   [`8867485`](https://github.com/stdlib-js/stdlib/commit/8867485f8935d068ea9444fbbaa87bed80ef22b4) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14680)](https://github.com/stdlib-js/stdlib/pull/14680) _(by stdlib-bot)_
 -   [`d4a3595`](https://github.com/stdlib-js/stdlib/commit/d4a3595a92234d91bdb4d3bd640ae102981b0d63) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/glast-index-equal` [(#14648)](https://github.com/stdlib-js/stdlib/pull/14648) _(by Muhammad Haris)_
 -   [`aef88f4`](https://github.com/stdlib-js/stdlib/commit/aef88f46f65a647745f12986f660031976b51e96) - **docs:** update Markdown equation elements _(by stdlib-bot)_
