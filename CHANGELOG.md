@@ -4,12 +4,22 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-28)
+## Unreleased (2026-08-29)
 
 <section class="features">
 
 ### Features
 
+-   [`0ce8ad5`](https://github.com/stdlib-js/stdlib/commit/0ce8ad5383a64891cbb20e5341640bf99a4713f2) - update `blas/ext/base/ndarray` TypeScript declarations [(#14765)](https://github.com/stdlib-js/stdlib/pull/14765)
+-   [`893d741`](https://github.com/stdlib-js/stdlib/commit/893d7414d08fc8e37231996fff95e5ac5140db32) - add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-nan` [(#14707)](https://github.com/stdlib-js/stdlib/pull/14707)
+-   [`7a6d768`](https://github.com/stdlib-js/stdlib/commit/7a6d7687d8b7fd3d8672155bc4662b7232f72833) - add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-not-equal` [(#14708)](https://github.com/stdlib-js/stdlib/pull/14708)
+-   [`40c7fc9`](https://github.com/stdlib-js/stdlib/commit/40c7fc983094aadff964c8076594f847ea44e0c5) - add `start` and `end` parameter support to `blas/ext/base/ndarray/cfill-equal` [(#14669)](https://github.com/stdlib-js/stdlib/pull/14669)
+-   [`f6b49de`](https://github.com/stdlib-js/stdlib/commit/f6b49de2513f92590cb3dfcdbbe19bfb00eec0a0) - add `start` and `end` parameter support to `blas/ext/base/ndarray/dfill-equal` [(#14670)](https://github.com/stdlib-js/stdlib/pull/14670)
+-   [`578678c`](https://github.com/stdlib-js/stdlib/commit/578678ccbbbd6ca59de964df5cfe9fdb830b266d) - add `start` and `end` parameter support to `blas/ext/base/ndarray/dfill-nan` [(#14671)](https://github.com/stdlib-js/stdlib/pull/14671)
+-   [`3058b5c`](https://github.com/stdlib-js/stdlib/commit/3058b5ce9a7fffcbf2153eca6c66b3576f177310) - add `start` and `end` parameter support to `blas/ext/base/ndarray/dfill-not-equal` [(#14698)](https://github.com/stdlib-js/stdlib/pull/14698)
+-   [`62e0ff8`](https://github.com/stdlib-js/stdlib/commit/62e0ff8ad5f7685f4e97cfcba83493254bd6c9f4) - add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-equal` [(#14700)](https://github.com/stdlib-js/stdlib/pull/14700)
+-   [`4a59d19`](https://github.com/stdlib-js/stdlib/commit/4a59d1983d7263465cf386de63308cac72e5715a) - add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-equal` [(#14705)](https://github.com/stdlib-js/stdlib/pull/14705)
+-   [`b3f747f`](https://github.com/stdlib-js/stdlib/commit/b3f747f1eef3563666da43818fe5f9a232e7378f) - add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-nan` [(#14702)](https://github.com/stdlib-js/stdlib/pull/14702)
 -   [`8306d65`](https://github.com/stdlib-js/stdlib/commit/8306d6548276f8b8379254b305ade90e24257ae2) - update `blas/ext/base/ndarray` TypeScript declarations [(#14736)](https://github.com/stdlib-js/stdlib/pull/14736)
 -   [`f7c810a`](https://github.com/stdlib-js/stdlib/commit/f7c810a389b0aaaf8f67ba243fca57bef079e9bc) - add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-not-equal` [(#14703)](https://github.com/stdlib-js/stdlib/pull/14703)
 -   [`71e3b52`](https://github.com/stdlib-js/stdlib/commit/71e3b52b2b4982ee910790f1d42848a9d27f94a4) - add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-truthy` [(#14654)](https://github.com/stdlib-js/stdlib/pull/14654)
@@ -345,6 +355,46 @@
 
 ### BREAKING CHANGES
 
+-   [`0ce8ad5`](https://github.com/stdlib-js/stdlib/commit/0ce8ad5383a64891cbb20e5341640bf99a4713f2): add `start` and `end` support
+
+    -   Several of the \"fill\" APIs now have `start` and `end` support. To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
+-   [`893d741`](https://github.com/stdlib-js/stdlib/commit/893d7414d08fc8e37231996fff95e5ac5140db32): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
+-   [`7a6d768`](https://github.com/stdlib-js/stdlib/commit/7a6d7687d8b7fd3d8672155bc4662b7232f72833): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
+-   [`40c7fc9`](https://github.com/stdlib-js/stdlib/commit/40c7fc983094aadff964c8076594f847ea44e0c5): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
+-   [`f6b49de`](https://github.com/stdlib-js/stdlib/commit/f6b49de2513f92590cb3dfcdbbe19bfb00eec0a0): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
+-   [`578678c`](https://github.com/stdlib-js/stdlib/commit/578678ccbbbd6ca59de964df5cfe9fdb830b266d): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
+-   [`3058b5c`](https://github.com/stdlib-js/stdlib/commit/3058b5ce9a7fffcbf2153eca6c66b3576f177310): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
+-   [`62e0ff8`](https://github.com/stdlib-js/stdlib/commit/62e0ff8ad5f7685f4e97cfcba83493254bd6c9f4): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
+-   [`4a59d19`](https://github.com/stdlib-js/stdlib/commit/4a59d1983d7263465cf386de63308cac72e5715a): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
+-   [`b3f747f`](https://github.com/stdlib-js/stdlib/commit/b3f747f1eef3563666da43818fe5f9a232e7378f): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
 -   [`8306d65`](https://github.com/stdlib-js/stdlib/commit/8306d6548276f8b8379254b305ade90e24257ae2): add support for `fromIndex`, `start`, and `end` ancillary ndarrays
 
     -   Various symbols have been updated to support additional zero-dimensional ndarray arguments in order to restrict search ranges. To preserve previous behavior, users should provide zero-dimensional ndarrays containing values equal to previously implicit values.
@@ -507,6 +557,16 @@
 
 <details>
 
+-   [`0ce8ad5`](https://github.com/stdlib-js/stdlib/commit/0ce8ad5383a64891cbb20e5341640bf99a4713f2) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14765)](https://github.com/stdlib-js/stdlib/pull/14765) _(by stdlib-bot)_
+-   [`893d741`](https://github.com/stdlib-js/stdlib/commit/893d7414d08fc8e37231996fff95e5ac5140db32) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-nan` [(#14707)](https://github.com/stdlib-js/stdlib/pull/14707) _(by Muhammad Haris)_
+-   [`7a6d768`](https://github.com/stdlib-js/stdlib/commit/7a6d7687d8b7fd3d8672155bc4662b7232f72833) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-not-equal` [(#14708)](https://github.com/stdlib-js/stdlib/pull/14708) _(by Muhammad Haris)_
+-   [`40c7fc9`](https://github.com/stdlib-js/stdlib/commit/40c7fc983094aadff964c8076594f847ea44e0c5) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/cfill-equal` [(#14669)](https://github.com/stdlib-js/stdlib/pull/14669) _(by Muhammad Haris)_
+-   [`f6b49de`](https://github.com/stdlib-js/stdlib/commit/f6b49de2513f92590cb3dfcdbbe19bfb00eec0a0) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/dfill-equal` [(#14670)](https://github.com/stdlib-js/stdlib/pull/14670) _(by Muhammad Haris)_
+-   [`578678c`](https://github.com/stdlib-js/stdlib/commit/578678ccbbbd6ca59de964df5cfe9fdb830b266d) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/dfill-nan` [(#14671)](https://github.com/stdlib-js/stdlib/pull/14671) _(by Muhammad Haris)_
+-   [`3058b5c`](https://github.com/stdlib-js/stdlib/commit/3058b5ce9a7fffcbf2153eca6c66b3576f177310) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/dfill-not-equal` [(#14698)](https://github.com/stdlib-js/stdlib/pull/14698) _(by Muhammad Haris)_
+-   [`62e0ff8`](https://github.com/stdlib-js/stdlib/commit/62e0ff8ad5f7685f4e97cfcba83493254bd6c9f4) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-equal` [(#14700)](https://github.com/stdlib-js/stdlib/pull/14700) _(by Muhammad Haris)_
+-   [`4a59d19`](https://github.com/stdlib-js/stdlib/commit/4a59d1983d7263465cf386de63308cac72e5715a) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-equal` [(#14705)](https://github.com/stdlib-js/stdlib/pull/14705) _(by Muhammad Haris)_
+-   [`b3f747f`](https://github.com/stdlib-js/stdlib/commit/b3f747f1eef3563666da43818fe5f9a232e7378f) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-nan` [(#14702)](https://github.com/stdlib-js/stdlib/pull/14702) _(by Muhammad Haris)_
 -   [`8306d65`](https://github.com/stdlib-js/stdlib/commit/8306d6548276f8b8379254b305ade90e24257ae2) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14736)](https://github.com/stdlib-js/stdlib/pull/14736) _(by stdlib-bot)_
 -   [`f7c810a`](https://github.com/stdlib-js/stdlib/commit/f7c810a389b0aaaf8f67ba243fca57bef079e9bc) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-not-equal` [(#14703)](https://github.com/stdlib-js/stdlib/pull/14703) _(by Muhammad Haris)_
 -   [`71e3b52`](https://github.com/stdlib-js/stdlib/commit/71e3b52b2b4982ee910790f1d42848a9d27f94a4) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-truthy` [(#14654)](https://github.com/stdlib-js/stdlib/pull/14654) _(by Muhammad Haris)_
