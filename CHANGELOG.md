@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-07)
+## Unreleased (2026-09-23)
 
 <section class="features">
 
 ### Features
 
+-   [`cf2b504`](https://github.com/stdlib-js/stdlib/commit/cf2b504525747fff5914fba4515a76fca6cc4f23) - add `grightPadCircular` and `grightPadEdge` to namespace
+-   [`142d75e`](https://github.com/stdlib-js/stdlib/commit/142d75ee266eafaa2dca052b17b58752ca20739a) - add `blas/ext/base/ndarray/gright-pad-edge` [(#15423)](https://github.com/stdlib-js/stdlib/pull/15423)
+-   [`910bd59`](https://github.com/stdlib-js/stdlib/commit/910bd59be6bdfde1339eb113379425a1ac068baf) - add `blas/ext/base/ndarray/gright-pad-circular` [(#15430)](https://github.com/stdlib-js/stdlib/pull/15430)
 -   [`0a6cf42`](https://github.com/stdlib-js/stdlib/commit/0a6cf429f5f194e0e25a5dd7dac6947ec9a1754a) - update `blas/ext/base/ndarray` TypeScript declarations [(#15059)](https://github.com/stdlib-js/stdlib/pull/15059)
 -   [`7026efc`](https://github.com/stdlib-js/stdlib/commit/7026efcefe4974ee94b9d1b9bab6a90110b481a0) - add various symbols to namespace
 -   [`121eef0`](https://github.com/stdlib-js/stdlib/commit/121eef098e73bf381c57ab3c2a75e3cdc5b5972a) - add `dsome` to namespace
@@ -572,6 +575,9 @@
 
 <details>
 
+-   [`cf2b504`](https://github.com/stdlib-js/stdlib/commit/cf2b504525747fff5914fba4515a76fca6cc4f23) - **feat:** add `grightPadCircular` and `grightPadEdge` to namespace _(by Athan Reines)_
+-   [`142d75e`](https://github.com/stdlib-js/stdlib/commit/142d75ee266eafaa2dca052b17b58752ca20739a) - **feat:** add `blas/ext/base/ndarray/gright-pad-edge` [(#15423)](https://github.com/stdlib-js/stdlib/pull/15423) _(by Muhammad Haris, Athan Reines)_
+-   [`910bd59`](https://github.com/stdlib-js/stdlib/commit/910bd59be6bdfde1339eb113379425a1ac068baf) - **feat:** add `blas/ext/base/ndarray/gright-pad-circular` [(#15430)](https://github.com/stdlib-js/stdlib/pull/15430) _(by Muhammad Haris, Athan Reines)_
 -   [`0a6cf42`](https://github.com/stdlib-js/stdlib/commit/0a6cf429f5f194e0e25a5dd7dac6947ec9a1754a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15059)](https://github.com/stdlib-js/stdlib/pull/15059) _(by stdlib-bot)_
 -   [`6bd67ec`](https://github.com/stdlib-js/stdlib/commit/6bd67ecb725e97474abef1d0c79f753655e71a67) - **docs:** update namespace table of contents [(#15061)](https://github.com/stdlib-js/stdlib/pull/15061) _(by stdlib-bot)_
 -   [`7026efc`](https://github.com/stdlib-js/stdlib/commit/7026efcefe4974ee94b9d1b9bab6a90110b481a0) - **feat:** add various symbols to namespace _(by Athan Reines)_
