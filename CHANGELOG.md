@@ -602,6 +602,7 @@
 
 <details>
 
+-   [`5a64ba7`](https://github.com/stdlib-js/stdlib/commit/5a64ba797591937f32a349ce251853787c251b6e) - **docs:** update namespace table of contents [(#15554)](https://github.com/stdlib-js/stdlib/pull/15554) _(by stdlib-bot)_
 -   [`19fdc41`](https://github.com/stdlib-js/stdlib/commit/19fdc41e7696ec3864fd4fb22ee5368795a1e293) - **feat:** add `cfill` and `zfill` to namespace _(by Athan Reines)_
 -   [`e7e79dd`](https://github.com/stdlib-js/stdlib/commit/e7e79ddbb24a577ce643658186f9146c4140ed7d) - **feat:** add `blas/ext/base/ndarray/cfill` [(#15295)](https://github.com/stdlib-js/stdlib/pull/15295) _(by Muhammad Haris)_
 -   [`1c82ad4`](https://github.com/stdlib-js/stdlib/commit/1c82ad44e07c5f5d4b4a326b3e453ca3952d1423) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15550)](https://github.com/stdlib-js/stdlib/pull/15550) _(by stdlib-bot)_
