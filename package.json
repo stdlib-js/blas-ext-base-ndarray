@@ -523,6 +523,7 @@
     "@stdlib/blas-ext-base-zaxpby": "github:stdlib-js/blas-ext-base-zaxpby#main",
     "@stdlib/blas-ext-base-zcopy-within": "github:stdlib-js/blas-ext-base-zcopy-within#main",
     "@stdlib/blas-ext-base-zdiff": "github:stdlib-js/blas-ext-base-zdiff#main",
+    "@stdlib/blas-ext-base-zfill": "^0.1.1",
     "@stdlib/blas-ext-base-zindex-of": "github:stdlib-js/blas-ext-base-zindex-of#main",
     "@stdlib/blas-ext-base-zindex-of-falsy": "github:stdlib-js/blas-ext-base-zindex-of-falsy#main",
     "@stdlib/blas-ext-base-zindex-of-truthy": "github:stdlib-js/blas-ext-base-zindex-of-truthy#main",

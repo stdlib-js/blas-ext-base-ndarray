@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-25)
+## Unreleased (2026-09-26)
 
 <section class="features">
 
 ### Features
 
+-   [`1c82ad4`](https://github.com/stdlib-js/stdlib/commit/1c82ad44e07c5f5d4b4a326b3e453ca3952d1423) - update `blas/ext/base/ndarray` TypeScript declarations [(#15550)](https://github.com/stdlib-js/stdlib/pull/15550)
+-   [`c7f0989`](https://github.com/stdlib-js/stdlib/commit/c7f0989a97963e981b04e42b31814944681dfae4) - add `blas/ext/base/ndarray/zfill` [(#15308)](https://github.com/stdlib-js/stdlib/pull/15308)
 -   [`7cf31ed`](https://github.com/stdlib-js/stdlib/commit/7cf31ed67a6855fd37ba49663902839ffd831be7) - add `dfillLessThan`, `dfill`, `gfill`, and `sfill` to namespace
 -   [`efd01b9`](https://github.com/stdlib-js/stdlib/commit/efd01b9b0ff9ddd7426d8df66a3f00c181981570) - add `blas/ext/base/ndarray/dfill-less-than` [(#15300)](https://github.com/stdlib-js/stdlib/pull/15300)
 -   [`b0e2fd5`](https://github.com/stdlib-js/stdlib/commit/b0e2fd5f9aaed6e63617c41bce4521404bf5a466) - add `blas/ext/base/ndarray/dfill` [(#15296)](https://github.com/stdlib-js/stdlib/pull/15296)
@@ -598,6 +600,8 @@
 
 <details>
 
+-   [`1c82ad4`](https://github.com/stdlib-js/stdlib/commit/1c82ad44e07c5f5d4b4a326b3e453ca3952d1423) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15550)](https://github.com/stdlib-js/stdlib/pull/15550) _(by stdlib-bot)_
+-   [`c7f0989`](https://github.com/stdlib-js/stdlib/commit/c7f0989a97963e981b04e42b31814944681dfae4) - **feat:** add `blas/ext/base/ndarray/zfill` [(#15308)](https://github.com/stdlib-js/stdlib/pull/15308) _(by Muhammad Haris)_
 -   [`7cf31ed`](https://github.com/stdlib-js/stdlib/commit/7cf31ed67a6855fd37ba49663902839ffd831be7) - **feat:** add `dfillLessThan`, `dfill`, `gfill`, and `sfill` to namespace _(by Athan Reines)_
 -   [`efd01b9`](https://github.com/stdlib-js/stdlib/commit/efd01b9b0ff9ddd7426d8df66a3f00c181981570) - **feat:** add `blas/ext/base/ndarray/dfill-less-than` [(#15300)](https://github.com/stdlib-js/stdlib/pull/15300) _(by Muhammad Haris)_
 -   [`b0e2fd5`](https://github.com/stdlib-js/stdlib/commit/b0e2fd5f9aaed6e63617c41bce4521404bf5a466) - **feat:** add `blas/ext/base/ndarray/dfill` [(#15296)](https://github.com/stdlib-js/stdlib/pull/15296) _(by Muhammad Haris, Athan Reines)_
