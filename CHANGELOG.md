@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`3a2019a`](https://github.com/stdlib-js/stdlib/commit/3a2019acac9f9a66da82af2ec52dc16ffee648b4) - update `blas/ext/base/ndarray` TypeScript declarations [(#15579)](https://github.com/stdlib-js/stdlib/pull/15579)
 -   [`9708ad1`](https://github.com/stdlib-js/stdlib/commit/9708ad1ec1a6922a5ab697f59dee9415c64a49d2) - add `gfillBy` to namespace
 -   [`cbe12dd`](https://github.com/stdlib-js/stdlib/commit/cbe12ddf20d5451e575422efb70d52fc62f574ec) - add `blas/ext/base/ndarray/gfill-by` [(#15304)](https://github.com/stdlib-js/stdlib/pull/15304)
 -   [`19fdc41`](https://github.com/stdlib-js/stdlib/commit/19fdc41e7696ec3864fd4fb22ee5368795a1e293) - add `cfill` and `zfill` to namespace
@@ -605,7 +604,6 @@
 
 <details>
 
--   [`3a2019a`](https://github.com/stdlib-js/stdlib/commit/3a2019acac9f9a66da82af2ec52dc16ffee648b4) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15579)](https://github.com/stdlib-js/stdlib/pull/15579) _(by stdlib-bot)_
 -   [`f67a19a`](https://github.com/stdlib-js/stdlib/commit/f67a19ad507316f14a9e6078c9983732fa46446d) - **docs:** update namespace table of contents [(#15584)](https://github.com/stdlib-js/stdlib/pull/15584) _(by stdlib-bot)_
 -   [`9708ad1`](https://github.com/stdlib-js/stdlib/commit/9708ad1ec1a6922a5ab697f59dee9415c64a49d2) - **feat:** add `gfillBy` to namespace _(by Athan Reines)_
 -   [`cbe12dd`](https://github.com/stdlib-js/stdlib/commit/cbe12ddf20d5451e575422efb70d52fc62f574ec) - **feat:** add `blas/ext/base/ndarray/gfill-by` [(#15304)](https://github.com/stdlib-js/stdlib/pull/15304) _(by Muhammad Haris, Athan Reines)_
