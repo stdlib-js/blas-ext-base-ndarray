@@ -4,12 +4,26 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-27)
+## Unreleased (2026-09-28)
 
 <section class="features">
 
 ### Features
 
+-   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - add `gfillLessThan` to namespace
+-   [`4f735dd`](https://github.com/stdlib-js/stdlib/commit/4f735dd4e4239e35b579b1d6844157e2432c10a2) - add C implementation for `blas/ext/base/ndarray/dzero-to` [(#15374)](https://github.com/stdlib-js/stdlib/pull/15374)
+-   [`3dc8a4f`](https://github.com/stdlib-js/stdlib/commit/3dc8a4f3150ce660918c8ef5c7188b301c4f1ebd) - add `blas/ext/base/ndarray/gfill-less-than` [(#15341)](https://github.com/stdlib-js/stdlib/pull/15341)
+-   [`b8325ae`](https://github.com/stdlib-js/stdlib/commit/b8325ae9e94d6212a11f5472fe72440cd778353a) - add C implementation for `blas/ext/base/ndarray/done-to` [(#15323)](https://github.com/stdlib-js/stdlib/pull/15323)
+-   [`e17a3f9`](https://github.com/stdlib-js/stdlib/commit/e17a3f94d01908d9afbe46f94bbf6e1607d5ae99) - add C implementation for `blas/ext/base/ndarray/sany` [(#15274)](https://github.com/stdlib-js/stdlib/pull/15274)
+-   [`d625b8d`](https://github.com/stdlib-js/stdlib/commit/d625b8d99a04f6ab6a9c55728297ceedcebd3d9d) - add C implementation for `blas/ext/base/ndarray/snone` [(#15289)](https://github.com/stdlib-js/stdlib/pull/15289)
+-   [`189a054`](https://github.com/stdlib-js/stdlib/commit/189a054672b5b7126dc4fc6feb0fba259e2af828) - add C implementation for `blas/ext/base/ndarray/dnone` [(#15348)](https://github.com/stdlib-js/stdlib/pull/15348)
+-   [`38fa95c`](https://github.com/stdlib-js/stdlib/commit/38fa95cfd5a15319b4f5d442aaee755bb2e1b7e0) - add C implementation for `blas/ext/base/ndarray/dany` [(#15330)](https://github.com/stdlib-js/stdlib/pull/15330)
+-   [`3b1defa`](https://github.com/stdlib-js/stdlib/commit/3b1defa5e69e6579f9ac5551efb1aa91f43bb37f) - add C implementation for `blas/ext/base/ndarray/saxpb` [(#15541)](https://github.com/stdlib-js/stdlib/pull/15541)
+-   [`9d41163`](https://github.com/stdlib-js/stdlib/commit/9d4116398b179d3c3b77e0b8bb89b73a1d58b893) - add C implementation for `blas/ext/base/ndarray/daxpb` [(#15570)](https://github.com/stdlib-js/stdlib/pull/15570)
+-   [`c29abc2`](https://github.com/stdlib-js/stdlib/commit/c29abc2bb7bc71908311d9d571cdc5cb2bf541a3) - add C implementation for `blas/ext/base/ndarray/sxsa` [(#15404)](https://github.com/stdlib-js/stdlib/pull/15404)
+-   [`0e93ce8`](https://github.com/stdlib-js/stdlib/commit/0e93ce8f3ae395ffaa800e97dd06303fa8780e67) - add C implementation for `blas/ext/base/ndarray/dxsa` [(#15431)](https://github.com/stdlib-js/stdlib/pull/15431)
+-   [`415ca7f`](https://github.com/stdlib-js/stdlib/commit/415ca7f3029893ad8bde18f40e465d528dc5e9ff) - add C implementation for `blas/ext/base/ndarray/dwxsa` [(#15596)](https://github.com/stdlib-js/stdlib/pull/15596)
+-   [`3a2019a`](https://github.com/stdlib-js/stdlib/commit/3a2019acac9f9a66da82af2ec52dc16ffee648b4) - update `blas/ext/base/ndarray` TypeScript declarations [(#15579)](https://github.com/stdlib-js/stdlib/pull/15579)
 -   [`9708ad1`](https://github.com/stdlib-js/stdlib/commit/9708ad1ec1a6922a5ab697f59dee9415c64a49d2) - add `gfillBy` to namespace
 -   [`cbe12dd`](https://github.com/stdlib-js/stdlib/commit/cbe12ddf20d5451e575422efb70d52fc62f574ec) - add `blas/ext/base/ndarray/gfill-by` [(#15304)](https://github.com/stdlib-js/stdlib/pull/15304)
 -   [`19fdc41`](https://github.com/stdlib-js/stdlib/commit/19fdc41e7696ec3864fd4fb22ee5368795a1e293) - add `cfill` and `zfill` to namespace
@@ -604,6 +618,21 @@
 
 <details>
 
+-   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - **feat:** add `gfillLessThan` to namespace _(by Athan Reines)_
+-   [`4f735dd`](https://github.com/stdlib-js/stdlib/commit/4f735dd4e4239e35b579b1d6844157e2432c10a2) - **feat:** add C implementation for `blas/ext/base/ndarray/dzero-to` [(#15374)](https://github.com/stdlib-js/stdlib/pull/15374) _(by Ujjwal Verma, Athan Reines)_
+-   [`3dc8a4f`](https://github.com/stdlib-js/stdlib/commit/3dc8a4f3150ce660918c8ef5c7188b301c4f1ebd) - **feat:** add `blas/ext/base/ndarray/gfill-less-than` [(#15341)](https://github.com/stdlib-js/stdlib/pull/15341) _(by Muhammad Haris, Athan Reines)_
+-   [`b8325ae`](https://github.com/stdlib-js/stdlib/commit/b8325ae9e94d6212a11f5472fe72440cd778353a) - **feat:** add C implementation for `blas/ext/base/ndarray/done-to` [(#15323)](https://github.com/stdlib-js/stdlib/pull/15323) _(by Ujjwal Verma, Athan Reines)_
+-   [`e17a3f9`](https://github.com/stdlib-js/stdlib/commit/e17a3f94d01908d9afbe46f94bbf6e1607d5ae99) - **feat:** add C implementation for `blas/ext/base/ndarray/sany` [(#15274)](https://github.com/stdlib-js/stdlib/pull/15274) _(by MJ, Athan Reines)_
+-   [`d625b8d`](https://github.com/stdlib-js/stdlib/commit/d625b8d99a04f6ab6a9c55728297ceedcebd3d9d) - **feat:** add C implementation for `blas/ext/base/ndarray/snone` [(#15289)](https://github.com/stdlib-js/stdlib/pull/15289) _(by MJ, Athan Reines)_
+-   [`0fb4a46`](https://github.com/stdlib-js/stdlib/commit/0fb4a468ce7d33171aa78d929cf92d0f59c847ad) - **docs:** fix missing header _(by Athan Reines)_
+-   [`189a054`](https://github.com/stdlib-js/stdlib/commit/189a054672b5b7126dc4fc6feb0fba259e2af828) - **feat:** add C implementation for `blas/ext/base/ndarray/dnone` [(#15348)](https://github.com/stdlib-js/stdlib/pull/15348) _(by MJ)_
+-   [`38fa95c`](https://github.com/stdlib-js/stdlib/commit/38fa95cfd5a15319b4f5d442aaee755bb2e1b7e0) - **feat:** add C implementation for `blas/ext/base/ndarray/dany` [(#15330)](https://github.com/stdlib-js/stdlib/pull/15330) _(by MJ)_
+-   [`3b1defa`](https://github.com/stdlib-js/stdlib/commit/3b1defa5e69e6579f9ac5551efb1aa91f43bb37f) - **feat:** add C implementation for `blas/ext/base/ndarray/saxpb` [(#15541)](https://github.com/stdlib-js/stdlib/pull/15541) _(by MJ, Athan Reines)_
+-   [`9d41163`](https://github.com/stdlib-js/stdlib/commit/9d4116398b179d3c3b77e0b8bb89b73a1d58b893) - **feat:** add C implementation for `blas/ext/base/ndarray/daxpb` [(#15570)](https://github.com/stdlib-js/stdlib/pull/15570) _(by MJ)_
+-   [`c29abc2`](https://github.com/stdlib-js/stdlib/commit/c29abc2bb7bc71908311d9d571cdc5cb2bf541a3) - **feat:** add C implementation for `blas/ext/base/ndarray/sxsa` [(#15404)](https://github.com/stdlib-js/stdlib/pull/15404) _(by MJ)_
+-   [`0e93ce8`](https://github.com/stdlib-js/stdlib/commit/0e93ce8f3ae395ffaa800e97dd06303fa8780e67) - **feat:** add C implementation for `blas/ext/base/ndarray/dxsa` [(#15431)](https://github.com/stdlib-js/stdlib/pull/15431) _(by MJ)_
+-   [`415ca7f`](https://github.com/stdlib-js/stdlib/commit/415ca7f3029893ad8bde18f40e465d528dc5e9ff) - **feat:** add C implementation for `blas/ext/base/ndarray/dwxsa` [(#15596)](https://github.com/stdlib-js/stdlib/pull/15596) _(by MJ)_
+-   [`3a2019a`](https://github.com/stdlib-js/stdlib/commit/3a2019acac9f9a66da82af2ec52dc16ffee648b4) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15579)](https://github.com/stdlib-js/stdlib/pull/15579) _(by stdlib-bot)_
 -   [`f67a19a`](https://github.com/stdlib-js/stdlib/commit/f67a19ad507316f14a9e6078c9983732fa46446d) - **docs:** update namespace table of contents [(#15584)](https://github.com/stdlib-js/stdlib/pull/15584) _(by stdlib-bot)_
 -   [`9708ad1`](https://github.com/stdlib-js/stdlib/commit/9708ad1ec1a6922a5ab697f59dee9415c64a49d2) - **feat:** add `gfillBy` to namespace _(by Athan Reines)_
 -   [`cbe12dd`](https://github.com/stdlib-js/stdlib/commit/cbe12ddf20d5451e575422efb70d52fc62f574ec) - **feat:** add `blas/ext/base/ndarray/gfill-by` [(#15304)](https://github.com/stdlib-js/stdlib/pull/15304) _(by Muhammad Haris, Athan Reines)_
@@ -1146,7 +1175,7 @@
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 16 people contributed to this release. Thank you to the following contributors:
 
 -   Aniket Sonawane
 -   Arjan-P
@@ -1156,12 +1185,14 @@ A total of 14 people contributed to this release. Thank you to the following con
 -   Gururaj Gurram
 -   Karan Anand
 -   Kaustubh Patange
+-   MJ
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
 -   Sagar Ratna Chaudhary
 -   Sutar Siddhram Kashinath
 -   Uday Kakade
+-   Ujjwal Verma
 
 </section>
 
