@@ -4,12 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-28)
+## Unreleased (2026-09-29)
 
 <section class="features">
 
 ### Features
 
+-   [`07acaba`](https://github.com/stdlib-js/stdlib/commit/07acaba9a37622fbef722b94ea53d7e4d293a35f) - update `blas/ext/base/ndarray` TypeScript declarations [(#15639)](https://github.com/stdlib-js/stdlib/pull/15639)
+-   [`e93fecd`](https://github.com/stdlib-js/stdlib/commit/e93fecdcf0b76f2c3f929c87856d5acdd0879dc3) - add C implementation for `blas/ext/base/ndarray/swxsa` [(#15626)](https://github.com/stdlib-js/stdlib/pull/15626)
+-   [`43d4aeb`](https://github.com/stdlib-js/stdlib/commit/43d4aebdf9bba309b7d93a1a2bf263f34c455e98) - add `blas/ext/base/ndarray/gcusome` [(#14563)](https://github.com/stdlib-js/stdlib/pull/14563)
+-   [`be4644b`](https://github.com/stdlib-js/stdlib/commit/be4644b98c2364845786a17316b5697187c13444) - add C implementation for `blas/ext/base/ndarray/zone-to` [(#15326)](https://github.com/stdlib-js/stdlib/pull/15326)
+-   [`358e1a5`](https://github.com/stdlib-js/stdlib/commit/358e1a58121ab6e7f682b8d56e07fb6806f9d4d3) - add C implementation for `blas/ext/base/ndarray/sone-to` [(#15324)](https://github.com/stdlib-js/stdlib/pull/15324)
 -   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - add `gfillLessThan` to namespace
 -   [`4f735dd`](https://github.com/stdlib-js/stdlib/commit/4f735dd4e4239e35b579b1d6844157e2432c10a2) - add C implementation for `blas/ext/base/ndarray/dzero-to` [(#15374)](https://github.com/stdlib-js/stdlib/pull/15374)
 -   [`3dc8a4f`](https://github.com/stdlib-js/stdlib/commit/3dc8a4f3150ce660918c8ef5c7188b301c4f1ebd) - add `blas/ext/base/ndarray/gfill-less-than` [(#15341)](https://github.com/stdlib-js/stdlib/pull/15341)
@@ -618,6 +623,15 @@
 
 <details>
 
+-   [`07acaba`](https://github.com/stdlib-js/stdlib/commit/07acaba9a37622fbef722b94ea53d7e4d293a35f) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15639)](https://github.com/stdlib-js/stdlib/pull/15639) _(by stdlib-bot)_
+-   [`886edaa`](https://github.com/stdlib-js/stdlib/commit/886edaa2484d47494540ba535ccea6df9b1f96ad) - **docs:** update namespace table of contents [(#15643)](https://github.com/stdlib-js/stdlib/pull/15643) _(by stdlib-bot)_
+-   [`735504a`](https://github.com/stdlib-js/stdlib/commit/735504ad4a239b6ba71dd49c1524b534ab9a7fbd) - **docs:** reorder content _(by Athan Reines)_
+-   [`e93fecd`](https://github.com/stdlib-js/stdlib/commit/e93fecdcf0b76f2c3f929c87856d5acdd0879dc3) - **feat:** add C implementation for `blas/ext/base/ndarray/swxsa` [(#15626)](https://github.com/stdlib-js/stdlib/pull/15626) _(by MJ, Athan Reines)_
+-   [`43d4aeb`](https://github.com/stdlib-js/stdlib/commit/43d4aebdf9bba309b7d93a1a2bf263f34c455e98) - **feat:** add `blas/ext/base/ndarray/gcusome` [(#14563)](https://github.com/stdlib-js/stdlib/pull/14563) _(by Muhammad Haris)_
+-   [`8c89486`](https://github.com/stdlib-js/stdlib/commit/8c8948623c4a7fad0a9c1babe9df65db81c86adf) - **docs:** fix type _(by Athan Reines)_
+-   [`be4644b`](https://github.com/stdlib-js/stdlib/commit/be4644b98c2364845786a17316b5697187c13444) - **feat:** add C implementation for `blas/ext/base/ndarray/zone-to` [(#15326)](https://github.com/stdlib-js/stdlib/pull/15326) _(by Ujjwal Verma, Athan Reines)_
+-   [`358e1a5`](https://github.com/stdlib-js/stdlib/commit/358e1a58121ab6e7f682b8d56e07fb6806f9d4d3) - **feat:** add C implementation for `blas/ext/base/ndarray/sone-to` [(#15324)](https://github.com/stdlib-js/stdlib/pull/15324) _(by Ujjwal Verma, Athan Reines)_
+-   [`0042893`](https://github.com/stdlib-js/stdlib/commit/0042893e2116dc155d3f3f1b112d336cb17351db) - **chore:** update keywords [(#15624)](https://github.com/stdlib-js/stdlib/pull/15624) _(by Philipp Burckhardt)_
 -   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - **feat:** add `gfillLessThan` to namespace _(by Athan Reines)_
 -   [`4f735dd`](https://github.com/stdlib-js/stdlib/commit/4f735dd4e4239e35b579b1d6844157e2432c10a2) - **feat:** add C implementation for `blas/ext/base/ndarray/dzero-to` [(#15374)](https://github.com/stdlib-js/stdlib/pull/15374) _(by Ujjwal Verma, Athan Reines)_
 -   [`3dc8a4f`](https://github.com/stdlib-js/stdlib/commit/3dc8a4f3150ce660918c8ef5c7188b301c4f1ebd) - **feat:** add `blas/ext/base/ndarray/gfill-less-than` [(#15341)](https://github.com/stdlib-js/stdlib/pull/15341) _(by Muhammad Haris, Athan Reines)_
