@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`7b3fa2e`](https://github.com/stdlib-js/stdlib/commit/7b3fa2ecaae1d495c5bd4e6949def07be350ca85) - add `gcusome` to namespace
+-   [`1ed9d8f`](https://github.com/stdlib-js/stdlib/commit/1ed9d8f54d375bd9ae408098b406f0007b450e85) - add `gfindIndexBetween` to namespace
+-   [`45e44be`](https://github.com/stdlib-js/stdlib/commit/45e44be0f2958af152944528f29a947afa8a1539) - add `blas/ext/base/ndarray/gfind-index-between` [(#14617)](https://github.com/stdlib-js/stdlib/pull/14617)
+-   [`07acaba`](https://github.com/stdlib-js/stdlib/commit/07acaba9a37622fbef722b94ea53d7e4d293a35f) - update `blas/ext/base/ndarray` TypeScript declarations [(#15639)](https://github.com/stdlib-js/stdlib/pull/15639)
 -   [`e93fecd`](https://github.com/stdlib-js/stdlib/commit/e93fecdcf0b76f2c3f929c87856d5acdd0879dc3) - add C implementation for `blas/ext/base/ndarray/swxsa` [(#15626)](https://github.com/stdlib-js/stdlib/pull/15626)
 -   [`43d4aeb`](https://github.com/stdlib-js/stdlib/commit/43d4aebdf9bba309b7d93a1a2bf263f34c455e98) - add `blas/ext/base/ndarray/gcusome` [(#14563)](https://github.com/stdlib-js/stdlib/pull/14563)
 -   [`be4644b`](https://github.com/stdlib-js/stdlib/commit/be4644b98c2364845786a17316b5697187c13444) - add C implementation for `blas/ext/base/ndarray/zone-to` [(#15326)](https://github.com/stdlib-js/stdlib/pull/15326)
@@ -622,6 +626,10 @@
 
 <details>
 
+-   [`7b3fa2e`](https://github.com/stdlib-js/stdlib/commit/7b3fa2ecaae1d495c5bd4e6949def07be350ca85) - **feat:** add `gcusome` to namespace _(by Athan Reines)_
+-   [`1ed9d8f`](https://github.com/stdlib-js/stdlib/commit/1ed9d8f54d375bd9ae408098b406f0007b450e85) - **feat:** add `gfindIndexBetween` to namespace _(by Athan Reines)_
+-   [`45e44be`](https://github.com/stdlib-js/stdlib/commit/45e44be0f2958af152944528f29a947afa8a1539) - **feat:** add `blas/ext/base/ndarray/gfind-index-between` [(#14617)](https://github.com/stdlib-js/stdlib/pull/14617) _(by Muhammad Haris, Athan Reines)_
+-   [`07acaba`](https://github.com/stdlib-js/stdlib/commit/07acaba9a37622fbef722b94ea53d7e4d293a35f) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15639)](https://github.com/stdlib-js/stdlib/pull/15639) _(by stdlib-bot)_
 -   [`886edaa`](https://github.com/stdlib-js/stdlib/commit/886edaa2484d47494540ba535ccea6df9b1f96ad) - **docs:** update namespace table of contents [(#15643)](https://github.com/stdlib-js/stdlib/pull/15643) _(by stdlib-bot)_
 -   [`735504a`](https://github.com/stdlib-js/stdlib/commit/735504ad4a239b6ba71dd49c1524b534ab9a7fbd) - **docs:** reorder content _(by Athan Reines)_
 -   [`e93fecd`](https://github.com/stdlib-js/stdlib/commit/e93fecdcf0b76f2c3f929c87856d5acdd0879dc3) - **feat:** add C implementation for `blas/ext/base/ndarray/swxsa` [(#15626)](https://github.com/stdlib-js/stdlib/pull/15626) _(by MJ, Athan Reines)_
