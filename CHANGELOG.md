@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-29)
+## Unreleased (2026-09-30)
 
 <section class="features">
 
 ### Features
 
+-   [`5f54fc0`](https://github.com/stdlib-js/stdlib/commit/5f54fc0d19f6892e1a29e9e0d2805372fb9e515b) - update `blas/ext/base/ndarray` TypeScript declarations [(#15672)](https://github.com/stdlib-js/stdlib/pull/15672)
+-   [`784936e`](https://github.com/stdlib-js/stdlib/commit/784936e3db09cf79c13e699a2f8fc9e049c88f7c) - add `blas/ext/base/ndarray/dleft-pad-edge` [(#15664)](https://github.com/stdlib-js/stdlib/pull/15664)
+-   [`0768604`](https://github.com/stdlib-js/stdlib/commit/076860445e793bdee0010b2e723bf72a5f09b63a) - add `blas/ext/base/ndarray/glast-index-less-than` [(#15661)](https://github.com/stdlib-js/stdlib/pull/15661)
 -   [`7b3fa2e`](https://github.com/stdlib-js/stdlib/commit/7b3fa2ecaae1d495c5bd4e6949def07be350ca85) - add `gcusome` to namespace
 -   [`1ed9d8f`](https://github.com/stdlib-js/stdlib/commit/1ed9d8f54d375bd9ae408098b406f0007b450e85) - add `gfindIndexBetween` to namespace
 -   [`45e44be`](https://github.com/stdlib-js/stdlib/commit/45e44be0f2958af152944528f29a947afa8a1539) - add `blas/ext/base/ndarray/gfind-index-between` [(#14617)](https://github.com/stdlib-js/stdlib/pull/14617)
@@ -626,6 +629,9 @@
 
 <details>
 
+-   [`5f54fc0`](https://github.com/stdlib-js/stdlib/commit/5f54fc0d19f6892e1a29e9e0d2805372fb9e515b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15672)](https://github.com/stdlib-js/stdlib/pull/15672) _(by stdlib-bot)_
+-   [`784936e`](https://github.com/stdlib-js/stdlib/commit/784936e3db09cf79c13e699a2f8fc9e049c88f7c) - **feat:** add `blas/ext/base/ndarray/dleft-pad-edge` [(#15664)](https://github.com/stdlib-js/stdlib/pull/15664) _(by Muhammad Haris)_
+-   [`0768604`](https://github.com/stdlib-js/stdlib/commit/076860445e793bdee0010b2e723bf72a5f09b63a) - **feat:** add `blas/ext/base/ndarray/glast-index-less-than` [(#15661)](https://github.com/stdlib-js/stdlib/pull/15661) _(by Muhammad Haris)_
 -   [`7b3fa2e`](https://github.com/stdlib-js/stdlib/commit/7b3fa2ecaae1d495c5bd4e6949def07be350ca85) - **feat:** add `gcusome` to namespace _(by Athan Reines)_
 -   [`1ed9d8f`](https://github.com/stdlib-js/stdlib/commit/1ed9d8f54d375bd9ae408098b406f0007b450e85) - **feat:** add `gfindIndexBetween` to namespace _(by Athan Reines)_
 -   [`45e44be`](https://github.com/stdlib-js/stdlib/commit/45e44be0f2958af152944528f29a947afa8a1539) - **feat:** add `blas/ext/base/ndarray/gfind-index-between` [(#14617)](https://github.com/stdlib-js/stdlib/pull/14617) _(by Muhammad Haris, Athan Reines)_
