@@ -629,6 +629,7 @@
 
 <details>
 
+-   [`19c183e`](https://github.com/stdlib-js/stdlib/commit/19c183eadbb2dee8366c271d415dd3a082fc2c70) - **docs:** update namespace table of contents [(#15675)](https://github.com/stdlib-js/stdlib/pull/15675) _(by stdlib-bot)_
 -   [`5f54fc0`](https://github.com/stdlib-js/stdlib/commit/5f54fc0d19f6892e1a29e9e0d2805372fb9e515b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15672)](https://github.com/stdlib-js/stdlib/pull/15672) _(by stdlib-bot)_
 -   [`784936e`](https://github.com/stdlib-js/stdlib/commit/784936e3db09cf79c13e699a2f8fc9e049c88f7c) - **feat:** add `blas/ext/base/ndarray/dleft-pad-edge` [(#15664)](https://github.com/stdlib-js/stdlib/pull/15664) _(by Muhammad Haris)_
 -   [`0768604`](https://github.com/stdlib-js/stdlib/commit/076860445e793bdee0010b2e723bf72a5f09b63a) - **feat:** add `blas/ext/base/ndarray/glast-index-less-than` [(#15661)](https://github.com/stdlib-js/stdlib/pull/15661) _(by Muhammad Haris)_
