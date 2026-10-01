@@ -10,6 +10,12 @@
 
 ### Features
 
+-   [`18e837e`](https://github.com/stdlib-js/stdlib/commit/18e837ef662debbb46d08e912cd6f0d43985d285) - add `gwxdy` and `swxpy` to namespace
+-   [`4d4a186`](https://github.com/stdlib-js/stdlib/commit/4d4a186947054e5a3c8199bbdc72432afe86a888) - add `dwxpy` and `dwxsy` to namespace
+-   [`2ebdf1e`](https://github.com/stdlib-js/stdlib/commit/2ebdf1e1a5d95a4995dcab0f542373e5b6ad18fa) - add `blas/ext/base/ndarray/gwxdy` [(#15723)](https://github.com/stdlib-js/stdlib/pull/15723)
+-   [`21f48d2`](https://github.com/stdlib-js/stdlib/commit/21f48d2a8c3e6ed90565ad40e299bea4f7d553cf) - add `blas/ext/base/ndarray/dwxsy` [(#15734)](https://github.com/stdlib-js/stdlib/pull/15734)
+-   [`e361d31`](https://github.com/stdlib-js/stdlib/commit/e361d31c642714bae3d5a6990a96ec9a9ede77d4) - add `blas/ext/base/ndarray/swxpy` [(#15732)](https://github.com/stdlib-js/stdlib/pull/15732)
+-   [`5d73fec`](https://github.com/stdlib-js/stdlib/commit/5d73fec8011e2f663a45386d08c89a96b473c92b) - add `blas/ext/base/ndarray/dwxpy` [(#15731)](https://github.com/stdlib-js/stdlib/pull/15731)
 -   [`44c64b7`](https://github.com/stdlib-js/stdlib/commit/44c64b7b71914c5b264d24e1d52fd866e34cb45a) - add `gwaxpb` to namespace
 -   [`f097085`](https://github.com/stdlib-js/stdlib/commit/f097085c0f1ab6a122d724737b41328d1344c87e) - add `blas/ext/base/ndarray/gwaxpb` [(#15725)](https://github.com/stdlib-js/stdlib/pull/15725)
 -   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - add `cxdy`, `gwxmy`, and `gwxsy` to namespace
@@ -651,6 +657,13 @@
 
 <details>
 
+-   [`18e837e`](https://github.com/stdlib-js/stdlib/commit/18e837ef662debbb46d08e912cd6f0d43985d285) - **feat:** add `gwxdy` and `swxpy` to namespace _(by Athan Reines)_
+-   [`4d4a186`](https://github.com/stdlib-js/stdlib/commit/4d4a186947054e5a3c8199bbdc72432afe86a888) - **feat:** add `dwxpy` and `dwxsy` to namespace _(by Athan Reines)_
+-   [`e44628a`](https://github.com/stdlib-js/stdlib/commit/e44628a23b2755ad13a33c775cb81708f9f5c94c) - **refactor:** use variable declaration assignment _(by Athan Reines)_
+-   [`2ebdf1e`](https://github.com/stdlib-js/stdlib/commit/2ebdf1e1a5d95a4995dcab0f542373e5b6ad18fa) - **feat:** add `blas/ext/base/ndarray/gwxdy` [(#15723)](https://github.com/stdlib-js/stdlib/pull/15723) _(by Karan Anand)_
+-   [`21f48d2`](https://github.com/stdlib-js/stdlib/commit/21f48d2a8c3e6ed90565ad40e299bea4f7d553cf) - **feat:** add `blas/ext/base/ndarray/dwxsy` [(#15734)](https://github.com/stdlib-js/stdlib/pull/15734) _(by Karan Anand)_
+-   [`e361d31`](https://github.com/stdlib-js/stdlib/commit/e361d31c642714bae3d5a6990a96ec9a9ede77d4) - **feat:** add `blas/ext/base/ndarray/swxpy` [(#15732)](https://github.com/stdlib-js/stdlib/pull/15732) _(by Karan Anand)_
+-   [`5d73fec`](https://github.com/stdlib-js/stdlib/commit/5d73fec8011e2f663a45386d08c89a96b473c92b) - **feat:** add `blas/ext/base/ndarray/dwxpy` [(#15731)](https://github.com/stdlib-js/stdlib/pull/15731) _(by Karan Anand)_
 -   [`44c64b7`](https://github.com/stdlib-js/stdlib/commit/44c64b7b71914c5b264d24e1d52fd866e34cb45a) - **feat:** add `gwaxpb` to namespace _(by Athan Reines)_
 -   [`f097085`](https://github.com/stdlib-js/stdlib/commit/f097085c0f1ab6a122d724737b41328d1344c87e) - **feat:** add `blas/ext/base/ndarray/gwaxpb` [(#15725)](https://github.com/stdlib-js/stdlib/pull/15725) _(by Karan Anand)_
 -   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - **feat:** add `cxdy`, `gwxmy`, and `gwxsy` to namespace _(by Athan Reines)_
