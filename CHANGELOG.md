@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`44c64b7`](https://github.com/stdlib-js/stdlib/commit/44c64b7b71914c5b264d24e1d52fd866e34cb45a) - add `gwaxpb` to namespace
+-   [`f097085`](https://github.com/stdlib-js/stdlib/commit/f097085c0f1ab6a122d724737b41328d1344c87e) - add `blas/ext/base/ndarray/gwaxpb` [(#15725)](https://github.com/stdlib-js/stdlib/pull/15725)
 -   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - add `cxdy`, `gwxmy`, and `gwxsy` to namespace
 -   [`49f9331`](https://github.com/stdlib-js/stdlib/commit/49f9331f4b8ef4ae8d6c3c48520bc3c455a4c395) - add `blas/ext/base/ndarray/gwxmy` [(#15722)](https://github.com/stdlib-js/stdlib/pull/15722)
 -   [`b699378`](https://github.com/stdlib-js/stdlib/commit/b6993780efafb65cdda9437ca3089e160070072c) - add `blas/ext/base/ndarray/gwxsy` [(#15721)](https://github.com/stdlib-js/stdlib/pull/15721)
@@ -649,6 +651,8 @@
 
 <details>
 
+-   [`44c64b7`](https://github.com/stdlib-js/stdlib/commit/44c64b7b71914c5b264d24e1d52fd866e34cb45a) - **feat:** add `gwaxpb` to namespace _(by Athan Reines)_
+-   [`f097085`](https://github.com/stdlib-js/stdlib/commit/f097085c0f1ab6a122d724737b41328d1344c87e) - **feat:** add `blas/ext/base/ndarray/gwaxpb` [(#15725)](https://github.com/stdlib-js/stdlib/pull/15725) _(by Karan Anand)_
 -   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - **feat:** add `cxdy`, `gwxmy`, and `gwxsy` to namespace _(by Athan Reines)_
 -   [`49f9331`](https://github.com/stdlib-js/stdlib/commit/49f9331f4b8ef4ae8d6c3c48520bc3c455a4c395) - **feat:** add `blas/ext/base/ndarray/gwxmy` [(#15722)](https://github.com/stdlib-js/stdlib/pull/15722) _(by Karan Anand)_
 -   [`b699378`](https://github.com/stdlib-js/stdlib/commit/b6993780efafb65cdda9437ca3089e160070072c) - **feat:** add `blas/ext/base/ndarray/gwxsy` [(#15721)](https://github.com/stdlib-js/stdlib/pull/15721) _(by Karan Anand)_
