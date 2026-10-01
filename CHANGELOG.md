@@ -10,6 +10,11 @@
 
 ### Features
 
+-   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - add `cxdy`, `gwxmy`, and `gwxsy` to namespace
+-   [`49f9331`](https://github.com/stdlib-js/stdlib/commit/49f9331f4b8ef4ae8d6c3c48520bc3c455a4c395) - add `blas/ext/base/ndarray/gwxmy` [(#15722)](https://github.com/stdlib-js/stdlib/pull/15722)
+-   [`b699378`](https://github.com/stdlib-js/stdlib/commit/b6993780efafb65cdda9437ca3089e160070072c) - add `blas/ext/base/ndarray/gwxsy` [(#15721)](https://github.com/stdlib-js/stdlib/pull/15721)
+-   [`5a815ff`](https://github.com/stdlib-js/stdlib/commit/5a815ff598dacd840cf5730b1f09ebf895bf9ed4) - add `blas/ext/base/ndarray/cxdy` [(#15720)](https://github.com/stdlib-js/stdlib/pull/15720)
+-   [`8efc5bf`](https://github.com/stdlib-js/stdlib/commit/8efc5bf4327c5b42ad9b8ae0e9e9a4f29f2c60e0) - update `blas/ext/base/ndarray` TypeScript declarations [(#15715)](https://github.com/stdlib-js/stdlib/pull/15715)
 -   [`106e3b8`](https://github.com/stdlib-js/stdlib/commit/106e3b88b26260b8fe9183513205d23e3a7c754d) - add various symbols to namespace
 -   [`9c54c39`](https://github.com/stdlib-js/stdlib/commit/9c54c39c63cd7ead98d96b1c10bfba5d6263aa68) - add `scusome` to namespace
 -   [`c03fb16`](https://github.com/stdlib-js/stdlib/commit/c03fb16e36c3f9160deaa1685234c515efca5076) - add `blas/ext/base/ndarray/scusome` [(#14567)](https://github.com/stdlib-js/stdlib/pull/14567)
@@ -644,6 +649,11 @@
 
 <details>
 
+-   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - **feat:** add `cxdy`, `gwxmy`, and `gwxsy` to namespace _(by Athan Reines)_
+-   [`49f9331`](https://github.com/stdlib-js/stdlib/commit/49f9331f4b8ef4ae8d6c3c48520bc3c455a4c395) - **feat:** add `blas/ext/base/ndarray/gwxmy` [(#15722)](https://github.com/stdlib-js/stdlib/pull/15722) _(by Karan Anand)_
+-   [`b699378`](https://github.com/stdlib-js/stdlib/commit/b6993780efafb65cdda9437ca3089e160070072c) - **feat:** add `blas/ext/base/ndarray/gwxsy` [(#15721)](https://github.com/stdlib-js/stdlib/pull/15721) _(by Karan Anand)_
+-   [`5a815ff`](https://github.com/stdlib-js/stdlib/commit/5a815ff598dacd840cf5730b1f09ebf895bf9ed4) - **feat:** add `blas/ext/base/ndarray/cxdy` [(#15720)](https://github.com/stdlib-js/stdlib/pull/15720) _(by Karan Anand)_
+-   [`8efc5bf`](https://github.com/stdlib-js/stdlib/commit/8efc5bf4327c5b42ad9b8ae0e9e9a4f29f2c60e0) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15715)](https://github.com/stdlib-js/stdlib/pull/15715) _(by stdlib-bot)_
 -   [`e8bc27a`](https://github.com/stdlib-js/stdlib/commit/e8bc27acdd50c36c07cf45c9b0a72854f8410978) - **docs:** update namespace table of contents [(#15718)](https://github.com/stdlib-js/stdlib/pull/15718) _(by stdlib-bot)_
 -   [`106e3b8`](https://github.com/stdlib-js/stdlib/commit/106e3b88b26260b8fe9183513205d23e3a7c754d) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`9c54c39`](https://github.com/stdlib-js/stdlib/commit/9c54c39c63cd7ead98d96b1c10bfba5d6263aa68) - **feat:** add `scusome` to namespace _(by Athan Reines)_
