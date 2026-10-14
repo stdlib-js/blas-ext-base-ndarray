@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`7eae8dc`](https://github.com/stdlib-js/stdlib/commit/7eae8dcf9963b403f33b0058408d6b8837b2bb71) - add `dleftPadCircular` and `srightPadCircular` to namespace
+-   [`7430337`](https://github.com/stdlib-js/stdlib/commit/743033728b5e88413842ba104efa99fc2eceb819) - add `blas/ext/base/ndarray/sright-pad-circular` [(#15983)](https://github.com/stdlib-js/stdlib/pull/15983)
+-   [`7b13457`](https://github.com/stdlib-js/stdlib/commit/7b134577d1d42ac7e12953822dd8305cc2f598cb) - add `blas/ext/base/ndarray/dleft-pad-circular` [(#15975)](https://github.com/stdlib-js/stdlib/pull/15975)
 -   [`5dbad73`](https://github.com/stdlib-js/stdlib/commit/5dbad7321257715e0aa1138ec8c6135f91aba0c2) - add various symbols to namespace
 -   [`0aa4f97`](https://github.com/stdlib-js/stdlib/commit/0aa4f97131bc3c72ea1530d44c1353bc72d965f0) - add `scartesianPower` to namespace
 -   [`4a70889`](https://github.com/stdlib-js/stdlib/commit/4a70889b74d7a2e019833cd3be1cff40b8829533) - add `blas/ext/base/ndarray/scartesian-power` [(#16135)](https://github.com/stdlib-js/stdlib/pull/16135)
@@ -690,6 +693,11 @@
 
 <details>
 
+-   [`7eae8dc`](https://github.com/stdlib-js/stdlib/commit/7eae8dcf9963b403f33b0058408d6b8837b2bb71) - **feat:** add `dleftPadCircular` and `srightPadCircular` to namespace _(by Athan Reines)_
+-   [`9461887`](https://github.com/stdlib-js/stdlib/commit/9461887b62bc66c1bb88d6d019d8e421306a3daf) - **docs:** fix notes _(by Athan Reines)_
+-   [`a800ae0`](https://github.com/stdlib-js/stdlib/commit/a800ae09acaf3af1ddc728ed50228189181795a7) - **docs:** fix examples and notes [(#16144)](https://github.com/stdlib-js/stdlib/pull/16144) _(by Philipp Burckhardt)_
+-   [`7430337`](https://github.com/stdlib-js/stdlib/commit/743033728b5e88413842ba104efa99fc2eceb819) - **feat:** add `blas/ext/base/ndarray/sright-pad-circular` [(#15983)](https://github.com/stdlib-js/stdlib/pull/15983) _(by Muhammad Haris)_
+-   [`7b13457`](https://github.com/stdlib-js/stdlib/commit/7b134577d1d42ac7e12953822dd8305cc2f598cb) - **feat:** add `blas/ext/base/ndarray/dleft-pad-circular` [(#15975)](https://github.com/stdlib-js/stdlib/pull/15975) _(by Muhammad Haris)_
 -   [`5dbad73`](https://github.com/stdlib-js/stdlib/commit/5dbad7321257715e0aa1138ec8c6135f91aba0c2) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`0aa4f97`](https://github.com/stdlib-js/stdlib/commit/0aa4f97131bc3c72ea1530d44c1353bc72d965f0) - **feat:** add `scartesianPower` to namespace _(by Athan Reines)_
 -   [`4a70889`](https://github.com/stdlib-js/stdlib/commit/4a70889b74d7a2e019833cd3be1cff40b8829533) - **feat:** add `blas/ext/base/ndarray/scartesian-power` [(#16135)](https://github.com/stdlib-js/stdlib/pull/16135) _(by Muhammad Haris, Athan Reines)_
