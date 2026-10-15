@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`e146255`](https://github.com/stdlib-js/stdlib/commit/e14625574bb06d038fe96afc699cf9d5365bf104) - update `blas/ext/base/ndarray` TypeScript declarations [(#16161)](https://github.com/stdlib-js/stdlib/pull/16161)
+-   [`8a1a510`](https://github.com/stdlib-js/stdlib/commit/8a1a51036be8c7a5d8d77f617e2f493fe8311f5a) - add `blas/ext/base/ndarray/ctril2triu` [(#15448)](https://github.com/stdlib-js/stdlib/pull/15448)
+-   [`3b8fa83`](https://github.com/stdlib-js/stdlib/commit/3b8fa83dbde072e6d432d156f19bacb791b80766) - add `blas/ext/base/ndarray/ztril2triu` [(#15447)](https://github.com/stdlib-js/stdlib/pull/15447)
+-   [`bd701cf`](https://github.com/stdlib-js/stdlib/commit/bd701cfd50fcbc0e4fb474ea40d48948fe5d9356) - add `blas/ext/base/ndarray/ztriu2tril` [(#15446)](https://github.com/stdlib-js/stdlib/pull/15446)
 -   [`a95a9d3`](https://github.com/stdlib-js/stdlib/commit/a95a9d390b604954b22574c64841b12274c60450) - add `dcartesianSquare` and `gcartesianPower` to namespace
 -   [`0f507ee`](https://github.com/stdlib-js/stdlib/commit/0f507eead2b144cfc4475f9762046243f661c060) - add `blas/ext/base/ndarray/gcartesian-power` [(#14817)](https://github.com/stdlib-js/stdlib/pull/14817)
 -   [`56310e6`](https://github.com/stdlib-js/stdlib/commit/56310e620fe2839c057c79b2b7f0f8541449606e) - add `blas/ext/base/ndarray/dcartesian-square` [(#14814)](https://github.com/stdlib-js/stdlib/pull/14814)
@@ -703,6 +707,11 @@
 
 <details>
 
+-   [`e146255`](https://github.com/stdlib-js/stdlib/commit/e14625574bb06d038fe96afc699cf9d5365bf104) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#16161)](https://github.com/stdlib-js/stdlib/pull/16161) _(by stdlib-bot)_
+-   [`1198965`](https://github.com/stdlib-js/stdlib/commit/1198965d12feaf4bcd86b69bb72e31d75df05569) - **docs:** update namespace table of contents [(#16164)](https://github.com/stdlib-js/stdlib/pull/16164) _(by stdlib-bot)_
+-   [`8a1a510`](https://github.com/stdlib-js/stdlib/commit/8a1a51036be8c7a5d8d77f617e2f493fe8311f5a) - **feat:** add `blas/ext/base/ndarray/ctril2triu` [(#15448)](https://github.com/stdlib-js/stdlib/pull/15448) _(by Kaustubh Patange)_
+-   [`3b8fa83`](https://github.com/stdlib-js/stdlib/commit/3b8fa83dbde072e6d432d156f19bacb791b80766) - **feat:** add `blas/ext/base/ndarray/ztril2triu` [(#15447)](https://github.com/stdlib-js/stdlib/pull/15447) _(by Kaustubh Patange)_
+-   [`bd701cf`](https://github.com/stdlib-js/stdlib/commit/bd701cfd50fcbc0e4fb474ea40d48948fe5d9356) - **feat:** add `blas/ext/base/ndarray/ztriu2tril` [(#15446)](https://github.com/stdlib-js/stdlib/pull/15446) _(by Kaustubh Patange)_
 -   [`a5fc6f4`](https://github.com/stdlib-js/stdlib/commit/a5fc6f4fbe61ca4f24db5f6d74013915e6726bc9) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`a95a9d3`](https://github.com/stdlib-js/stdlib/commit/a95a9d390b604954b22574c64841b12274c60450) - **feat:** add `dcartesianSquare` and `gcartesianPower` to namespace _(by Athan Reines)_
 -   [`0f507ee`](https://github.com/stdlib-js/stdlib/commit/0f507eead2b144cfc4475f9762046243f661c060) - **feat:** add `blas/ext/base/ndarray/gcartesian-power` [(#14817)](https://github.com/stdlib-js/stdlib/pull/14817) _(by Muhammad Haris, Athan Reines)_
