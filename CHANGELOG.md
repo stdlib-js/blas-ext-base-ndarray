@@ -4,12 +4,22 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-15)
+## Unreleased (2026-11-17)
 
 <section class="features">
 
 ### Features
 
+-   [`d2dac36`](https://github.com/stdlib-js/stdlib/commit/d2dac366efd0ad4ab064a27a3ac184d9389862c3) - add C implementation for `blas/ext/base/ndarray/zxsy` [(#16066)](https://github.com/stdlib-js/stdlib/pull/16066)
+-   [`fbdbbc8`](https://github.com/stdlib-js/stdlib/commit/fbdbbc8921b9d5bcdd18ae040af2bccddc3dc6d0) - add C implementation for `blas/ext/base/ndarray/zxmy` [(#16057)](https://github.com/stdlib-js/stdlib/pull/16057)
+-   [`76aac9c`](https://github.com/stdlib-js/stdlib/commit/76aac9c10eb3fba751dcdec0ea2c2127dbad7b6d) - add `blas/ext/base/ndarray/zwxdy` [(#16430)](https://github.com/stdlib-js/stdlib/pull/16430)
+-   [`87ab9cf`](https://github.com/stdlib-js/stdlib/commit/87ab9cf9d64b6bb5a2b5066074979d98cd2d51b8) - add `blas/ext/base/ndarray/dwaxpb` [(#16450)](https://github.com/stdlib-js/stdlib/pull/16450)
+-   [`edff0d6`](https://github.com/stdlib-js/stdlib/commit/edff0d6bb0465c52094064a5a4e3350c026b5126) - add `blas/ext/base/ndarray/swaxpb` [(#16451)](https://github.com/stdlib-js/stdlib/pull/16451)
+-   [`b0b4bad`](https://github.com/stdlib-js/stdlib/commit/b0b4bad3806887027b296152e7c65868712f8cc8) - add `blas/ext/base/ndarray/sapx` [(#9221)](https://github.com/stdlib-js/stdlib/pull/9221)
+-   [`ec55375`](https://github.com/stdlib-js/stdlib/commit/ec55375b766d729b580ff0f98b07e6348c9db652) - add C implementation for `blas/ext/base/ndarray/cwxmy` [(#16178)](https://github.com/stdlib-js/stdlib/pull/16178)
+-   [`e148971`](https://github.com/stdlib-js/stdlib/commit/e14897198e1966ef933d7e52071b5073bc913555) - add `blas/ext/base/ndarray/dapx` [(#14424)](https://github.com/stdlib-js/stdlib/pull/14424)
+-   [`afdb189`](https://github.com/stdlib-js/stdlib/commit/afdb189fd644426eb81f44fd4e80eb28f1d77a37) - add C implementation for `blas/ext/base/ndarray/zwxmy` [(#16165)](https://github.com/stdlib-js/stdlib/pull/16165)
+-   [`e146255`](https://github.com/stdlib-js/stdlib/commit/e14625574bb06d038fe96afc699cf9d5365bf104) - update `blas/ext/base/ndarray` TypeScript declarations [(#16161)](https://github.com/stdlib-js/stdlib/pull/16161)
 -   [`8a1a510`](https://github.com/stdlib-js/stdlib/commit/8a1a51036be8c7a5d8d77f617e2f493fe8311f5a) - add `blas/ext/base/ndarray/ctril2triu` [(#15448)](https://github.com/stdlib-js/stdlib/pull/15448)
 -   [`3b8fa83`](https://github.com/stdlib-js/stdlib/commit/3b8fa83dbde072e6d432d156f19bacb791b80766) - add `blas/ext/base/ndarray/ztril2triu` [(#15447)](https://github.com/stdlib-js/stdlib/pull/15447)
 -   [`bd701cf`](https://github.com/stdlib-js/stdlib/commit/bd701cfd50fcbc0e4fb474ea40d48948fe5d9356) - add `blas/ext/base/ndarray/ztriu2tril` [(#15446)](https://github.com/stdlib-js/stdlib/pull/15446)
@@ -488,6 +498,7 @@
 
 ### Bug Fixes
 
+-   [`68e9817`](https://github.com/stdlib-js/stdlib/commit/68e9817663633489c4cfdd3ce190e1223ee68d16) - ensure proper length calculation and fix typos [(#16171)](https://github.com/stdlib-js/stdlib/pull/16171)
 -   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108)
 -   [`dab2209`](https://github.com/stdlib-js/stdlib/commit/dab220997a84248eb278619abf61b92eb30a7cc0) - clamp only the upper bound [(#15857)](https://github.com/stdlib-js/stdlib/pull/15857)
 -   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052)
@@ -706,6 +717,35 @@
 
 <details>
 
+-   [`aad705b`](https://github.com/stdlib-js/stdlib/commit/aad705b23c4e61b6bfb981a8ba1393ed084ae1d5) - **docs:** update examples [(#16668)](https://github.com/stdlib-js/stdlib/pull/16668) _(by stdlib-bot)_
+-   [`d5434ac`](https://github.com/stdlib-js/stdlib/commit/d5434ac9b601cb01e221fa4826d564e8fa1bd8c7) - **chore:** clean-up [(#16657)](https://github.com/stdlib-js/stdlib/pull/16657) _(by Philipp Burckhardt)_
+-   [`37c95c0`](https://github.com/stdlib-js/stdlib/commit/37c95c00da3ceb98668c063fe0e6322a436b056a) - **docs:** use dedicated zero-dimensional tensor constructor _(by Athan Reines)_
+-   [`15e66b1`](https://github.com/stdlib-js/stdlib/commit/15e66b11e02c99970084666b57e6b6a45d3075e3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`93e1d36`](https://github.com/stdlib-js/stdlib/commit/93e1d363badf331d0995544cde0d1f37f4b706c8) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`3757981`](https://github.com/stdlib-js/stdlib/commit/3757981ba9ac1c1debc571b5f0edaea47fb2a367) - **docs:** use dedicated zero-dimensional tensor constructor _(by Athan Reines)_
+-   [`d2dac36`](https://github.com/stdlib-js/stdlib/commit/d2dac366efd0ad4ab064a27a3ac184d9389862c3) - **feat:** add C implementation for `blas/ext/base/ndarray/zxsy` [(#16066)](https://github.com/stdlib-js/stdlib/pull/16066) _(by Samarth Kolarkar, Gururaj Gurram)_
+-   [`1782727`](https://github.com/stdlib-js/stdlib/commit/1782727975963f41a58407c67146c206ebe5bdc9) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`0460153`](https://github.com/stdlib-js/stdlib/commit/0460153a946a0a5c4e5436ddfa7415232abdf67a) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`fbdbbc8`](https://github.com/stdlib-js/stdlib/commit/fbdbbc8921b9d5bcdd18ae040af2bccddc3dc6d0) - **feat:** add C implementation for `blas/ext/base/ndarray/zxmy` [(#16057)](https://github.com/stdlib-js/stdlib/pull/16057) _(by Samarth Kolarkar, Athan Reines, Gururaj Gurram)_
+-   [`e9214dc`](https://github.com/stdlib-js/stdlib/commit/e9214dcd8c01bdb63180bb54de7d10b27c1a404a) - **docs:** add missing intro section [(#16618)](https://github.com/stdlib-js/stdlib/pull/16618) _(by Philipp Burckhardt)_
+-   [`5841449`](https://github.com/stdlib-js/stdlib/commit/584144928656b13d21569cc4df389b07189366db) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`150ee61`](https://github.com/stdlib-js/stdlib/commit/150ee615d58b08fb7055befd6ce6f008027ff048) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`c06f854`](https://github.com/stdlib-js/stdlib/commit/c06f854a751068424276b824a478220177dc9b74) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`734972c`](https://github.com/stdlib-js/stdlib/commit/734972c8010278556c61885454219e3d5a687636) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`b35dbb5`](https://github.com/stdlib-js/stdlib/commit/b35dbb540782c68713674e533f03bba1e0ae2d69) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`76aac9c`](https://github.com/stdlib-js/stdlib/commit/76aac9c10eb3fba751dcdec0ea2c2127dbad7b6d) - **feat:** add `blas/ext/base/ndarray/zwxdy` [(#16430)](https://github.com/stdlib-js/stdlib/pull/16430) _(by Karan Anand)_
+-   [`87ab9cf`](https://github.com/stdlib-js/stdlib/commit/87ab9cf9d64b6bb5a2b5066074979d98cd2d51b8) - **feat:** add `blas/ext/base/ndarray/dwaxpb` [(#16450)](https://github.com/stdlib-js/stdlib/pull/16450) _(by Karan Anand)_
+-   [`edff0d6`](https://github.com/stdlib-js/stdlib/commit/edff0d6bb0465c52094064a5a4e3350c026b5126) - **feat:** add `blas/ext/base/ndarray/swaxpb` [(#16451)](https://github.com/stdlib-js/stdlib/pull/16451) _(by Karan Anand)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
+-   [`b0b4bad`](https://github.com/stdlib-js/stdlib/commit/b0b4bad3806887027b296152e7c65868712f8cc8) - **feat:** add `blas/ext/base/ndarray/sapx` [(#9221)](https://github.com/stdlib-js/stdlib/pull/9221) _(by Aman Singh, Karan Anand)_
+-   [`6d2f4ad`](https://github.com/stdlib-js/stdlib/commit/6d2f4adc59bc73fb4da964005ff9d74420b65975) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`ec55375`](https://github.com/stdlib-js/stdlib/commit/ec55375b766d729b580ff0f98b07e6348c9db652) - **feat:** add C implementation for `blas/ext/base/ndarray/cwxmy` [(#16178)](https://github.com/stdlib-js/stdlib/pull/16178) _(by Samarth Kolarkar)_
+-   [`68e9817`](https://github.com/stdlib-js/stdlib/commit/68e9817663633489c4cfdd3ce190e1223ee68d16) - **fix:** ensure proper length calculation and fix typos [(#16171)](https://github.com/stdlib-js/stdlib/pull/16171) _(by Philipp Burckhardt)_
+-   [`e148971`](https://github.com/stdlib-js/stdlib/commit/e14897198e1966ef933d7e52071b5073bc913555) - **feat:** add `blas/ext/base/ndarray/dapx` [(#14424)](https://github.com/stdlib-js/stdlib/pull/14424) _(by Ujjwal Verma)_
+-   [`afdb189`](https://github.com/stdlib-js/stdlib/commit/afdb189fd644426eb81f44fd4e80eb28f1d77a37) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxmy` [(#16165)](https://github.com/stdlib-js/stdlib/pull/16165) _(by MJ)_
+-   [`90fa4c6`](https://github.com/stdlib-js/stdlib/commit/90fa4c6dfa631c48cc8984e036435cadbfa2262f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`6382fea`](https://github.com/stdlib-js/stdlib/commit/6382fea9dc0e8afee1708b81c3936267a08ce96f) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`e146255`](https://github.com/stdlib-js/stdlib/commit/e14625574bb06d038fe96afc699cf9d5365bf104) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#16161)](https://github.com/stdlib-js/stdlib/pull/16161) _(by stdlib-bot)_
 -   [`1198965`](https://github.com/stdlib-js/stdlib/commit/1198965d12feaf4bcd86b69bb72e31d75df05569) - **docs:** update namespace table of contents [(#16164)](https://github.com/stdlib-js/stdlib/pull/16164) _(by stdlib-bot)_
 -   [`8a1a510`](https://github.com/stdlib-js/stdlib/commit/8a1a51036be8c7a5d8d77f617e2f493fe8311f5a) - **feat:** add `blas/ext/base/ndarray/ctril2triu` [(#15448)](https://github.com/stdlib-js/stdlib/pull/15448) _(by Kaustubh Patange)_
 -   [`3b8fa83`](https://github.com/stdlib-js/stdlib/commit/3b8fa83dbde072e6d432d156f19bacb791b80766) - **feat:** add `blas/ext/base/ndarray/ztril2triu` [(#15447)](https://github.com/stdlib-js/stdlib/pull/15447) _(by Kaustubh Patange)_
@@ -1371,8 +1411,9 @@
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
+-   Aman Singh
 -   Aniket Sonawane
 -   Arjan-P
 -   Athan Reines
