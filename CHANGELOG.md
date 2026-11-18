@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-17)
+## Unreleased (2026-11-18)
 
 <section class="features">
 
 ### Features
 
+-   [`75fbd74`](https://github.com/stdlib-js/stdlib/commit/75fbd743f4c0dbc354fe3f3a3de624a650231366) - add `blas/ext/base/ndarray/sdssum` [(#16067)](https://github.com/stdlib-js/stdlib/pull/16067)
+-   [`8c03ea8`](https://github.com/stdlib-js/stdlib/commit/8c03ea8d46e3a8ed8cc90f37f382290fad3c7eea) - add `blas/ext/base/ndarray/dsnansum` [(#16077)](https://github.com/stdlib-js/stdlib/pull/16077)
+-   [`493778c`](https://github.com/stdlib-js/stdlib/commit/493778c3b9b6f86e9589bbecdb2b37b7783b94d8) - add C implementation for `blas/ext/base/ndarray/zwxdy` [(#16678)](https://github.com/stdlib-js/stdlib/pull/16678)
+-   [`e05a44b`](https://github.com/stdlib-js/stdlib/commit/e05a44b4b76af0fbcf1e57cd6f22c597e7d3c86f) - add `blas/ext/base/ndarray/dssum` [(#16065)](https://github.com/stdlib-js/stdlib/pull/16065)
 -   [`d2dac36`](https://github.com/stdlib-js/stdlib/commit/d2dac366efd0ad4ab064a27a3ac184d9389862c3) - add C implementation for `blas/ext/base/ndarray/zxsy` [(#16066)](https://github.com/stdlib-js/stdlib/pull/16066)
 -   [`fbdbbc8`](https://github.com/stdlib-js/stdlib/commit/fbdbbc8921b9d5bcdd18ae040af2bccddc3dc6d0) - add C implementation for `blas/ext/base/ndarray/zxmy` [(#16057)](https://github.com/stdlib-js/stdlib/pull/16057)
 -   [`76aac9c`](https://github.com/stdlib-js/stdlib/commit/76aac9c10eb3fba751dcdec0ea2c2127dbad7b6d) - add `blas/ext/base/ndarray/zwxdy` [(#16430)](https://github.com/stdlib-js/stdlib/pull/16430)
@@ -717,6 +721,18 @@
 
 <details>
 
+-   [`598c55c`](https://github.com/stdlib-js/stdlib/commit/598c55c673d156e51f2a77d3bf5701b9a31aec3d) - **docs:** update examples [(#16683)](https://github.com/stdlib-js/stdlib/pull/16683) _(by stdlib-bot)_
+-   [`75fbd74`](https://github.com/stdlib-js/stdlib/commit/75fbd743f4c0dbc354fe3f3a3de624a650231366) - **feat:** add `blas/ext/base/ndarray/sdssum` [(#16067)](https://github.com/stdlib-js/stdlib/pull/16067) _(by Ujjwal Verma)_
+-   [`8c03ea8`](https://github.com/stdlib-js/stdlib/commit/8c03ea8d46e3a8ed8cc90f37f382290fad3c7eea) - **feat:** add `blas/ext/base/ndarray/dsnansum` [(#16077)](https://github.com/stdlib-js/stdlib/pull/16077) _(by Ujjwal Verma)_
+-   [`493778c`](https://github.com/stdlib-js/stdlib/commit/493778c3b9b6f86e9589bbecdb2b37b7783b94d8) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxdy` [(#16678)](https://github.com/stdlib-js/stdlib/pull/16678) _(by Samarth Kolarkar)_
+-   [`5f2fd5a`](https://github.com/stdlib-js/stdlib/commit/5f2fd5ad621095b8b7dd65434f6090d9b042a3cb) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`5a84d0c`](https://github.com/stdlib-js/stdlib/commit/5a84d0c231e0712a8b057e6735d4d51798c7bb9f) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`69c350d`](https://github.com/stdlib-js/stdlib/commit/69c350df913c5fce34e6c0bbee2a7cad368292fa) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/cunitspace` [(#16675)](https://github.com/stdlib-js/stdlib/pull/16675) _(by Deepanshu-Mehta, Athan Reines)_
+-   [`e05a44b`](https://github.com/stdlib-js/stdlib/commit/e05a44b4b76af0fbcf1e57cd6f22c597e7d3c86f) - **feat:** add `blas/ext/base/ndarray/dssum` [(#16065)](https://github.com/stdlib-js/stdlib/pull/16065) _(by Ujjwal Verma)_
+-   [`4ee88b2`](https://github.com/stdlib-js/stdlib/commit/4ee88b2471d61002fd0ee11d96345e8ffe048961) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/saxpby` [(#16680)](https://github.com/stdlib-js/stdlib/pull/16680) _(by Aditya Kumar)_
+-   [`ce75341`](https://github.com/stdlib-js/stdlib/commit/ce75341b13685858be54c3c3712511a52a40fdcc) - **docs:** update examples [(#16674)](https://github.com/stdlib-js/stdlib/pull/16674) _(by Philipp Burckhardt)_
+-   [`04df932`](https://github.com/stdlib-js/stdlib/commit/04df93287fb44ab4c5c0d9adf6a840067aa3da47) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`3361449`](https://github.com/stdlib-js/stdlib/commit/33614496a0eb06b7e87b906296815f606b3e3df7) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`aad705b`](https://github.com/stdlib-js/stdlib/commit/aad705b23c4e61b6bfb981a8ba1393ed084ae1d5) - **docs:** update examples [(#16668)](https://github.com/stdlib-js/stdlib/pull/16668) _(by stdlib-bot)_
 -   [`d5434ac`](https://github.com/stdlib-js/stdlib/commit/d5434ac9b601cb01e221fa4826d564e8fa1bd8c7) - **chore:** clean-up [(#16657)](https://github.com/stdlib-js/stdlib/pull/16657) _(by Philipp Burckhardt)_
 -   [`37c95c0`](https://github.com/stdlib-js/stdlib/commit/37c95c00da3ceb98668c063fe0e6322a436b056a) - **docs:** use dedicated zero-dimensional tensor constructor _(by Athan Reines)_
@@ -1411,14 +1427,16 @@
 
 ### Contributors
 
-A total of 18 people contributed to this release. Thank you to the following contributors:
+A total of 20 people contributed to this release. Thank you to the following contributors:
 
+-   Aditya Kumar
 -   Aman Singh
 -   Aniket Sonawane
 -   Arjan-P
 -   Athan Reines
 -   Atharva Patange
 -   AyushiJain18270
+-   Deepanshu-Mehta
 -   Gururaj Gurram
 -   Karan Anand
 -   Kaustubh Patange
