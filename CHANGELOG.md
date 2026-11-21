@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-19)
+## Unreleased (2026-11-21)
 
 <section class="features">
 
 ### Features
 
+-   [`19a6cd0`](https://github.com/stdlib-js/stdlib/commit/19a6cd075592113c1ac1c8fc6abfcda3ec1ee0b6) - add `blas/ext/base/ndarray/dasumpw` [(#16217)](https://github.com/stdlib-js/stdlib/pull/16217)
+-   [`4255354`](https://github.com/stdlib-js/stdlib/commit/42553545771758506a5980f83c6a402ce3658576) - add `blas/ext/base/ndarray/sasumpw` [(#16231)](https://github.com/stdlib-js/stdlib/pull/16231)
 -   [`a169991`](https://github.com/stdlib-js/stdlib/commit/a169991c1aa3cb5f1aabd346c3769fe0862eb8da) - add `blas/ext/base/ndarray/dapxsumkbn` [(#16434)](https://github.com/stdlib-js/stdlib/pull/16434)
 -   [`fd44b9a`](https://github.com/stdlib-js/stdlib/commit/fd44b9aaf00365a40949cafb10a132b4ce8c455e) - add `blas/ext/base/ndarray/capx` [(#16402)](https://github.com/stdlib-js/stdlib/pull/16402)
 -   [`75fbd74`](https://github.com/stdlib-js/stdlib/commit/75fbd743f4c0dbc354fe3f3a3de624a650231366) - add `blas/ext/base/ndarray/sdssum` [(#16067)](https://github.com/stdlib-js/stdlib/pull/16067)
@@ -723,6 +725,10 @@
 
 <details>
 
+-   [`bf1a7b3`](https://github.com/stdlib-js/stdlib/commit/bf1a7b3cd0d887162c30c54fec2199760a06715f) - **docs:** update example [(#16740)](https://github.com/stdlib-js/stdlib/pull/16740) _(by stdlib-bot)_
+-   [`bd7dc67`](https://github.com/stdlib-js/stdlib/commit/bd7dc671a7596140845385a9dae5d60084059d3e) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/dcusumors` [(#16733)](https://github.com/stdlib-js/stdlib/pull/16733) _(by KevinF718)_
+-   [`19a6cd0`](https://github.com/stdlib-js/stdlib/commit/19a6cd075592113c1ac1c8fc6abfcda3ec1ee0b6) - **feat:** add `blas/ext/base/ndarray/dasumpw` [(#16217)](https://github.com/stdlib-js/stdlib/pull/16217) _(by MJ)_
+-   [`4255354`](https://github.com/stdlib-js/stdlib/commit/42553545771758506a5980f83c6a402ce3658576) - **feat:** add `blas/ext/base/ndarray/sasumpw` [(#16231)](https://github.com/stdlib-js/stdlib/pull/16231) _(by MJ)_
 -   [`ff3d79f`](https://github.com/stdlib-js/stdlib/commit/ff3d79fc28429aaf3495f9d2fd3ec6ca997a728d) - **docs:** update examples [(#16703)](https://github.com/stdlib-js/stdlib/pull/16703) _(by stdlib-bot)_
 -   [`a169991`](https://github.com/stdlib-js/stdlib/commit/a169991c1aa3cb5f1aabd346c3769fe0862eb8da) - **feat:** add `blas/ext/base/ndarray/dapxsumkbn` [(#16434)](https://github.com/stdlib-js/stdlib/pull/16434) _(by Atharva Patange)_
 -   [`5c704cb`](https://github.com/stdlib-js/stdlib/commit/5c704cbcb07a3a9bdb67520d7e1bad580e5f3d0d) - **docs:** update Markdown equation elements _(by stdlib-bot)_
@@ -1437,7 +1443,7 @@
 
 ### Contributors
 
-A total of 20 people contributed to this release. Thank you to the following contributors:
+A total of 21 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Kumar
 -   Aman Singh
@@ -1450,6 +1456,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 -   Gururaj Gurram
 -   Karan Anand
 -   Kaustubh Patange
+-   KevinF718
 -   MJ
 -   Muhammad Haris
 -   Philipp Burckhardt
